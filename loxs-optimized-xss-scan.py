@@ -91,7 +91,7 @@ async def bound_check(url, semaphore, payloads, vulnerable_urls, total_scanned, 
     async with semaphore:
         await check_vulnerability(url, payloads, vulnerable_urls, total_scanned, driver, total_tasks)
 
-def run_scan(concurrency=10, timeout=60):
+def run_scan(concurrency=30, timeout=60):
     payloads = load_payloads()
     urls = load_urls()
     vulnerable_urls = []
