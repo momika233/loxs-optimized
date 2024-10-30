@@ -60,7 +60,7 @@ async def check_vulnerability(url, payloads, vulnerable_urls, total_scanned, dri
                 print_progress(current_progress, total_scanned[0], total_tasks)
                 
                 try:
-                    WebDriverWait(driver, 0).until(EC.alert_is_present())
+                    WebDriverWait(driver, 0.8).until(EC.alert_is_present())
                     alert = driver.switch_to.alert
                     result = Fore.GREEN + f"[✓] Vulnerable: {payload_url} - Alert Text: {alert.text}"
                     print(result)
