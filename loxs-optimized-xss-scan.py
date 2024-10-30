@@ -66,7 +66,7 @@ async def check_vulnerability(url, payloads, vulnerable_urls, total_scanned, dri
                     print(result)
                     vulnerable_urls.append(payload_url)
                     with open("xssvuln.txt",'a') as file: file.write(payload_url + '\n')
-                    #os.system("tee -a xssvuln.txt | notify -config notify-config.yaml") #You can add your own bug notifications in real time
+                    os.system("tee -a xssvuln.txt | notify") #You can add your own bug notifications in real time
                     alert.accept()
                 except TimeoutException:
                     # Skip printing non-vulnerable URLs
@@ -74,7 +74,7 @@ async def check_vulnerability(url, payloads, vulnerable_urls, total_scanned, dri
             except UnexpectedAlertPresentException as e:
                 print(Fore.CYAN + f"[!] Unexpected Alert: {payload_url} - Might be Vulnerable!")
                 with open("xssvuln.txt",'a') as file: file.write(payload_url + '\n')
-                #os.system("tee -a xssvuln.txt | notify -config notify-config.yaml") #You can add your own bug notifications in real time
+                os.system("tee -a xssvuln.txt | notify") #You can add your own bug notifications in real time
                 try:
                     alert = driver.switch_to.alert
                     alert.accept()
