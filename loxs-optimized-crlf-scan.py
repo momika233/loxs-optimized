@@ -173,7 +173,7 @@ def check_crlf_vulnerability(url, payload):
             for detail in vulnerability_details:
                 print(Fore.YELLOW + detail)
                 with open("crlf_vuln.txt",'a') as file: file.write(Fore.RED + f"[VULNERABLE] {target_url} - {response_time:.2f}s"+'\n')
-                #cat crlf_vuln.txt | notify
+                os.system (cat crlf_vuln.txt | notify )
         else:
             print(Fore.GREEN + f"[SAFE] {target_url} - {response_time:.2f}s")
 
