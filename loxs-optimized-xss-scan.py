@@ -38,8 +38,7 @@ def load_urls(filepath="xssurl.txt"):
 def generate_payload_urls(url, payload):
     url_combinations = []
     scheme, netloc, path, query_string, fragment = urlsplit(url)
-    if not scheme:
-        scheme = 'http'
+    scheme = scheme or 'http'
     query_params = parse_qs(query_string, keep_blank_values=True)
     for key in query_params:
         modified_params = query_params.copy()
@@ -49,7 +48,7 @@ def generate_payload_urls(url, payload):
         url_combinations.append(modified_url)
     return url_combinations
 
-async def check_vulnerability(url, payloads, vulnerable_urls, total_scanned, driver, total_tasks):
+async def check_vulnerability(driver, url, payloads, vulnerable_urls, total_scanned, total_tasks):
     for payload in payloads:
         payload_urls = generate_payload_urls(url, payload)
         for payload_url in payload_urls:
@@ -58,46 +57,28 @@ async def check_vulnerability(url, payloads, vulnerable_urls, total_scanned, dri
                 total_scanned[0] += 1
                 current_progress = (total_scanned[0] / total_tasks) * 100
                 print_progress(current_progress, total_scanned[0], total_tasks)
-                
+
                 try:
-                    WebDriverWait(driver, 0.8).until(EC.alert_is_present())
+                    WebDriverWait(driver, 0.5).until(EC.alert_is_present())
                     alert = driver.switch_to.alert
-                    result = Fore.GREEN + f"[✓] Vulnerable: {payload_url} - Alert Text: {alert.text}"
-                    print(result)
-                    vulnerable_urls.append(payload_url)
-                    with open("xssvuln.txt",'a') as file: file.write(payload_url + '\n')
-                    os.system("tee -a xssvuln.txt | notify") #You can add your own bug notifications in real time
+                    print(Fore.GREEN + f"[✓] Vulnerable: {payload_url} - Alert Text: {alert.text}")
+                    vulnerable_urls.add(payload_url)
                     alert.accept()
                 except TimeoutException:
-                    # Skip printing non-vulnerable URLs
                     pass
-            except UnexpectedAlertPresentException as e:
+            except UnexpectedAlertPresentException:
                 print(Fore.CYAN + f"[!] Unexpected Alert: {payload_url} - Might be Vulnerable!")
-                with open("xssvuln.txt",'a') as file: file.write(payload_url + '\n')
-                os.system("tee -a xssvuln.txt | notify") #You can add your own bug notifications in real time
+                vulnerable_urls.add(payload_url)
                 try:
                     alert = driver.switch_to.alert
                     alert.accept()
-                except Exception as inner_e:
-                    print(Fore.RED + f"[!] Error handling unexpected alert: {inner_e}")
+                except:
+                    pass
 
-async def scan(urls, payloads, vulnerable_urls, total_scanned, concurrency, driver):
-    total_tasks = len(urls) * len(payloads)
-    semaphore = asyncio.Semaphore(concurrency)
-    tasks = [bound_check(url, semaphore, payloads, vulnerable_urls, total_scanned, driver, total_tasks) for url in urls]
-    await asyncio.gather(*tasks)
-
-async def bound_check(url, semaphore, payloads, vulnerable_urls, total_scanned, driver, total_tasks):
-    async with semaphore:
-        await check_vulnerability(url, payloads, vulnerable_urls, total_scanned, driver, total_tasks)
-
-def run_scan(concurrency=30, timeout=60):
-    payloads = load_payloads()
-    urls = load_urls()
-    vulnerable_urls = []
+async def scan(urls, payloads, concurrency):
     total_scanned = [0]
+    vulnerable_urls = set()
     total_tasks = len(urls) * len(payloads)
-    start_time = time.time()
 
     chrome_options = Options()
     chrome_options.add_argument("--headless")
@@ -109,15 +90,22 @@ def run_scan(concurrency=30, timeout=60):
     driver = webdriver.Chrome(service=driver_service, options=chrome_options)
 
     try:
-        asyncio.run(scan(urls, payloads, vulnerable_urls, total_scanned, concurrency, driver))
-    except Exception as e:
-        print(Fore.RED + f"[!] Error during scan: {e}")
+        tasks = []
+        semaphore = asyncio.Semaphore(concurrency)
+
+        for url in urls:
+            task = asyncio.create_task(bound_check_vulnerability(driver, url, semaphore, payloads, vulnerable_urls, total_scanned, total_tasks))
+            tasks.append(task)
+
+        await asyncio.gather(*tasks)
     finally:
         driver.quit()
     
-    end_time = time.time()
-    print_scan_summary(len(vulnerable_urls), total_scanned[0], start_time, end_time)
     return vulnerable_urls
+
+async def bound_check_vulnerability(driver, url, semaphore, payloads, vulnerable_urls, total_scanned, total_tasks):
+    async with semaphore:
+        await check_vulnerability(driver, url, payloads, vulnerable_urls, total_scanned, total_tasks)
 
 def print_progress(percentage, scanned, total):
     print(Fore.YELLOW + f"\rProgress: [{scanned}/{total}] ({percentage:.2f}%)", end="")
@@ -131,6 +119,16 @@ def print_scan_summary(total_found, total_scanned, start_time, end_time):
         f"• Time taken: {time_taken} seconds{Fore.RESET}"
     )
     print(summary)
+
+def run_scan(concurrency=30):
+    payloads = load_payloads()
+    urls = load_urls()
+    start_time = time.time()
+
+    vulnerable_urls = asyncio.run(scan(urls, payloads, concurrency))
+
+    end_time = time.time()
+    print_scan_summary(len(vulnerable_urls), len(urls) * len(payloads), start_time, end_time)
 
 if __name__ == "__main__":
     print(Fore.GREEN + "Starting XSS scanner...\n")
