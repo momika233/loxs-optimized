@@ -182,7 +182,7 @@ def check_crlf_vulnerability(url, payload):
 
 
 def run_crlf_scanner():
-    url_file_path = os.path.join(os.getcwd(), 'live-domain.txt')
+    url_file_path = os.path.join(os.getcwd(), 'live_domains.txt')
 
     
     if not os.path.isfile(url_file_path):
