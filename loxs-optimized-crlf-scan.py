@@ -175,7 +175,7 @@ def check_crlf_vulnerability(url, payload):
         print(Fore.RED + f"[ERROR] {target_url}: {e}")
 
 def run_crlf_scanner():
-    url_file_path = prompt("Enter the path to the live-domain_url.txt file: ", completer=PathCompleter())
+    url_file_path = prompt("Enter the path to the live-domain.txt file: ", completer=PathCompleter())
 
    
     if not os.path.isfile(url_file_path):
