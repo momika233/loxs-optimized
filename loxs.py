@@ -992,9 +992,8 @@ try:
                             if alert_text:
                                 result = Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable:{Fore.GREEN} {payload_url} {Fore.CYAN} - Alert Text: {alert_text}"  
                                 print(result)
-                                #subprocess.run(["echo", payload_url, "|", "notify"], shell=True)
-                                #subprocess.run(["echo", payload_url], stdout=subprocess.PIPE)
-                                os.system("echo "+str(payload_url)+" | notify")
+                                with open("xssvuln.txt",'a+') as file: file.write(payload_url+'\n')
+                                os.system("cat xssvuln.txt | notify")
                                 vulnerable_urls.append(payload_url)
                                 if scan_state:
                                     scan_state['vulnerability_found'] = True
