@@ -15,5 +15,9 @@ Add CSP-Bypass-xss.txt to xss.txt
 
 loxs.py Added message notification
 ```
-subprocess.run(["echo", payload_url, "|", "notify"], shell=True)
+os.system("echo "+str(payload_url)+" | notify")
 ```
+# 2024-11-07
+
+Removing interfering information
+Only the vulnerable information is displayed
