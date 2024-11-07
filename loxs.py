@@ -679,11 +679,19 @@ try:
                 os._exit(0)
 
         def save_results(vulnerable_urls, total_found, total_scanned, start_time):
-            #generate_report = input(f"{Fore.CYAN}\n[?] Do you want to generate an HTML report? (y/n): ").strip().lower()
-            #generate_report == 'y':
-            html_content = generate_html_report("Structured Query Language Injection (SQLi)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls)
-            filename = input(f"{Fore.CYAN}[?] Enter the filename for the HTML report: ").strip()
+            html_content = generate_html_report(
+            "Structured Query Language Injection (SQLi)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls
+            )
+            timestamp = int(time.time())
+            filename = f"sqlireport_{timestamp}.html"
+            
+            print(Fore.GREEN + f"[i] The report will be saved as：{filename}")
+            
             report_file = save_html_report(html_content, filename)
+            
+            print(Fore.GREEN + "[i] The HTML report has been saved successfully!")
+
+            os._exit(0)
                 
         def prompt_for_urls():
             while True:
@@ -770,7 +778,7 @@ try:
             
             cookie = input("[?] Enter the cookie to include in the GET request (press Enter if none): ").strip() or None
 
-            threads = int(input("[?] Enter the number of concurrent threads (0-10, press Enter for 5): ").strip() or 5)
+            threads = int(input("[?] Enter the number of concurrent threads (0-10, press Enter for 5): ").strip() or 10)
             print(f"\n{Fore.YELLOW}[i] Loading, Please Wait...")
             time.sleep(1)
             clear_screen()
@@ -787,8 +795,8 @@ try:
             try:
                 if threads == 0:
                     for url in urls:
-                        box_content = f" → Scanning URL: {url} "
-                        box_width = max(len(box_content) + 2, 40)
+                        #box_content = f" → Scanning URL: {url} "
+                        #box_width = max(len(box_content) + 2, 40)
                         #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
                         #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
                         #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
@@ -830,15 +838,15 @@ try:
 
                                     encoded_url_with_payload = url_with_payload.replace(list_stripped_payload, encoded_stripped_payload)
 
-                                    print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
+                                    #print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
                                 #print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
                             total_scanned += 1
                             
                 else:
                     with concurrent.futures.ThreadPoolExecutor(max_workers=threads) as executor:
                         for url in urls:
-                            box_content = f" → Scanning URL: {url} "
-                            box_width = max(len(box_content) + 2, 40)
+                            #box_content = f" → Scanning URL: {url} "
+                            #box_width = max(len(box_content) + 2, 40)
                             #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
                             #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
                             #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
@@ -867,7 +875,7 @@ try:
 
                                         print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
                                     print(f"{Fore.GREEN}[✓]{Fore.CYAN} Vulnerable: {Fore.GREEN}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
-                                    vulnerable_urls.append(encoded_url_with_payload)
+                                    vulnerable_urls.append(url_with_payload)
                                     total_found += 1
                                     if single_url_scan and first_vulnerability_prompt:
                                         continue_scan = input(f"{Fore.CYAN}\n[?] Vulnerability found. Do you want to continue testing other payloads? (y/n, press Enter for n): ").strip().lower()
@@ -890,7 +898,7 @@ try:
 
                                         encoded_url_with_payload = url_with_payload.replace(list_stripped_payload, encoded_stripped_payload)
 
-                                        print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
+                                        #print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
                                     #print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
                                 total_scanned += 1
 
@@ -990,10 +998,8 @@ try:
                             alert_text = alert.text
 
                             if alert_text:
-                                result = Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable:{Fore.GREEN} {payload_url} {Fore.CYAN} - Alert Text: {alert_text}"  
+                                result = Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable:{Fore.GREEN} {payload_url} {Fore.CYAN} - Alert Text: {alert_text}"
                                 print(result)
-                                with open("xssvuln.txt",'a+') as file: file.write(payload_url+'\n')
-                                os.system("cat xssvuln.txt | notify")
                                 vulnerable_urls.append(payload_url)
                                 if scan_state:
                                     scan_state['vulnerability_found'] = True
@@ -1002,7 +1008,8 @@ try:
                                 alert.accept()
                             else:
                                 #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}"
-                                print(result)
+                                #print(result)
+                                pass
 
                         except TimeoutException:
                             #print(Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}")
@@ -1064,7 +1071,20 @@ try:
                 print(Fore.YELLOW + line)
 
         def save_results(vulnerable_urls, total_found, total_scanned, start_time):
-            html_content = generate_html_report("Cross-Site Scripting (XSS)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls)
+            html_content = generate_html_report(
+                    "Cross-Site Scripting (XSS)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls
+                )
+                
+            timestamp = int(time.time())
+            filename = f"xssreport_{timestamp}.html"
+            
+            print(Fore.GREEN + f"[i] The report will be saved as：{filename}")
+
+            report_file = save_html_report(html_content, filename)
+            
+            print(Fore.GREEN + "[i] The HTML report has been saved successfully!")
+
+            os._exit(0)
 
         def clear_screen():
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -1153,8 +1173,8 @@ try:
 
             try:
                 for url in urls:
-                    box_content = f" → Scanning URL: {url} "
-                    box_width = max(len(box_content) + 2, 40)
+                    #box_content = f" → Scanning URL: {url} "
+                    #box_width = max(len(box_content) + 2, 40)
                     #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
                     #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
                     #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
@@ -1227,7 +1247,7 @@ try:
                 if scan_state:
                     scan_state['total_scanned'] += 1
 
-        def test_open_redirect(url, payloads, max_threads=5):
+        def test_open_redirect(url, payloads, max_threads=10):
             found_vulnerabilities = 0
             vulnerable_urls = []
 
@@ -1313,8 +1333,17 @@ try:
             print(Fore.YELLOW + bottom_border)
 
         def save_results(vulnerable_urls, total_found, total_scanned, start_time):
-            html_content = generate_html_report("Open Redirect (OR)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls)
-
+            html_content = generate_html_report(
+                    "Open Redirect (OR)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls
+                )
+            timestamp = int(time.time())
+            filename = f"ORreport_{timestamp}.html"
+    
+            print(Fore.GREEN + f"[i] The report will be saved as：{filename}")
+            
+            report_file = save_html_report(html_content, filename)
+            
+            print(Fore.GREEN + "[i] The HTML report has been saved successfully!")
 
         def clear_screen():
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -1349,7 +1378,7 @@ try:
             payloads = prompt_for_payloads()
 
             max_threads_input = input("[?] Enter the number of concurrent threads (0-10, press Enter for 5): ").strip()
-            max_threads = int(max_threads_input) if max_threads_input.isdigit() and 0 <= int(max_threads_input) <= 10 else 5
+            max_threads = int(max_threads_input) if max_threads_input.isdigit() and 0 <= int(max_threads_input) <= 10 else 10
 
             print(Fore.YELLOW + "\n[i] Loading, Please Wait...")
             clear_screen()
@@ -1370,8 +1399,8 @@ try:
 
             if payloads:
                 for url in urls:
-                    box_content = f" → Scanning URL: {url} "
-                    box_width = max(len(box_content) + 2, 40)
+                    #box_content = f" → Scanning URL: {url} "
+                    #box_width = max(len(box_content) + 2, 40)
                     #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
                     #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
                     #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n\n")
@@ -1441,7 +1470,7 @@ try:
             session.mount('https://', adapter)
             return session
         
-        def test_lfi(url, payloads, success_criteria, max_threads=5):
+        def test_lfi(url, payloads, success_criteria, max_threads=10):
             def check_payload(payload):
                 encoded_payload = urllib.parse.quote(payload.strip())
                 target_url = f"{url}{encoded_payload}"
@@ -1457,7 +1486,7 @@ try:
                         if is_vulnerable:
                             result = Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable: {Fore.GREEN} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
                         else:
-                            #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
+                            # result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
                             pass
                     else:
                         #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
@@ -1494,9 +1523,20 @@ try:
             return found_vulnerabilities, vulnerable_urls
 
         def save_results(vulnerable_urls, total_found, total_scanned, start_time):
-            html_content = generate_html_report("Local File Inclusion (LFI)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls)
-
+            html_content = generate_html_report(
+                "Local File Inclusion (LFI)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls
+            )
+            timestamp = int(time.time())
+            filename = f"LFIreport_{timestamp}.html"
             
+            print(Fore.GREEN + f"[i] The report will be saved as:{filename}")
+
+            report_file = save_html_report(html_content, filename)
+            
+            print(Fore.GREEN + "[i] The HTML report has been saved successfully!")
+
+            os._exit(0)
+                        
         def prompt_for_urls():
             while True:
                 try:
@@ -1623,8 +1663,8 @@ try:
 
         if payloads:
             for url in urls:
-                box_content = f" → Scanning URL: {url} "
-                box_width = max(len(box_content) + 2, 40)
+                #box_content = f" → Scanning URL: {url} "
+                #box_width = max(len(box_content) + 2, 40)
                 #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
                 #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
                 #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
@@ -1764,7 +1804,7 @@ try:
                             result += "\n    {}↪ ".format(Fore.YELLOW) + "\n    {}↪ ".format(Fore.YELLOW).join(vulnerability_details)
                     else:
                         #result = (Fore.RED + f"[✗] {Fore.CYAN}Not Vulnerable: {Fore.RED} {target_url} "
-                                #f"{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
+                        #        f"{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
                         pass
 
                 if scan_state:
@@ -1781,7 +1821,7 @@ try:
                 print(result)
                 return result, False
 
-        def test_crlf(url, max_threads=5):
+        def test_crlf(url, max_threads=10):
             found_vulnerabilities = 0
             vulnerable_urls = []
             payloads = generate_payloads(url)
@@ -1821,8 +1861,19 @@ try:
             print(Fore.YELLOW + bottom_border)
 
         def save_results(vulnerable_urls, total_found, total_scanned, start_time):
-            html_content = generate_html_report("Carriage Return Line Feed Injection (CRLF)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls)
+            html_content = generate_html_report(
+                "Carriage Return Line Feed Injection (CRLF)", total_found, total_scanned, int(time.time() - start_time), vulnerable_urls
+            )
+            timestamp = int(time.time())
+            filename = f"CRLFreport_{timestamp}.html"
+            
+            print(Fore.GREEN + f"[i] The report will be saved as:{filename}")
+            
+            report_file = save_html_report(html_content, filename)
+            
+            print(Fore.GREEN + "[i] The HTML report has been saved successfully!")
 
+            os._exit(0)
 
         def get_file_path(prompt_text):
             return prompt(prompt_text, completer=PathCompleter())
@@ -1894,8 +1945,8 @@ try:
             }
 
         for url in urls:
-            box_content = f" → Scanning URL: {url} "
-            box_width = max(len(box_content) + 2, 40)
+            #box_content = f" → Scanning URL: {url} "
+            #box_width = max(len(box_content) + 2, 40)
             #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
             #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
             #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
