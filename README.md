@@ -10,13 +10,7 @@ Note: It mainly bypasses the CSP payload
 
 Add CSP-Bypass-xss.txt to xss.txt
 
-# 2024-11-07
 
-
-loxs.py Added message notification
-```
-os.system("echo "+str(payload_url)+" | notify")
-```
 # 2024-11-07
 
 Removing interfering information
