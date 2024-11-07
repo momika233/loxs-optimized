@@ -789,9 +789,9 @@ try:
                     for url in urls:
                         box_content = f" → Scanning URL: {url} "
                         box_width = max(len(box_content) + 2, 40)
-                        print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-                        print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-                        print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
+                        #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+                        #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+                        #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
                         for payload in payloads:
                             success, url_with_payload, response_time, error_message, vulnerability_detected = perform_request(url, payload, cookie)
 
@@ -831,7 +831,7 @@ try:
                                     encoded_url_with_payload = url_with_payload.replace(list_stripped_payload, encoded_stripped_payload)
 
                                     print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
-                                print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
+                                #print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
                             total_scanned += 1
                             
                 else:
@@ -839,9 +839,9 @@ try:
                         for url in urls:
                             box_content = f" → Scanning URL: {url} "
                             box_width = max(len(box_content) + 2, 40)
-                            print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-                            print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-                            print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
+                            #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+                            #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+                            #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
                             
                             futures = []
                             for payload in payloads:
@@ -891,7 +891,7 @@ try:
                                         encoded_url_with_payload = url_with_payload.replace(list_stripped_payload, encoded_stripped_payload)
 
                                         print(f"{Fore.YELLOW}[→] Scanning with payload: {list_stripped_payload}")
-                                    print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
+                                    #print(f"{Fore.RED}[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED}{encoded_url_with_payload}{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
                                 total_scanned += 1
 
                 print_scan_summary(total_found, total_scanned, start_time)
@@ -1002,11 +1002,12 @@ try:
                                     scan_state['total_found'] += 1
                                 alert.accept()
                             else:
-                                result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}"
+                                #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}"
                                 print(result)
 
                         except TimeoutException:
-                            print(Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}")
+                            #print(Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable:{Fore.RED} {payload_url}")
+                            pass
 
                     except UnexpectedAlertPresentException:
                         pass
@@ -1155,9 +1156,9 @@ try:
                 for url in urls:
                     box_content = f" → Scanning URL: {url} "
                     box_width = max(len(box_content) + 2, 40)
-                    print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-                    print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-                    print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
+                    #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+                    #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+                    #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
 
                     vulnerable_urls, scanned = run_scan([url], payload_file, timeout, scan_state)
                     all_vulnerable_urls.extend(vulnerable_urls)
@@ -1213,7 +1214,8 @@ try:
                         scan_state['total_found'] += 1
                     return Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable: {Fore.GREEN} {target_url} {Fore.CYAN}", True
                 else:
-                    return Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN}", False
+                    #return Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN}", False
+                    pass
 
             except TimeoutException:
                 return Fore.RED + f"[✗]{Fore.CYAN} Timeout occurred while testing payload: {Fore.RED} {payload.strip()} {Fore.CYAN} on {target_url}", False
@@ -1371,9 +1373,9 @@ try:
                 for url in urls:
                     box_content = f" → Scanning URL: {url} "
                     box_width = max(len(box_content) + 2, 40)
-                    print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-                    print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-                    print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n\n")
+                    #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+                    #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+                    #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n\n")
                     found, urls_with_payloads = test_open_redirect(url, payloads, max_threads)
                     total_found += found
                     total_scanned += len(payloads)
@@ -1456,9 +1458,11 @@ try:
                         if is_vulnerable:
                             result = Fore.GREEN + f"[✓]{Fore.CYAN} Vulnerable: {Fore.GREEN} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
                         else:
-                            result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
+                            #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
+                            pass
                     else:
-                        result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
+                        #result = Fore.RED + f"[✗]{Fore.CYAN} Not Vulnerable: {Fore.RED} {target_url} {Fore.CYAN} - Response Time: {response_time} seconds"
+                        pass
 
                     if is_vulnerable and scan_state:
                         scan_state['vulnerability_found'] = True
@@ -1622,9 +1626,9 @@ try:
             for url in urls:
                 box_content = f" → Scanning URL: {url} "
                 box_width = max(len(box_content) + 2, 40)
-                print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-                print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-                print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
+                #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+                #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+                #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
                 found, urls_with_payloads = test_lfi(url, payloads, success_criteria, max_threads)
                 total_found += found
                 total_scanned += len(payloads)
@@ -1760,8 +1764,9 @@ try:
                         if vulnerability_details:
                             result += "\n    {}↪ ".format(Fore.YELLOW) + "\n    {}↪ ".format(Fore.YELLOW).join(vulnerability_details)
                     else:
-                        result = (Fore.RED + f"[✗] {Fore.CYAN}Not Vulnerable: {Fore.RED} {target_url} "
-                                f"{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
+                        #result = (Fore.RED + f"[✗] {Fore.CYAN}Not Vulnerable: {Fore.RED} {target_url} "
+                                #f"{Fore.CYAN} - Response Time: {response_time:.2f} seconds")
+                        pass
 
                 if scan_state:
                     scan_state['total_scanned'] += 1
@@ -1892,9 +1897,9 @@ try:
         for url in urls:
             box_content = f" → Scanning URL: {url} "
             box_width = max(len(box_content) + 2, 40)
-            print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
-            print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
-            print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
+            #print(Fore.YELLOW + "\n┌" + "─" * (box_width - 2) + "┐")
+            #print(Fore.YELLOW + f"│{box_content.center(box_width - 2)}│")
+            #print(Fore.YELLOW + "└" + "─" * (box_width - 2) + "┘\n")
 
             found, urls_with_payloads = test_crlf(url, max_threads)
             total_found += found
