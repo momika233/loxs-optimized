@@ -36,17 +36,13 @@ def load_urls(filepath="xssurl.txt"):
         exit(1)
 
 def generate_payload_urls(url, payload):
-    url_combinations = []
     scheme, netloc, path, query_string, fragment = urlsplit(url)
     scheme = scheme or 'http'
     query_params = parse_qs(query_string, keep_blank_values=True)
-    for key in query_params:
-        modified_params = query_params.copy()
-        modified_params[key] = [payload]
-        modified_query_string = urlencode(modified_params, doseq=True)
-        modified_url = urlunsplit((scheme, netloc, path, modified_query_string, fragment))
-        url_combinations.append(modified_url)
-    return url_combinations
+    return [
+        urlunsplit((scheme, netloc, path, urlencode({**query_params, key: payload}, doseq=True), fragment))
+        for key in query_params
+    ]
 
 async def check_vulnerability(driver, url, payloads, vulnerable_urls, total_scanned, total_tasks):
     for payload in payloads:
@@ -57,6 +53,8 @@ async def check_vulnerability(driver, url, payloads, vulnerable_urls, total_scan
                 total_scanned[0] += 1
                 current_progress = (total_scanned[0] / total_tasks) * 100
                 print_progress(current_progress, total_scanned[0], total_tasks)
+                if current_progress >= 100:
+                    return  # Exit when scanning is complete
 
                 try:
                     WebDriverWait(driver, 0.5).until(EC.alert_is_present())
@@ -109,6 +107,8 @@ async def bound_check_vulnerability(driver, url, semaphore, payloads, vulnerable
 
 def print_progress(percentage, scanned, total):
     print(Fore.YELLOW + f"\rProgress: [{scanned}/{total}] ({percentage:.2f}%)", end="")
+    if percentage >= 100:
+        print(Fore.GREEN + "\nScan completed 100%! Exiting...")
 
 def print_scan_summary(total_found, total_scanned, start_time, end_time):
     time_taken = int(end_time - start_time)
