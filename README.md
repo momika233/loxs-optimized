@@ -15,3 +15,8 @@ Add CSP-Bypass-xss.txt to xss.txt
 
 Removing interfering information
 Only the vulnerable information is displayed
+
+
+# 2024-11-11
+
+Solves the problem that the program does not automatically exit when running to 100%
