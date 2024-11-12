@@ -1,0 +1,1 @@
+https://xss.challenge.training.hacq.me/challenges/baby01.php?payload=
