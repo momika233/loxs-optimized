@@ -162,7 +162,8 @@ def main():
                 vulnerable_urls.append(url_with_payload)
                 total_found += 1
             else:
-                print(f"{Fore.RED}[✗] Not Vulnerable: {url_with_payload}")
+                #print(f"{Fore.RED}[✗] Not Vulnerable: {url_with_payload}")
+                pass
             total_scanned += 1
 
     print_scan_summary(total_found, total_scanned, start_time)
