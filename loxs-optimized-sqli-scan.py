@@ -32,9 +32,11 @@ USER_AGENTS = [
 
 # Utility functions
 def get_random_user_agent():
+    """Return a random User-Agent string."""
     return random.choice(USER_AGENTS)
 
 def get_retry_session(retries=3, backoff_factor=0.3, status_forcelist=(500, 502, 504)):
+    """Configure a requests session with retry strategy."""
     session = requests.Session()
     retry = Retry(
         total=retries,
@@ -49,9 +51,10 @@ def get_retry_session(retries=3, backoff_factor=0.3, status_forcelist=(500, 502,
     return session
 
 def perform_request(url, payload, cookie=None):
+    """Perform an HTTP GET request with the given payload and optional cookie."""
     url_with_payload = f"{url}{payload}"
     headers = {'User-Agent': get_random_user_agent()}
-    cookies = {'cookie': cookie} if cookie else None
+    cookies =  None
 
     try:
         response = requests.get(url_with_payload, headers=headers, cookies=cookies, timeout=10)
@@ -61,40 +64,40 @@ def perform_request(url, payload, cookie=None):
         return False, url_with_payload, None, str(e), False
 
 def clear_screen():
+    """Clear the terminal screen."""
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def get_file_path(prompt_text):
+    """Prompt the user for a file path."""
     completer = PathCompleter()
     return prompt(prompt_text, completer=completer).strip()
 
 def prompt_for_urls():
-    while True:
-        with open('sqli_url.txt','r') as file: list = [www.strip() for www in file.readlines()]
-        for url_input in list:
-        #url_input = get_file_path("[?] Enter the path to the input file containing the URLs (or press Enter for a single URL): ")
-        #if url_input:
-            if os.path.isfile(url_input):
-                with open(url_input) as file:
-                    return [line.strip() for line in file if line.strip()]
-            print(f"{Fore.RED}[!] File not found: {url_input}")
-        else:
-            single_url = input("[?] Enter a single URL to scan: ").strip()
-            if single_url:
-                return [single_url]
-            print(f"{Fore.RED}[!] You must provide either a file with URLs or a single URL.")
-
+    """Load URLs from a predefined file or prompt the user."""
+    try:
+        with open('sqli_url.txt', 'r') as file:
+            urls = [line.strip() for line in file.readlines() if line.strip()]
+        if not urls:
+            raise FileNotFoundError("No URLs found in the file.")
+        return urls
+    except FileNotFoundError as e:
+        print(f"{Fore.RED}[!] Error: {e}")
+        sys.exit(1)
 
 def prompt_for_payloads():
-    while True:
-        #payload_input = get_file_path("[?] Enter the path to the payloads file: ")
-        with open('payloads/sqli.txt','r') as file: list = [www.strip() for www in file.readlines()]
-        for payload_input in list:
-            if os.path.isfile(payload_input):
-                with open(payload_input, 'r', encoding='utf-8') as f:
-                    return [line.strip() for line in f if line.strip()]
-            print(f"{Fore.RED}[!] File not found: {payload_input}")
+    """Load payloads from a predefined file."""
+    try:
+        with open('payloads/sqli.txt', 'r') as file:
+            payloads = [line.strip() for line in file.readlines() if line.strip()]
+        if not payloads:
+            raise FileNotFoundError("No payloads found in the file.")
+        return payloads
+    except FileNotFoundError as e:
+        print(f"{Fore.RED}[!] Error: {e}")
+        sys.exit(1)
 
 def print_scan_summary(total_found, total_scanned, start_time):
+    """Print a summary of the scan."""
     duration = int(time.time() - start_time)
     rich_print(Panel(
         f"[green]Scan Complete[/green]\n"
@@ -106,29 +109,28 @@ def print_scan_summary(total_found, total_scanned, start_time):
     ))
 
 def save_results(vulnerable_urls, total_found, total_scanned, start_time):
+    """Save scan results to a timestamped file."""
     duration = int(time.time() - start_time)
+    formatted_time = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
     report = (
         f"SQL Injection Scan Report\n"
         f"========================\n"
         f"Total Vulnerabilities Found: {total_found}\n"
         f"Total URLs Scanned: {total_scanned}\n"
         f"Time Taken: {duration} seconds\n\n"
-        f"Vulnerable URLs:\n"
+        f"Vulnerable URLs:\n" + '\n'.join(vulnerable_urls) + '\n'
     )
-    report += '\n'.join(vulnerable_urls) + '\n'
-
-    formatted_time = current_time.strftime("%Y-%m-%d-%H-%M-%S")
-
-    output_file = formatted_time+".txt"
+    output_file = f"sqli_vuln_{formatted_time}.txt"
     with open(output_file, 'w') as f:
         f.write(report)
     print(f"{Fore.GREEN}[✓] Report saved to {output_file}")
 
 def main():
+    """Main function to execute the SQL injection scanner."""
     clear_screen()
 
     rich_print(Panel(
-        """
+        f"""
         [cyan bold]SQL Injection Scanner[/cyan bold]
         [green]Version:[/] [yellow]{VERSION}[/yellow]
         """.strip(),
@@ -138,11 +140,8 @@ def main():
 
     urls = prompt_for_urls()
     payloads = prompt_for_payloads()
-
-    #cookie = input("[?] Enter cookie (optional): ").strip() or None
     cookie = None
-    #threads = int(input("[?] Enter the number of threads (default 10): ").strip() or 10)
-    threads = int(10)
+    threads = 10
 
     start_time = time.time()
     vulnerable_urls = []
@@ -162,8 +161,8 @@ def main():
                 vulnerable_urls.append(url_with_payload)
                 total_found += 1
             else:
-                #print(f"{Fore.RED}[✗] Not Vulnerable: {url_with_payload}")
                 pass
+                #print(f"{Fore.RED}[✗] Not Vulnerable: {url_with_payload}")
             total_scanned += 1
 
     print_scan_summary(total_found, total_scanned, start_time)
