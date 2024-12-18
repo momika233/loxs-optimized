@@ -27,3 +27,11 @@ cat live_domain_url.txt | gf sqli | tee -a sqlisqli.txt
 bash sqlmap-batch-detection.sh
 ### Notes
 Batch detection via sqlmap,If a bug is found, suspend the program and execute it -dbs gets the information
+
+
+# 2024-12-18
+
+The sqli-bypass.txt file was uploaded
+
+### Notes
+Fuzzy test dictionary for injecting vulnerabilities
