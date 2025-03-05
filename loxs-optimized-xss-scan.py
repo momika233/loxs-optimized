@@ -14,10 +14,20 @@ from selenium.common.exceptions import TimeoutException, UnexpectedAlertPresentE
 from colorama import Fore
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
+import telegram  # Import the telegram library
 
 # Initialize logging and warnings
 logging.getLogger('WDM').setLevel(logging.ERROR)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+# Configuration
+TELEGRAM_API_KEY = os.environ.get("TELEGRAM_API_KEY")  # Load from environment variable
+TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")  # Load from environment variable
+
+if not TELEGRAM_API_KEY or not TELEGRAM_CHAT_ID:
+    print(Fore.RED + "[!] Telegram API key or chat ID not set in environment variables.")
+    exit(1)
+
 
 def load_payloads(filepath="payloads/xss.txt"):
     try:
@@ -61,12 +71,14 @@ async def check_vulnerability(driver, url, payloads, vulnerable_urls, total_scan
                     alert = driver.switch_to.alert
                     print(Fore.GREEN + f"[✓] Vulnerable: {payload_url} - Alert Text: {alert.text}")
                     vulnerable_urls.add(payload_url)
+                    await send_telegram_message(f"XSS Vulnerability Found!\nURL: {payload_url}\nAlert Text: {alert.text}")  # Send Telegram Notification
                     alert.accept()
                 except TimeoutException:
                     pass
             except UnexpectedAlertPresentException:
                 print(Fore.CYAN + f"[!] Unexpected Alert: {payload_url} - Might be Vulnerable!")
                 vulnerable_urls.add(payload_url)
+                # await send_telegram_message(f"Possible XSS Vulnerability (Unexpected Alert)!\nURL: {payload_url}")  # Send Telegram Notification
                 try:
                     alert = driver.switch_to.alert
                     alert.accept()
@@ -120,6 +132,16 @@ def print_scan_summary(total_found, total_scanned, start_time, end_time):
     )
     print(summary)
 
+async def send_telegram_message(message):
+    """Sends a message to a Telegram chat."""
+    try:
+        bot = telegram.Bot(token=TELEGRAM_API_KEY)
+        await bot.send_message(chat_id=TELEGRAM_CHAT_ID, text=message)  # Use await for async method
+        logging.info("Telegram message sent successfully.")
+    except Exception as e:
+        logging.error(f"Error sending Telegram message: {e}")
+
+
 def run_scan(concurrency=30):
     payloads = load_payloads()
     urls = load_urls()
@@ -132,4 +154,4 @@ def run_scan(concurrency=30):
 
 if __name__ == "__main__":
     print(Fore.GREEN + "Starting XSS scanner...\n")
-    run_scan()
+    asyncio.run(run_scan())  # Run the main function using asyncio
