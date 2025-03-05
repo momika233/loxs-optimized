@@ -78,7 +78,7 @@ async def check_vulnerability(driver, url, payloads, vulnerable_urls, total_scan
             except UnexpectedAlertPresentException:
                 print(Fore.CYAN + f"[!] Unexpected Alert: {payload_url} - Might be Vulnerable!")
                 vulnerable_urls.add(payload_url)
-                # await send_telegram_message(f"Possible XSS Vulnerability (Unexpected Alert)!\nURL: {payload_url}")  # Send Telegram Notification
+                await send_telegram_message(f"Possible XSS Vulnerability (Unexpected Alert)!\nURL: {payload_url}")  # Send Telegram Notification
                 try:
                     alert = driver.switch_to.alert
                     alert.accept()
