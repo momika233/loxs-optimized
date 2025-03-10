@@ -156,6 +156,8 @@ try:
 
         
     def generate_html_report(scan_type, total_found, total_scanned, time_taken, vulnerable_urls):
+        scan_percentage = (total_found / total_scanned) * 100 if total_scanned > 0 else 0  # Prevent division by zero
+        ulnerability_rate = f"{(total_found / total_scanned):.2%}" if total_scanned > 0 else "0.00%"  # Prevent division by zero
         html_content = f"""
         <!DOCTYPE html>
         <html lang="en">
@@ -318,7 +320,7 @@ try:
                     margin-bottom: 1rem;
                 }}
                 .progress {{
-                    width: {(total_found / total_scanned) * 100}%;
+                    width: {(total_found / total_scanned) * 100 if total_scanned > 0 else 0}%;
                     height: 100%;
                     background-color: var(--secondary-color);
                     animation: pulse 2s infinite;
@@ -555,7 +557,7 @@ try:
                         <div class="stat-label">Scan Duration</div>
                     </div>
                     <div class="stat-card">
-                        <div class="stat-value">{total_found / total_scanned:.2%}</div>
+                        <div class="stat-value">{(total_found / total_scanned):.2%} if total_scanned > 0 else "0.00%"</div>
                         <div class="stat-label">Vulnerability Rate</div>
                     </div>
                 </div>
